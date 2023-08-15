@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Trigger-DroneDamage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+
+        [DamageTypes:Any]
+
+        [ExcludedDamageTypes:Environment]
+        [ExcludedDamageTypes:Deformation]
+        [ExcludedDamageTypes:Fire]
+
+        [MinCooldownMs:60000]
+        [MaxCooldownMs:60001]
+
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:Action-DroneDamage]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Action-DroneDamage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action] 
+		 
+		[ChangeTargetProfile:true] 
+		[NewTargetProfileId:Targeting-Drone-Multi-Override] 
+		 
+		[RefreshTarget:true] 
+ 
+		[ChangeBehaviorSubclass:true]
+        [NewBehaviorSubclass:Fighter] 
+		 
+		[ChangeAutopilotProfile:true]
+        [AutopilotProfile:Secondary]
+		 
+		[TriggerTimerBlocks:true] 
+		[TimerBlockNames:Timer Block]
+
+        [UseChatBroadcast:true]
+        [ChatData:Chat-DroneDamage]
+
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:Command-DroneDamage] 
+		 
+		[EnableTriggers:true]
+        [EnableTriggerNames:Trigger-PassiveSwitchDrone]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Chat-DroneDamage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:1]
+        [BroadcastRandomly:true] 
+		[IgnoreAntennaRequirement:true] 
+		[IgnoredAntennaRangeOverride:3000] 
+		
+        [Author:Security Drone]
+        [Color:Red]
+
+        [ChatMessages:Requesting assistance from nearby friendlies!, we're being attacked!]
+        [ChatAudio:None]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages:We're under attack!, please respond!]
+        [ChatAudio:None]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Command-DroneDamage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Command]
+
+        [CommandCode:DroneDamage]
+        [IgnoreAntennaRequirement:true] 
+		[IgnoreReceiverAntennaRequirement:true] 
+		[Radius:5000] 
+		[MaxRadius:10000] 
+		[SendDamagerEntityId:true]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

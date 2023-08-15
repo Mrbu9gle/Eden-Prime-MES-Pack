@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+	<!--Do Not Edit Above Here-->
+
+		<!--Copy From This Line--> 
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>(Z)WreckAstrumSpawnA</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpaceCargoShip:true]
+			[RivalAiSpawn:true] 
+			[SpawnRandomCargo:true] 
+			[ManipulationGroups:Manipulation-Group-Loot]
+  
+			[ZoneConditions:MES-ZoneConditionProfile-PirateZone-IceMoon]
+			
+			[FactionOwner:ARUM]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Wreck Type M Archon">
+					<Position>
+						<X>100.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>ARUMWreckBehavior</Behaviour>
+				</Prefab> 
+ 
+				<Prefab SubtypeId="Wreck Mining Operations HQ">
+					<Position>
+						<X>-200.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>PassiveWreckBehavior</Behaviour>
+				</Prefab>
+				 
+				<Prefab SubtypeId="Wreck Type M Archon">
+					<Position>
+						<X>150.0</X>
+						<Y>0.0</Y>
+						<Z>150.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>PassiveWreckBehavior</Behaviour>
+				</Prefab> 
+			</Prefabs>
+		</SpawnGroup> 
+		 
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>(Z)WreckAstrumSpawnB</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpaceCargoShip:true]
+			[RivalAiSpawn:true] 
+			[SpawnRandomCargo:true] 
+			[ManipulationGroups:Manipulation-Group-Loot]
+  
+			[ZoneConditions:MES-ZoneConditionProfile-PirateZone-IceMoon]
+			
+			[FactionOwner:ARUM]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Wreck Type M Archon">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>PassiveWreckBehavior</Behaviour>
+				</Prefab> 
+				 
+				<Prefab SubtypeId="Wreck Type M Class Trident">
+					<Position>
+						<X>-200.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>ARUMWreckBehavior</Behaviour>
+				</Prefab> 
+				 
+				<Prefab SubtypeId="Wreck Type M Class Trident">
+					<Position>
+						<X>350.0</X>
+						<Y>0.0</Y>
+						<Z>350.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>PassiveWreckBehavior</Behaviour>
+				</Prefab> 
+				 
+				<Prefab SubtypeId="Wreck Mining Operations Processor">
+					<Position>
+						<X>-100.0</X>
+						<Y>0.0</Y>
+						<Z>-150.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>PassiveWreckBehavior</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup> 
+		 
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>(Z)WreckAstrumSpawnC</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpaceCargoShip:true]
+			[RivalAiSpawn:true] 
+			[SpawnRandomCargo:true] 
+			[ManipulationGroups:Manipulation-Group-Loot]
+  
+			[ZoneConditions:MES-ZoneConditionProfile-PirateZone-IceMoon]
+			
+			[FactionOwner:ARUM]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Wreck Type M Archon">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>PassiveWreckBehavior</Behaviour>
+				</Prefab> 
+				 
+				<Prefab SubtypeId="Wreck Type M Class Trident">
+					<Position>
+						<X>-200.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>ARUMWreckBehavior</Behaviour>
+				</Prefab> 
+				 
+				<Prefab SubtypeId="Wreck Mining Operations HQ">
+					<Position>
+						<X>350.0</X>
+						<Y>0.0</Y>
+						<Z>350.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>PassiveWreckBehavior</Behaviour>
+				</Prefab> 
+				 
+				<Prefab SubtypeId="Wreck Mining Operations Processor">
+					<Position>
+						<X>-400.0</X>
+						<Y>0.0</Y>
+						<Z>-400.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>PassiveWreckBehavior</Behaviour>
+				</Prefab> 
+			</Prefabs>
+		</SpawnGroup>
+		<!--Copy To This Line And Paste Directly Below-->
+		
+
+
+	<!--Do Not Edit Below Here-->
+	</SpawnGroups>
+</Definitions>

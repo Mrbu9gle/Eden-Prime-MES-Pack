@@ -1,0 +1,1296 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ContainerTypes>
+<!-- Advanced Components -->	
+		<ContainerType CountMin="8" CountMax="11">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-AdvancedComponents-1</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="5" AmountMax="20">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Canvas</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="5" AmountMax="20">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Detector</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="5" AmountMax="20">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>GravityGenerator</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="5" AmountMax="20">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Medical</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="5" AmountMax="20">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>PowerCell</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="5" AmountMax="20">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>RadioCommunication</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="5" AmountMax="40">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Reactor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="5" AmountMax="20">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SolarCell</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="5" AmountMax="40">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Superconductor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="5" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Thrust</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1" AmountMax="2">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>ZoneChip</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="8" CountMax="11">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-AdvancedComponents-2</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="10" AmountMax="30">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Canvas</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="30">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Detector</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="30">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>GravityGenerator</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="30">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Medical</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="30">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>PowerCell</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="30">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>RadioCommunication</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Reactor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="30">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SolarCell</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Superconductor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Thrust</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1" AmountMax="3">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>ZoneChip</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="8" CountMax="11">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-AdvancedComponents-3</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Canvas</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Detector</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>GravityGenerator</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Medical</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>PowerCell</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>RadioCommunication</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Reactor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SolarCell</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Superconductor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="70">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Thrust</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1" AmountMax="4">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>ZoneChip</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="8" CountMax="11">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-AdvancedComponents-4</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Canvas</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Detector</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>GravityGenerator</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Medical</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>PowerCell</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>RadioCommunication</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="70">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Reactor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SolarCell</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="70">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Superconductor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="80">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Thrust</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1" AmountMax="5">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>ZoneChip</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+<!-- Advanced Components --> 
+<!-- Basic Components --> 
+		<ContainerType CountMin="7" CountMax="10">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-BasicComponents-1</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Motor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="80">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SteelPlate</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="80">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Construction</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="80">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>InteriorPlate</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Display</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SmallTube</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>LargeTube</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Computer</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>MetalGrid</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>BulletproofGlass</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="7" CountMax="10">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-BasicComponents-2</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Motor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="25" AmountMax="90">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SteelPlate</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="25" AmountMax="90">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Construction</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="25" AmountMax="90">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>InteriorPlate</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Display</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SmallTube</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>LargeTube</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Computer</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>MetalGrid</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>BulletproofGlass</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="7" CountMax="10">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-BasicComponents-3</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="25" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Motor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="30" AmountMax="100">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SteelPlate</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="30" AmountMax="100">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Construction</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="30" AmountMax="100">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>InteriorPlate</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="25" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Display</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="25" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SmallTube</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="25" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>LargeTube</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="25" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Computer</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="25" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>MetalGrid</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="25" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>BulletproofGlass</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="7" CountMax="10">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-BasicComponents-4</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="30" AmountMax="70">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Motor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="35" AmountMax="110">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SteelPlate</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="35" AmountMax="110">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Construction</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="35" AmountMax="110">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>InteriorPlate</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="30" AmountMax="70">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Display</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="30" AmountMax="70">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SmallTube</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="30" AmountMax="70">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>LargeTube</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="30" AmountMax="70">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Computer</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="30" AmountMax="70">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>MetalGrid</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="30" AmountMax="70">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>BulletproofGlass</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType> 
+<!-- Basic Components --> 
+<!-- Mixed Components --> 
+		<ContainerType CountMin="11" CountMax="21">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-MixedComponents-1</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Motor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="80">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SteelPlate</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="80">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Construction</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="80">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>InteriorPlate</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Display</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SmallTube</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>LargeTube</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Computer</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>MetalGrid</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>BulletproofGlass</SubtypeId>
+					</Id>
+				</Item>
+
+				<Item AmountMin="5" AmountMax="20">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Canvas</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="5" AmountMax="20">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Detector</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="5" AmountMax="20">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>GravityGenerator</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="5" AmountMax="20">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Medical</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="5" AmountMax="20">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>PowerCell</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="5" AmountMax="20">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>RadioCommunication</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="5" AmountMax="40">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Reactor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="5" AmountMax="20">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SolarCell</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="5" AmountMax="40">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Superconductor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="5" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Thrust</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1" AmountMax="2">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>ZoneChip</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="11" CountMax="21">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-MixedComponents-2</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Motor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="25" AmountMax="90">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SteelPlate</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="25" AmountMax="90">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Construction</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="25" AmountMax="90">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>InteriorPlate</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Display</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SmallTube</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>LargeTube</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Computer</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>MetalGrid</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>BulletproofGlass</SubtypeId>
+					</Id>
+				</Item>
+
+				<Item AmountMin="10" AmountMax="30">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Canvas</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="30">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Detector</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="30">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>GravityGenerator</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="30">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Medical</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="30">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>PowerCell</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="30">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>RadioCommunication</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Reactor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="30">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SolarCell</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Superconductor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Thrust</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1" AmountMax="3">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>ZoneChip</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="11" CountMax="21">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-MixedComponents-3</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="25" AmountMax="60">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Motor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="30" AmountMax="100">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SteelPlate</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="30" AmountMax="100">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Construction</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="30" AmountMax="100">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>InteriorPlate</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="25" AmountMax="60">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Display</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="25" AmountMax="60">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SmallTube</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="25" AmountMax="60">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>LargeTube</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="25" AmountMax="60">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Computer</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="25" AmountMax="60">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>MetalGrid</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="25" AmountMax="60">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>BulletproofGlass</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Canvas</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Detector</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>GravityGenerator</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Medical</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>PowerCell</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>RadioCommunication</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Reactor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="40">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SolarCell</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Superconductor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="70">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Thrust</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1" AmountMax="4">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>ZoneChip</SubtypeId>
+					</Id>
+				</Item>
+				
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="11" CountMax="21">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-MixedComponents-4</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="30" AmountMax="70">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Motor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="35" AmountMax="110">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SteelPlate</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="35" AmountMax="110">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Construction</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="35" AmountMax="110">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>InteriorPlate</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="30" AmountMax="70">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Display</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="30" AmountMax="70">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SmallTube</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="30" AmountMax="70">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>LargeTube</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="30" AmountMax="70">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Computer</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="30" AmountMax="70">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>MetalGrid</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="30" AmountMax="70">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>BulletproofGlass</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Canvas</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Detector</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>GravityGenerator</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Medical</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>PowerCell</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>RadioCommunication</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="70">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Reactor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SolarCell</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="70">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Superconductor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="80">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Thrust</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1" AmountMax="5">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>ZoneChip</SubtypeId>
+					</Id>
+				</Item>
+
+			</Items>
+		</ContainerType> 
+<!-- Mixed Components -->
+	</ContainerTypes>																									
+</Definitions>																										

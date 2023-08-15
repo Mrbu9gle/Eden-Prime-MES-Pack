@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Trigger-DroneAssist</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [CommandReceiveCode:DroneDamage]
+
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:Action-DroneAssist]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Action-DroneAssist</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:Chat-DroneAssist]
+
+        [ChangeBehaviorSubclass:true]
+        [NewBehaviorSubclass:Fighter] 
+		 
+		[ChangeAutopilotProfile:true]
+        [AutopilotProfile:Secondary]
+ 
+		[RefreshTarget:true]
+		 
+		[TriggerTimerBlocks:true] 
+		[TimerBlockNames:Timer Block] 
+		 
+		[ChangeTargetProfile:true] 
+		[NewTargetProfileId:Targeting-Drone-Multi-Override]
+
+        [InheritLastAttackerFromCommand:true]
+        [SwitchTargetToDamager:true] 
+ 
+		[EnableTriggers:true]
+        [EnableTriggerNames:Trigger-PassiveSwitchDrone]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Chat-DroneAssist</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+        [IgnoreAntennaRequirement:true] 
+		[IgnoredAntennaRangeOverride:5000] 
+		
+        [Author:Automated Defence System]
+		[Color:Red]
+
+        [ChatMessages:Assisting friendlies, Deploying weaponry.]
+        [ChatAudio:None]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages:Deploying Weapons, we must join the fight!]
+        [ChatAudio:None]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

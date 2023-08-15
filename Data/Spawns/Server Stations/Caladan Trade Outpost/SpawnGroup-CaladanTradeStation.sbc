@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>ARUM-SpawnGroup-CaladanTradeOutpost</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup] 
+		 
+		[StaticEncounter:true] 
+ 
+		[IgnoreCombatPhase:true]
+		 
+		[StaticEncounterCoords:{X:36.6834803523055 Y:-10.4668455961302 Z:-11.1263344158282}]
+		[StaticEncounterForward:{X:-0.579836965932874 Y:0.748148085397261 Z:0.322588802121481}]
+		[StaticEncounterUp:{X:0.0683908371724119 Y:-0.349851731816601 Z:0.934305335067601}]
+		 
+		[TriggerCoords:{X:36.6834803523055 Y:-10.4668455961302 Z:-11.1263344158282}]
+        [TriggerRadius:2000] 
+ 
+        [ReplenishSystems:true] 
+		
+        [ManipulationGroups:Manipulation-StationGroup] 
+		
+		[IgnoreCleanupRules:true] 		
+		 
+        [FactionOwner:ARUM]
+
+        [ForceStaticGrid:true] 
+		 
+		[ForceExactPositionAndOrientation:true]
+
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:ARUM-Station]
+        [RemoteControlCodeMinDistance:100000] 
+		
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC) Caladan Trade Outpost">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Behavior-SafeZoneCaladanStation</Behaviour>
+        </Prefab> 
+      </Prefabs>
+    </SpawnGroup>
+
+  </SpawnGroups>
+</Definitions>

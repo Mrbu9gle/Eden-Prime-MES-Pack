@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+	<!--Do Not Edit Above Here-->
+
+		<!--Copy From This Line--> 
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>(Z)PirateFleetSpawnA</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[RivalAiSpawn:true] 
+			
+			[AssignContainerTypesToAllCargo:MES-ContainerTypes-EventShipDrop-1,MES-ContainerTypes-Explosives-3,MES-ContainerTypes-MixedAmmo-3,MES-ContainerTypes-Consumables-1,MES-ContainerTypes-Credits-5,MES-ContainerTypes-RifleWeapons-4] 
+			[ManipulationGroups:Manipulation-Group-Loot]
+			
+			[FactionOwner:SPRT]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Eclipse Class Corvette">
+					<Position>
+						<X>100.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>RAI-PirateEventShipBehavior</Behaviour>
+				</Prefab> 
+ 
+				<Prefab SubtypeId="Cerberus Class Corvette">
+					<Position>
+						<X>-100.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>RAI-PirateEventShipBehavior</Behaviour>
+				</Prefab>
+				 
+				<Prefab SubtypeId="Type M Talon">
+					<Position>
+						<X>50.0</X>
+						<Y>0.0</Y>
+						<Z>50.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>RAI-PirateEventShipBehavior</Behaviour>
+				</Prefab> 
+				 
+				<Prefab SubtypeId="Type M Talon">
+					<Position>
+						<X>-50.0</X>
+						<Y>0.0</Y>
+						<Z>50.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>RAI-PirateEventShipBehavior</Behaviour>
+				</Prefab> 
+			</Prefabs>
+		</SpawnGroup> 
+		 
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>(Z)PirateFleetSpawnB</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[RivalAiSpawn:true] 
+			
+			[AssignContainerTypesToAllCargo:MES-ContainerTypes-EventShipDrop-1,MES-ContainerTypes-Explosives-2,MES-ContainerTypes-MixedAmmo-3,MES-ContainerTypes-Consumables-1,MES-ContainerTypes-Credits-4,MES-ContainerTypes-RifleWeapons-4] 
+			[ManipulationGroups:Manipulation-Group-Loot]
+			
+			[FactionOwner:SPRT]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Rusty Assult Frigate">
+					<Position>
+						<X>70.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>RAI-PirateEventShipBehavior</Behaviour>
+				</Prefab> 
+				 
+				<Prefab SubtypeId="Rusty Assult Frigate">
+					<Position>
+						<X>-70.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>RAI-PirateEventShipBehavior</Behaviour>
+				</Prefab> 
+				 
+				<Prefab SubtypeId="Type M Talon">
+					<Position>
+						<X>50.0</X>
+						<Y>0.0</Y>
+						<Z>50.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>RAI-PirateEventShipBehavior</Behaviour>
+				</Prefab> 
+				 
+				<Prefab SubtypeId="Type M Talon">
+					<Position>
+						<X>-50.0</X>
+						<Y>0.0</Y>
+						<Z>50.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>RAI-PirateEventShipBehavior</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup> 
+		 
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>(Z)PirateFleetSpawnC</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[RivalAiSpawn:true] 
+ 
+			[SpawnRandomCargo:true] 
+			[ManipulationGroups:Manipulation-Group-Fighter]
+			
+			[FactionOwner:SPRT]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Type M Talon">
+					<Position>
+						<X>30.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>RAI-PirateEventShipBehavior</Behaviour>
+				</Prefab> 
+				 
+				<Prefab SubtypeId="Type M Talon">
+					<Position>
+						<X>-30.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>RAI-PirateEventShipBehavior</Behaviour>
+				</Prefab> 
+				 
+				<Prefab SubtypeId="Type M Talon">
+					<Position>
+						<X>60.0</X>
+						<Y>0.0</Y>
+						<Z>30.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>RAI-PirateEventShipBehavior</Behaviour>
+				</Prefab> 
+				 
+				<Prefab SubtypeId="Type M Talon">
+					<Position>
+						<X>-60.0</X>
+						<Y>0.0</Y>
+						<Z>30.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>RAI-PirateEventShipBehavior</Behaviour>
+				</Prefab> 
+				 
+				<Prefab SubtypeId="Type M Talon">
+					<Position>
+						<X>30.0</X>
+						<Y>0.0</Y>
+						<Z>60.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>RAI-PirateEventShipBehavior</Behaviour>
+				</Prefab> 
+				 
+				<Prefab SubtypeId="Type M Talon">
+					<Position>
+						<X>-30.0</X>
+						<Y>0.0</Y>
+						<Z>60.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>RAI-PirateEventShipBehavior</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!--Copy To This Line And Paste Directly Below-->
+		
+
+
+	<!--Do Not Edit Below Here-->
+	</SpawnGroups>
+</Definitions>

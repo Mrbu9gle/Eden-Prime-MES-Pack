@@ -1,0 +1,426 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ContainerTypes>
+<!-- Advanced Ammo -->
+		<ContainerType CountMin="3" CountMax="5">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-AdvancedAmmo-1</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="10" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>Missile200mm</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>MediumCalibreAmmo</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>LargeCalibreAmmo</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>SmallRailgunAmmo</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>LargeRailgunAmmo</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="3" CountMax="5">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-AdvancedAmmo-2</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="15" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>Missile200mm</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>MediumCalibreAmmo</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>LargeCalibreAmmo</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>SmallRailgunAmmo</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>LargeRailgunAmmo</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="3" CountMax="5">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-AdvancedAmmo-3</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="20" AmountMax="70">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>Missile200mm</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="70">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>MediumCalibreAmmo</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="70">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>LargeCalibreAmmo</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="70">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>SmallRailgunAmmo</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="70">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>LargeRailgunAmmo</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType> 
+<!-- Advanced Ammo --> 
+<!-- Basic Ammo --> 
+		<ContainerType CountMin="2" CountMax="3">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-BasicAmmo-1</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="10" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>NATO_25x184mm</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>AutocannonClip</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>AutomaticRifleGun_Mag_20rd</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="2" CountMax="3">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-BasicAmmo-2</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="15" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>NATO_25x184mm</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>AutocannonClip</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>AutomaticRifleGun_Mag_20rd</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="2" CountMax="3">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-BasicAmmo-3</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="20" AmountMax="70">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>NATO_25x184mm</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="70">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>AutocannonClip</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="70">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>AutomaticRifleGun_Mag_20rd</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType> 
+<!-- Basic Ammo --> 
+<!-- Mixed Ammo --> 
+		<ContainerType CountMin="8" CountMax="8">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-MixedAmmo-1</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="10" AmountMax="50">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>NATO_25x184mm</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="50">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>AutocannonClip</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="50">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>AutomaticRifleGun_Mag_20rd</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>Missile200mm</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>MediumCalibreAmmo</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>LargeCalibreAmmo</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>SmallRailgunAmmo</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>LargeRailgunAmmo</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="8" CountMax="8">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-MixedAmmo-2</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="15" AmountMax="60">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>NATO_25x184mm</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="60">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>AutocannonClip</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="60">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>AutomaticRifleGun_Mag_20rd</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>Missile200mm</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>MediumCalibreAmmo</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>LargeCalibreAmmo</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>SmallRailgunAmmo</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="15" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>LargeRailgunAmmo</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="8" CountMax="8">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-MixedAmmo-3</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="20" AmountMax="70">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>NATO_25x184mm</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="70">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>AutocannonClip</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="70">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>AutomaticRifleGun_Mag_20rd</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="70">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>Missile200mm</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="70">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>MediumCalibreAmmo</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="70">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>LargeCalibreAmmo</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="70">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>SmallRailgunAmmo</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="70">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>LargeRailgunAmmo</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType> 
+<!-- Mixed Ammo -->
+
+	</ContainerTypes>																									
+</Definitions>																										

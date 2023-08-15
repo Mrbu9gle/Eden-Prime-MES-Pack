@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(P)Ship Hangar Depot Atmo</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup] 
+			 
+			[PlanetaryInstallation:true] 
+			[PlanetaryInstallationType:Medium] 
+			 
+			[PlanetWhitelist:EarthLike]
+			 
+			[ForceStaticGrid:true]   
+			  
+			[AssignContainerTypesToAllCargo:MES-ContainerTypes-MixedComponents-2,MES-ContainerTypes-MixedIngots-1,MES-ContainerTypes-EventShipDrop-1]
+			[ManipulationGroups:Manipulation-Group-Loot]
+ 
+			[InitializeStoreBlocks:true] 
+			[ContainerTypesForStoreOrders:MES-ContainerTypes-MESStoreBuyComponents-1,MES-ContainerTypes-MESStoreBuyOre-1,MES-ContainerTypes-MESStoreBuyIngots-1]
+			
+			[RivalAiSpawn:false]
+			
+			[UseRandomBuilderFaction:true] 
+			 
+			[IgnoreCombatPhase:true]  
+			  
+			[ReplenishSystems:true] 
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Planetary Installation Hangar">
+					<Position>
+						<X>0.0</X>
+						<Y>23.6</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour>BehaviorInstallationAtmosphere</Behaviour>
+				</Prefab> 
+			</Prefabs>
+		</SpawnGroup>
+
+	</SpawnGroups>
+</Definitions>

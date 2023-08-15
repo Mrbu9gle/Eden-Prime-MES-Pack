@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>ARUM-SpawnGroup-UFFuelStation</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup] 
+		 
+		[StaticEncounter:true] 
+ 
+		[IgnoreCombatPhase:true] 
+		 
+		[StaticEncounterCoords:{X:183.329753213342 Y:57.8725261122922 Z:1999829.14094795}]
+		[StaticEncounterForward:{X:-0.672567959760215 Y:-0.215702353676464 Z:0.707901712190623}]
+		[StaticEncounterUp:{X:-0.696734562995396 Y:-0.137844058641068 Z:-0.70396020073934}]
+		 
+		[TriggerCoords:{X:183.329753213342 Y:57.8725261122922 Z:1999829.14094795}]
+        [TriggerRadius:2000] 
+ 
+        [ReplenishSystems:true] 
+		
+        [ManipulationGroups:Manipulation-StationGroup] 
+		
+		[IgnoreCleanupRules:true] 		
+		 
+        [FactionOwner:ARUM]
+
+        [ForceStaticGrid:true] 
+		 
+		[ForceExactPositionAndOrientation:true]
+
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:ARUM-Station]
+        [RemoteControlCodeMinDistance:100000] 
+		
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC) UF Fuel Station">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Behavior-ShopFuelStation</Behaviour>
+        </Prefab> 
+      </Prefabs>
+    </SpawnGroup>
+
+  </SpawnGroups>
+</Definitions>

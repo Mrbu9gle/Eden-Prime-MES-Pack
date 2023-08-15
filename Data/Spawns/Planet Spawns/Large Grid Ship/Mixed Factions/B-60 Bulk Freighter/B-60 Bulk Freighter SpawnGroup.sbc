@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(P)B-60 Bulk Freighter</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[AtmosphericCargoShip:true] 
+			 
+			[AtmosphericCargoShipChance:90]
+			
+			[RivalAiSpawn:false] 
+			
+			[UseRandomTraderFaction:true] 
+ 
+			[IgnoreCombatPhase:true]
+			 
+			[AssignContainerTypesToAllCargo:MES-ContainerTypes-MixedComponents-2,MES-ContainerTypes-Credits-2,MES-ContainerTypes-EventShipDrop-1,MES-ContainerTypes-MixedIngots-2] 
+			[ManipulationGroups:Manipulation-Group-Loot]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="B-60 Bulk Freighter">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BehaviorCargoshipPlanet</Behaviour>
+				</Prefab> 
+				<Prefab SubtypeId="Type M Talon">
+					<Position>
+						<X>50.0</X>
+						<Y>0.0</Y>
+						<Z>20.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BehaviorFighterPlanet</Behaviour>
+				</Prefab> 
+				<Prefab SubtypeId="Type M Talon">
+					<Position>
+						<X>-50.0</X>
+						<Y>0.0</Y>
+						<Z>20.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BehaviorFighterPlanet</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+	</SpawnGroups>
+</Definitions>

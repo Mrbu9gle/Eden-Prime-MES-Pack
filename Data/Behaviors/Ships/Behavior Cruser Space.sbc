@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BehaviorCruiserSpace</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:CargoShip]
+
+        [AutopilotData:AutoPilot-Cruiser-Space]
+        [SecondaryAutopilotData:AutoPilot-Cruiser-Space-B]
+        [TertiaryAutopilotData:AutoPilot-Cruiser-Space-C]
+
+        [Triggers:Trigger-AggressionSwitch-Cruiser-Space]
+        [Triggers:Trigger-PassiveSwitch-Cruiser-Space]
+        [Triggers:Trigger-PassiveSwitchNoTarget-Cruiser-Space]
+        [Triggers:Trigger-ReturnToDespawn-Cruiser-Space]
+        [Triggers:Trigger-ShipDamage-Cruiser-Space]
+        [Triggers:Trigger-ReturnToSpeed-Cruiser-Space]
+        [Triggers:Trigger-ProcessEscortRequest-Cruiser-Space]
+        [Triggers:Trigger-StationAssistDirect-Cruiser-Space]
+
+        [EscortOffsets:{X:-100 Y:0 Z:0}]
+        [EscortOffsets:{X:100 Y:0 Z:0}]
+
+        [TargetData:Targeting-Cruiser-Space]
+        [OverrideTargetData:Targeting-Cruiser-Space-Override]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Targeting-Cruiser-Space</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Target]
+
+        [UseCustomTargeting:true]
+        [Target:PlayerAndGrid]
+
+        [MaxDistance:11000]
+        [MaxExistingTargetDistance:22000]
+
+        [MatchAllFilters:OutsideOfSafezone]
+        [MatchAllFilters:Owner]
+        [MatchAllFilters:Relation]
+
+        [GetTargetBy:ClosestDistance]
+
+        [Owners:Player]
+        [Owners:NPC]
+        [Relations:Enemy]
+
+		[PrioritizePlayerControlled:true]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Targeting-Cruiser-Space-Override</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Target]
+
+        [UseCustomTargeting:true]
+        [Target:PlayerAndGrid]
+
+        [MaxDistance:22000]
+
+        [MatchAllFilters:OutsideOfSafezone]
+        [MatchAllFilters:Owner]
+        [MatchAllFilters:Relation] 
+		
+        [GetTargetBy:ClosestDistance]
+
+        [Owners:Player]
+        [Owners:NPC]
+        [Relations:Enemy]
+
+		[PrioritizePlayerControlled:true]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AutoPilot-Cruiser-Space</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:50]
+        [ForceDampenersEnabled:true]
+
+        [IdealMinSpeed:12]
+        [IdealMaxSpeed:25]
+        [MaxSpeedTolerance:1]
+
+        [WaypointTolerance:50]
+        [WaypointWaitTimeTrigger:120]
+
+        [UseVelocityCollisionEvasion:true] 
+		[CollisionEvasionWaypointDistance:250] 
+		[CollisionEvasionResumeDistance:250] 
+		[CollisionEvasionResumeTime:60] 
+		
+        [LimitRotationSpeed:true]
+        [MaxRotationMagnitude:0.2] 
+		 
+		[UseProjectileLeadPrediction:true]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AutoPilot-Cruiser-Space-B</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:50]
+        [ForceDampenersEnabled:true]
+
+        [IdealMinSpeed:12]
+        [IdealMaxSpeed:25]
+        [MaxSpeedTolerance:1]
+
+        [WaypointTolerance:50]
+        [WaypointWaitTimeTrigger:60]
+
+        [UseVelocityCollisionEvasion:true] 
+		[CollisionEvasionWaypointDistance:250] 
+		[CollisionEvasionResumeDistance:250] 
+		[CollisionEvasionResumeTime:60] 
+		
+        [LimitRotationSpeed:true]
+        [MaxRotationMagnitude:0.2] 
+		 
+		[UseProjectileLeadPrediction:true]
+
+      </Description>
+
+    </EntityComponent> 
+	 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AutoPilot-Cruiser-Space-C</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:250]
+        [ForceDampenersEnabled:true]
+
+        [IdealMinSpeed:18]
+        [IdealMaxSpeed:50]
+        [MaxSpeedTolerance:1]
+
+        [WaypointTolerance:50]
+
+        [WaypointWaitTimeTrigger:8]
+
+        [AllowStrafing:true]
+        [StrafeMaxDurationMs:3000]
+        [StrafeSpeedCutOff:20]
+
+        [OffsetSpaceMinDistFromTarget:300]
+        [OffsetSpaceMaxDistFromTarget:600]
+
+        [LimitRotationSpeed:true]
+        [MaxRotationMagnitude:0.6] 
+		 
+		[UseProjectileLeadPrediction:true]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

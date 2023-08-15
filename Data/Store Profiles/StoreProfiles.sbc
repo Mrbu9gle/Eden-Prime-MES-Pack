@@ -1,0 +1,469 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>StoreProfile-VendingToolsBasic</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Store]
+
+        [FileSource:StoreItems-Basic.xml]
+
+        [MinOfferItems:2]
+        [MaxOfferItems:6]
+
+        [ItemsRequireInventory:false]
+        [AddedItemsCombineQuantity:false]
+        [AddedItemsAveragePrice:false]
+        
+        //Offers - Sell To Player
+
+        [Offers:Tool/HandDrill2Item]
+        [Offers:Tool/HandDrill3Item]
+        [Offers:Tool/AngleGrinder2Item]
+        [Offers:Tool/AngleGrinder3Item]
+        [Offers:Tool/Welder2Item]
+        [Offers:Tool/Welder3Item]
+
+      </Description>
+
+    </EntityComponent> 
+    
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>StoreProfile-VendingConsumablesBasic</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Store]
+
+        [FileSource:StoreItems-Basic.xml]
+
+        [MinOfferItems:2]
+        [MaxOfferItems:4]
+
+        [ItemsRequireInventory:false]
+        [AddedItemsCombineQuantity:false]
+        [AddedItemsAveragePrice:false]
+
+        //Offers - Sell To Player
+        
+        [RequiredOffers:Consumable/Medkit]
+        [RequiredOffers:Consumable/Powerkit]
+        [Offers:Consumable/ClangCola]
+        [Offers:Consumable/CosmicCoffee]
+
+      </Description>
+
+    </EntityComponent> 
+    
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>StoreProfile-BasicStation</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Store]
+
+        [FileSource:StoreItems-Basic.xml]
+
+        [MinOfferItems:5]
+        [MaxOfferItems:20]
+        [MinOrderItems:5]
+        [MaxOrderItems:12]
+
+        [ItemsRequireInventory:false]
+        [AddedItemsCombineQuantity:false]
+        [AddedItemsAveragePrice:false]
+        [EqualizeOffersAndOrders:false]
+
+        //Offers - Sell To Player
+ 
+		[Offers:Component/Reactor] 
+		[Offers:Component/Superconductor] 
+		[Offers:Component/Thrust] 
+		[Offers:Component/Construction] 
+		[Offers:Component/MetalGrid] 
+		[Offers:Component/SteelPlate] 
+		[Offers:Component/Girder] 
+		[Offers:Component/SmallTube] 
+		[Offers:Component/LargeTube] 
+		[Offers:Component/Motor] 
+		[Offers:Component/Display] 
+		[Offers:Component/BulletproofGlass] 
+		[Offers:Component/Computer] 
+
+        [RequiredOffers:HydrogenOffer]
+        [RequiredOffers:OxygenOffer]
+        [RequiredOffers:UraniumOffer]
+        [RequiredOffers:ZoneOffer]
+
+        //Orders - Buy From Player
+
+        [Orders:Ingot/Iron]
+        [Orders:Ingot/Nickel]
+        [Orders:Ingot/Cobalt]
+        [Orders:Ingot/Magnesium]
+        [Orders:Ingot/Silicon]
+        [Orders:Ingot/Silver] 
+		[Orders:Ingot/Gold] 
+		[Orders:Ingot/Platinum] 
+		[Orders:Ingot/Uranium] 
+		 
+		[Orders:Ore/Ice]
+
+      </Description>
+
+    </EntityComponent> 
+	 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>StoreProfile-RepairDock</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Store]
+
+        [FileSource:StoreItems-RepairDock.xml]
+
+        [MinOfferItems:5]
+        [MaxOfferItems:15]
+        [MinOrderItems:5]
+        [MaxOrderItems:10]
+
+        [ItemsRequireInventory:false]
+        [AddedItemsCombineQuantity:false]
+        [AddedItemsAveragePrice:false]
+        [EqualizeOffersAndOrders:false]
+
+        //Offers - Sell To Player
+ 
+		[Offers:Component/Reactor] 
+		[Offers:Component/Superconductor] 
+		[Offers:Component/Thrust] 
+		[Offers:Component/Construction] 
+		[Offers:Component/MetalGrid] 
+		[Offers:Component/SteelPlate] 
+		[Offers:Component/Girder] 
+		[Offers:Component/SmallTube] 
+		[Offers:Component/LargeTube] 
+		[Offers:Component/Motor] 
+		[Offers:Component/Display] 
+		[Offers:Component/BulletproofGlass] 
+		[Offers:Component/Computer] 
+
+        [RequiredOffers:HydrogenOffer]
+        [RequiredOffers:OxygenOffer]
+
+        //Orders - Buy From Player
+
+        [Orders:Ingot/Iron]
+        [Orders:Ingot/Nickel]
+        [Orders:Ingot/Cobalt]
+        [Orders:Ingot/Magnesium]
+        [Orders:Ingot/Silicon]
+        [Orders:Ingot/Silver] 
+		[Orders:Ingot/Gold] 
+		[Orders:Ingot/Platinum] 
+		[Orders:Ingot/Uranium] 
+		 
+		[Orders:Ore/Ice]
+
+      </Description>
+
+    </EntityComponent> 
+	 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>StoreProfile-UFTradeStation</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Store]
+
+        [FileSource:StoreItems-TradeStation.xml]
+
+        [MinOfferItems:5]
+        [MaxOfferItems:13]
+        [MinOrderItems:5]
+        [MaxOrderItems:10]
+
+        [ItemsRequireInventory:false]
+        [AddedItemsCombineQuantity:false]
+        [AddedItemsAveragePrice:false]
+        [EqualizeOffersAndOrders:false]
+
+        //Offers - Sell To Player
+ 
+        [Offers:Ingot/Iron]
+        [Offers:Ingot/Nickel]
+        [Offers:Ingot/Cobalt]
+        [Offers:Ingot/Silicon] 
+
+        [RequiredOffers:HydrogenOffer]
+        [RequiredOffers:OxygenOffer]
+        [RequiredOffers:UraniumOffer]
+        [RequiredOffers:ZoneOffer] 
+		[RequiredOffers:ZetaJumpgateOffer]
+
+        //Orders - Buy From Player
+
+        [Orders:Ore/Iron]
+        [Orders:Ore/Nickel]
+        [Orders:Ore/Cobalt]
+        [Orders:Ore/Magnesium]
+        [Orders:Ore/Silicon]
+        [Orders:Ore/Silver] 
+		[Orders:Ore/Gold] 
+		[Orders:Ore/Platinum] 
+		[Orders:Ore/Uranium] 
+		 
+		[Orders:Ore/Ice]
+
+      </Description>
+
+    </EntityComponent> 
+	 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>StoreProfile-FuelStation</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Store]
+
+        [FileSource:StoreItems-HubFuelStation.xml]
+
+        [MinOfferItems:5]
+        [MaxOfferItems:7]
+        [MinOrderItems:2]
+        [MaxOrderItems:2]
+
+        [ItemsRequireInventory:false]
+        [AddedItemsCombineQuantity:false]
+        [AddedItemsAveragePrice:false]
+        [EqualizeOffersAndOrders:false]
+
+        //Offers - Sell To Player
+ 
+		[Offers:Consumable/ClangCola] 
+		[Offers:Consumable/CosmicCoffee] 
+		[Offers:Consumable/Medkit] 
+		[Offers:Consumable/Powerkit]
+
+        [RequiredOffers:HydrogenOffer]
+        [RequiredOffers:OxygenOffer]
+        [RequiredOffers:UraniumOffer]
+
+        //Orders - Buy From Player 
+		 
+		[Orders:Ore/Ice] 
+		[Orders:Ore/Uranium]
+
+      </Description>
+
+    </EntityComponent> 
+ 
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>StoreProfile-ResearchStation</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Store]
+
+        [FileSource:StoreItems-ResearchStation.xml]
+        
+        [MinOfferItems:4]
+        [MaxOfferItems:4]
+        [MinOrderItems:4]
+        [MaxOrderItems:4]
+
+        [ItemsRequireInventory:false]
+
+        [Offers:IllegalUranium]
+        [Offers:HydrogenStores]
+        [Offers:OxygenStores]
+        [Offers:StolenCursor] 
+		[Offers:StolenU-92PatrolCraft]
+
+        [Orders:IllegalUranium]
+
+      </Description>
+
+    </EntityComponent>
+ 
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>StoreProfile-CaladanStation</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Store]
+
+        [FileSource:StoreItems-CaladanStation.xml]
+
+        [MinOfferItems:4]
+        [MaxOfferItems:7]
+        [MinOrderItems:5]
+        [MaxOrderItems:10]
+
+        [ItemsRequireInventory:false]
+        [AddedItemsCombineQuantity:false]
+        [AddedItemsAveragePrice:false]
+        [EqualizeOffersAndOrders:false]
+
+        //Offers - Sell To Player
+ 
+		[Offers:Ingot/Iron]
+        [Offers:Ingot/Nickel]
+        [Offers:Ingot/Cobalt]
+        [Offers:Ingot/Silicon]
+
+        [RequiredOffers:HydrogenOffer]
+        [RequiredOffers:OxygenOffer]
+        [RequiredOffers:ZoneOffer]
+
+        //Orders - Buy From Player
+
+        [Orders:Ore/Iron]
+        [Orders:Ore/Nickel]
+        [Orders:Ore/Cobalt]
+        [Orders:Ore/Magnesium]
+        [Orders:Ore/Silicon]
+        [Orders:Ore/Silver] 
+		[Orders:Ore/Gold] 
+		[Orders:Ore/Platinum] 
+		[Orders:Ore/Uranium] 
+		 
+		[Orders:Ore/Ice]
+
+      </Description>
+
+    </EntityComponent> 
+ 
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>StoreProfile-CaladanJumpgateStore</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Store]
+
+        [FileSource:StoreItems-CaladanStation.xml]
+
+        [MinOfferItems:3]
+        [MaxOfferItems:3]
+        [MinOrderItems:0]
+        [MaxOrderItems:0]
+
+        [ItemsRequireInventory:false]
+        [AddedItemsCombineQuantity:false]
+        [AddedItemsAveragePrice:false]
+        [EqualizeOffersAndOrders:false]
+
+        //Offers - Sell To Player
+
+        [Offers:Component/KrellinJumpgateSecurityChip]
+        [Offers:Component/LunarJumpgateSecurityChip]
+        [Offers:Component/ZetaJumpgateSecurityChip]
+
+        //Orders - Buy From Player
+
+		[Orders:None/None]
+
+      </Description>
+
+    </EntityComponent> 
+	 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>StoreProfile-OperationsVendingAmmo</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Store]
+
+        [FileSource:StoreItems-OperationsStation.xml]
+
+        [MinOfferItems:3]
+        [MaxOfferItems:7]
+        [MinOrderItems:0]
+        [MaxOrderItems:0]
+
+        [ItemsRequireInventory:false]
+        [AddedItemsCombineQuantity:false]
+        [AddedItemsAveragePrice:false]
+
+        //Offers - Sell To Player
+ 
+		[Offers:Ammo/SemiAutoPistolMagazine] 
+		[Offers:Ammo/FullAutoPistolMagazine] 
+		[Offers:Ammo/ElitePistolMagazine] 
+		[Offers:Ammo/AutomaticRifleGun_Mag_20rd] 
+		[Offers:Ammo/RapidFireAutomaticRifleGun_Mag_50rd] 
+		[Offers:Ammo/PreciseAutomaticRifleGun_Mag_5rd] 
+		[Offers:Ammo/UltimateAutomaticRifleGun_Mag_30rd] 
+		[Offers:Ammo/Missile200mm]
+
+        //Orders - Buy From Player
+
+        [Orders:None/None]
+
+      </Description>
+
+    </EntityComponent>  
+	 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>StoreProfile-OperationsVendingGuns</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Store]
+
+        [FileSource:StoreItems-OperationsStation.xml]
+
+        [MinOfferItems:3]
+        [MaxOfferItems:7]
+        [MinOrderItems:0]
+        [MaxOrderItems:0]
+
+        [ItemsRequireInventory:false]
+        [AddedItemsCombineQuantity:false]
+        [AddedItemsAveragePrice:false]
+
+        //Offers - Sell To Player
+ 
+		[Offers:Tool/ElitePistolItem] 
+		[Offers:Tool/FullAutoPistolItem] 
+		[Offers:Tool/UltimateAutomaticRifleItem] 
+		[Offers:Tool/PreciseAutomaticRifleItem] 
+		[Offers:Tool/RapidFireAutomaticRifleItem] 
+		[Offers:Tool/BasicHandHeldLauncherItem] 
+		[Offers:Tool/AdvancedHandHeldLauncherItem]
+
+        //Orders - Buy From Player
+
+        [Orders:None/None]
+
+      </Description>
+
+    </EntityComponent>
+    
+  </EntityComponents>
+</Definitions>

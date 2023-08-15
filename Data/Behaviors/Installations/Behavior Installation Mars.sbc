@@ -1,0 +1,95 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BehaviorInstallationMars</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Horsefly]
+
+        [Triggers:Trigger-CallAtmoCargoShip] 
+		[Triggers:Trigger-CallDrones-Mars]
+        [Triggers:Trigger-StationDamage] 
+		[Triggers:Trigger-DroneDamage-Mars]
+ 
+		[UseDamageDetection:true]
+		 
+		[TargetData:Targeting-Installation-Mars]
+		[OverrideTargetData:Targeting-Installation-Mars-Override]
+
+      </Description>
+
+    </EntityComponent> 
+ 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>Targeting-Installation-Mars</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Target]
+      
+      [UseCustomTargeting:true]
+      [Target:PlayerAndGrid]
+      
+      [MaxDistance:5000] 
+	  [MaxExistingTargetDistance:12000]
+      
+      [MatchAllFilters:OutsideOfSafezone]
+      [MatchAllFilters:Owner]
+      [MatchAllFilters:Relation]
+       
+	  [GetTargetBy:ClosestDistance]
+      
+      [Owners:Player]
+      [Owners:NPC]
+      [Relations:Enemy]
+
+      [PrioritizePlayerControlled:true]
+
+      </Description>
+      
+    </EntityComponent>
+	 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>Targeting-Installation-Mars-Override</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Target]
+      
+      [UseCustomTargeting:true]
+      [Target:Player] 
+	  [TimeUntilTargetAcquisition:1]
+       
+	  [MaxExistingTargetDistance:12000]
+      
+      [MatchAllFilters:OutsideOfSafezone]
+      [MatchAllFilters:Owner]
+      [MatchAllFilters:Relation]
+       
+	  [GetTargetBy:ClosestDistance]
+      
+      [Owners:Player]
+      [Owners:NPC]
+      [Relations:Enemy] 
+	  [Relations:Neutral] 
+	  [Relations:Friends]
+
+      [PrioritizePlayerControlled:true]
+
+      </Description>
+      
+    </EntityComponent>
+    
+  </EntityComponents>
+</Definitions>

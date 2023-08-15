@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents> 
+  
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>Trigger-CallDrones-NoAtmosphere</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Trigger] 
+	  
+	  [UseTrigger:true] 
+	  [Type:PlayerNear]
+	  [TargetDistance:2000]  
+	  [StartsReady:true] 
+	  [MaxActions:2] 
+	  
+	  [Actions:Action-CallDrones-NoAtmosphere]
+      
+      </Description>
+      
+    </EntityComponent> 
+	 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>Action-CallDrones-NoAtmosphere</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action] 
+	   
+	  [SetWeaponsToMaxRange:true]  
+	   
+	  [SpawnEncounter:true] 
+	  [Spawner:Spawner-CallDrones-NoAtmosphere]
+      
+      [UseChatBroadcast:true]
+      [ChatData:Chat-CallDrones-NoAtmosphere]
+	   
+	  [Chance:30]
+
+      </Description>
+      
+    </EntityComponent> 
+ 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>Spawner-CallDrones-NoAtmosphere</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+      
+      [UseSpawn:true]
+      
+      [StartsReady:true]
+      [MaxSpawns:2]
+      
+      [SpawnGroups:MK1DefenceDrone] 
+	  [SpawnGroups:MK1DefenceDrone2] 
+	  [SpawnGroups:MK1DefenceDrone3] 
+ 
+	  [SpawnGroups:Type H Security Drone MK1] 
+	  [SpawnGroups:Type H Security Drone MK1-2] 
+	  [SpawnGroups:Type H Security Drone MK1-3] 
+	   
+	  [SpawnGroups:Type H Security Drone MK2] 
+	  [SpawnGroups:Type H Security Drone MK2-2] 
+	  [SpawnGroups:Type H Security Drone MK2-3]
+	   
+	  [ForceSameFactionOwnership:true] 
+	   
+	  [UseRelativeSpawnPosition:false]
+      [MinAltitude:30]
+      [MaxAltitude:100]
+      [IgnoreSafetyChecks:false] 
+	  [InheritNpcAltitude:false]
+      
+      [MinDistance:100]
+      [MaxDistance:200]
+      
+      </Description>
+      
+    </EntityComponent>
+	 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>Chat-CallDrones-NoAtmosphere</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Chat]
+      
+      [UseChat:true]
+      [StartsReady:true]
+      [Chance:100]
+      [MaxChats:1]
+      [BroadcastRandomly:false] 
+	  [IgnoreAntennaRequirement:true] 
+	  [IgnoredAntennaRangeOverride:3000]
+      
+      [Author:Automated Defence System]
+      [Color:Red]
+      
+      [ChatMessages:Incoming Unknown signal, Deploy defence Systems!]
+      [ChatAudio:None]
+      [BroadcastChatType:Chat]
+
+      </Description>
+      
+    </EntityComponent> 
+	 
+  </EntityComponents>
+</Definitions>	

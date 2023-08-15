@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>SPCT-SpawnGroup-CVResearchCentre</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [StaticEncounter:true] 
+ 
+		[IgnoreCombatPhase:true] 
+		 
+		[StaticEncounterCoords:{X:72.316210367615 Y:-3.41260468329426 Z:-1999977.48229062}]
+		[StaticEncounterForward:{X:0.18021420630455 Y:0.0179290133170699 Z:-0.983463975104069}]
+		[StaticEncounterUp:{X:-0.0452156301266711 Y:-0.998625944657312 Z:-0.0264909314584845}]
+		 
+		[TriggerCoords:{X:72.316210367615 Y:-3.41260468329426 Z:-1999977.48229062}]
+        [TriggerRadius:2000] 
+ 
+        [ReplenishSystems:true] 
+		
+        [ManipulationGroups:Manipulation-StationGroup] 
+		
+		[IgnoreCleanupRules:true] 		
+		 
+        [FactionOwner:SPCT]
+
+        [ForceStaticGrid:true] 
+		 
+		[ForceExactPositionAndOrientation:true]
+
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:ARUM-Station]
+        [RemoteControlCodeMinDistance:100000] 
+		
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC) CV Research Facility">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Behavior-SafeZoneResearchStation</Behaviour>
+        </Prefab> 
+      </Prefabs>
+    </SpawnGroup>
+
+  </SpawnGroups>
+</Definitions>

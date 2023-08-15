@@ -1,0 +1,465 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ContainerTypes>
+<!-- Advanced Ores -->	
+		<ContainerType CountMin="3" CountMax="5">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-AdvancedOre-1</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="1000" AmountMax="2000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Magnesium</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1000" AmountMax="2000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Silver</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1000" AmountMax="2000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Gold</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="500" AmountMax="1000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Platinum</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="500" AmountMax="1000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Uranium</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="3" CountMax="5">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-AdvancedOre-2</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="2000" AmountMax="4000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Magnesium</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="2000" AmountMax="4000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Silver</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="2000" AmountMax="4000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Gold</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1000" AmountMax="2000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Platinum</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1000" AmountMax="2000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Uranium</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+<!-- Advanced Ores --> 
+<!-- Basic Ores --> 
+		<ContainerType CountMin="3" CountMax="5">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-BasicOres-1</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="2000" AmountMax="4000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Stone</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="2000" AmountMax="4000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Iron</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="2000" AmountMax="4000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Nickel</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="2000" AmountMax="4000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Cobalt</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="2000" AmountMax="4000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Silicon</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="3" CountMax="5">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-BasicOres-2</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="4000" AmountMax="8000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Stone</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="4000" AmountMax="8000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Iron</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="4000" AmountMax="8000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Nickel</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="4000" AmountMax="8000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Cobalt</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="4000" AmountMax="8000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Silicon</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="3" CountMax="5">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-BasicOres-3</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="8000" AmountMax="16000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Stone</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="8000" AmountMax="16000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Iron</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="8000" AmountMax="16000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Nickel</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="8000" AmountMax="16000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Cobalt</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="8000" AmountMax="16000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Silicon</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType> 
+<!-- Basic Ores --> 
+<!-- Mixed Ores -->	 
+		<ContainerType CountMin="7" CountMax="10">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-MixedOres-1</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="2000" AmountMax="4000">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Stone</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="2000" AmountMax="4000">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Iron</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="2000" AmountMax="4000">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Nickel</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="2000" AmountMax="4000">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Cobalt</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="2000" AmountMax="4000">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Silicon</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1000" AmountMax="2000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Magnesium</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1000" AmountMax="2000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Silver</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1000" AmountMax="2000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Gold</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="500" AmountMax="1000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Platinum</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="500" AmountMax="1000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Uranium</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="7" CountMax="10">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-MixedOres-2</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="4000" AmountMax="8000">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Stone</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="4000" AmountMax="8000">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Iron</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="4000" AmountMax="8000">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Nickel</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="4000" AmountMax="8000">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Cobalt</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="4000" AmountMax="8000">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Silicon</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="2000" AmountMax="4000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Magnesium</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="2000" AmountMax="4000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Silver</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="2000" AmountMax="4000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Gold</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1000" AmountMax="2000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Platinum</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1000" AmountMax="2000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Uranium</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="7" CountMax="10">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-MixedOres-3</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="8000" AmountMax="16000">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Stone</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="8000" AmountMax="16000">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Iron</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="8000" AmountMax="16000">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Nickel</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="8000" AmountMax="16000">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Cobalt</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="8000" AmountMax="16000">
+					<Frequency>3.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Silicon</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="4000" AmountMax="8000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Magnesium</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="4000" AmountMax="8000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Silver</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="4000" AmountMax="8000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Gold</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="2000" AmountMax="4000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Platinum</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="2000" AmountMax="4000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Uranium</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType> 
+<!-- Mixed Ores -->
+	</ContainerTypes>																									
+</Definitions>																										

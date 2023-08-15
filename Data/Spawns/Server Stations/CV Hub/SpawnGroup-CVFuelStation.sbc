@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>SPCT-SpawnGroup-CVFuelStation</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup] 
+		 
+		[StaticEncounter:true] 
+ 
+		[IgnoreCombatPhase:true] 
+		 
+		[StaticEncounterCoords:{X:317.636959648513 Y:-15.8045923043283 Z:-2000085.25520851}]
+		[StaticEncounterForward:{X:-0.84778649761561 Y:0.0244098309003773 Z:0.529775626672341}]
+		[StaticEncounterUp:{X:0.528403657260001 Y:-0.0463552307339359 Z:0.847726823674855}]
+		 
+		[TriggerCoords:{X:317.636959648513 Y:-15.8045923043283 Z:-2000085.25520851}]
+        [TriggerRadius:2000] 
+ 
+        [ReplenishSystems:true] 
+		
+        [ManipulationGroups:Manipulation-StationGroup] 
+		
+		[IgnoreCleanupRules:true] 		
+		 
+        [FactionOwner:SPCT]
+
+        [ForceStaticGrid:true] 
+		 
+		[ForceExactPositionAndOrientation:true]
+
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:ARUM-Station]
+        [RemoteControlCodeMinDistance:100000] 
+		
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC) CV Fuel Station">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Behavior-ShopFuelStation</Behaviour>
+        </Prefab> 
+      </Prefabs>
+    </SpawnGroup>
+
+  </SpawnGroups>
+</Definitions>

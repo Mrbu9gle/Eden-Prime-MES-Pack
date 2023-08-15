@@ -1,0 +1,84 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Trigger-CallAtmoCargoShip</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Timer]
+
+        [MinCooldownMs:240000]
+        [MaxCooldownMs:360001]
+        [StartsReady:true]
+        
+        [MaxActions:-1]
+        [Actions:Action-CallAtmoCargoShip]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Action-CallAtmoCargoShip</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:Command-CallAtmoCargoShip]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Command-CallAtmoCargoShip</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Command]
+
+        [CommandCode:PathDeviation]
+        [SingleRecipient:true]
+        [SendWaypoint:true]
+        [MatchSenderReceiverOwners:true]
+        [Waypoint:Waypoint-CallAtmoCargoShip]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Waypoint-CallAtmoCargoShip</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Waypoint]
+
+        [Waypoint:EntityRandom]
+        [RelativeEntity:Self]
+        [MinDistance:60]
+        [MaxDistance:101]
+        [MinAltitude:60]
+        [MaxAltitude:101]
+
+      </Description>
+
+    </EntityComponent>
+    
+  </EntityComponents>
+</Definitions>

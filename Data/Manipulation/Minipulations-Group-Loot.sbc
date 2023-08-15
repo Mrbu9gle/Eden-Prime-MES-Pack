@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents> 
+  
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Manipulation-Group-Loot</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation Group]
+
+        [ManipulationProfiles:Manipulation-Datapads]
+        [ManipulationProfiles:Manipulation-FreightLootStation]
+
+      </Description>
+
+    </EntityComponent> 
+ 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Manipulation-Group-Fighter</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation Group]
+
+        [ManipulationProfiles:Manipulation-Datapads]
+        [ManipulationProfiles:Manipulation-AdvancedLoot-Fighter]
+
+      </Description>
+
+    </EntityComponent>
+	 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Manipulation-Datapads</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+		[ClearExistingContainerTypes:true] 
+		[LootProfiles:MES-Loot-CockpitLoot]
+		
+
+      </Description>
+
+    </EntityComponent> 
+	 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Manipulation-FreightLootStation</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+		[ClearExistingContainerTypes:true] 
+		[LootProfiles:MES-Loot-Corpses] 
+		[LootProfiles:MES-Loot-Freight] 
+		[LootProfiles:MES-Loot-Lockers] 
+		[LootProfiles:MES-Loot-WeaponRacks]
+		
+
+      </Description>
+
+    </EntityComponent> 
+	 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Manipulation-AdvancedLoot-Fighter</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+		[ClearExistingContainerTypes:true]
+		[LootProfiles:MES-Loot-RareLootLarge] 
+		[LootProfiles:MES-Loot-RareLootSmall]  
+		
+      </Description>
+
+    </EntityComponent>
+    
+  </EntityComponents>
+</Definitions>

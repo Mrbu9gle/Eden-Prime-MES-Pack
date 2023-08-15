@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(P)Assembly Production Outpost Atmo</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup] 
+			 
+			[PlanetaryInstallation:true] 
+			[PlanetaryInstallationType:Medium] 
+ 
+			[PlanetWhitelist:EarthLike]
+			
+			[ForceStaticGrid:true]   
+			  
+			[AssignContainerTypesToAllCargo:MES-ContainerTypes-MixedComponents-2,MES-ContainerTypes-MixedIngots-1,MES-ContainerTypes-EventShipDrop-1]
+			[ManipulationGroups:Manipulation-Group-Loot] 
+ 
+			[InitializeStoreBlocks:true] 
+			[ContainerTypesForStoreOrders:MES-ContainerTypes-MESStoreBuyComponents-1,MES-ContainerTypes-MESStoreBuyOre-1,MES-ContainerTypes-MESStoreBuyIngots-1]
+			
+			[RivalAiSpawn:false]
+			
+			[UseRandomBuilderFaction:true] 
+			 
+			[IgnoreCombatPhase:true]  
+			  
+			[ReplenishSystems:true] 
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Abandoned Assembly Production Outpost">
+					<Position>
+						<X>0.0</X>
+						<Y>27.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour>BehaviorInstallationAtmosphere</Behaviour>
+				</Prefab> 
+			</Prefabs>
+		</SpawnGroup> 
+ 
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(P)Assembly Production Outpost NAtmo</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup] 
+			 
+			[PlanetaryInstallation:true] 
+			[PlanetaryInstallationType:Medium] 
+			 
+			[PlanetWhitelist:Europa,Moon]
+			
+			[ForceStaticGrid:true]   
+			  
+			[AssignContainerTypesToAllCargo:MES-ContainerTypes-MixedComponents-2,MES-ContainerTypes-MixedIngots-1]
+			[ManipulationGroups:Manipulation-Group-Loot] 
+ 
+			[InitializeStoreBlocks:true] 
+			[ContainerTypesForStoreOrders:MES-ContainerTypes-MESStoreBuyComponents-1,MES-ContainerTypes-MESStoreBuyOre-1,MES-ContainerTypes-MESStoreBuyIngots-1]
+			
+			[RivalAiSpawn:false]
+			
+			[UseRandomBuilderFaction:true] 
+			 
+			[IgnoreCombatPhase:true]  
+			  
+			[ReplenishSystems:true] 
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Abandoned Assembly Production Outpost">
+					<Position>
+						<X>0.0</X>
+						<Y>27.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour>BehaviorInstallationNoAtmosphere</Behaviour>
+				</Prefab> 
+			</Prefabs>
+		</SpawnGroup>
+ 
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(P)Assembly Production Outpost Mars</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup] 
+			 
+			[PlanetaryInstallation:true] 
+			[PlanetaryInstallationType:Medium] 
+			 
+			[PlanetWhitelist:Mars]
+			
+			[ForceStaticGrid:true]   
+			  
+			[AssignContainerTypesToAllCargo:MES-ContainerTypes-MixedComponents-2,MES-ContainerTypes-MixedIngots-1]
+			[ManipulationGroups:Manipulation-Group-Loot] 
+ 
+			[InitializeStoreBlocks:true] 
+			[ContainerTypesForStoreOrders:MES-ContainerTypes-MESStoreBuyComponents-1,MES-ContainerTypes-MESStoreBuyOre-1,MES-ContainerTypes-MESStoreBuyIngots-1]
+			
+			[RivalAiSpawn:false]
+			
+			[UseRandomBuilderFaction:true] 
+			 
+			[IgnoreCombatPhase:true]  
+			  
+			[ReplenishSystems:true] 
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Abandoned Assembly Production Outpost">
+					<Position>
+						<X>0.0</X>
+						<Y>27.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour>BehaviorInstallationMars</Behaviour>
+				</Prefab> 
+			</Prefabs>
+		</SpawnGroup>
+
+	</SpawnGroups>
+</Definitions>

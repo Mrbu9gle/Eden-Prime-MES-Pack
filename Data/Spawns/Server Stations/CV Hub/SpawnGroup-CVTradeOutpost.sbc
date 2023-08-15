@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>SPCT-SpawnGroup-CVTradeOutpost</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [StaticEncounter:true] 
+ 
+		[IgnoreCombatPhase:true] 
+		 
+		[StaticEncounterCoords:{X:-212.464253677813 Y:-7.19429408555308 Z:-1999771.2309123}]
+		[StaticEncounterForward:{X:0.585449754205847 Y:-0.0486516690924985 Z:0.809247551985687}]
+		[StaticEncounterUp:{X:-0.0454285596714879 Y:-0.998598033562085 Z:-0.0271700815624745}]
+		 
+		[TriggerCoords:{X:-212.464253677813 Y:-7.19429408555308 Z:-1999771.2309123}]
+        [TriggerRadius:2000] 
+ 
+        [ReplenishSystems:true] 
+		
+        [ManipulationGroups:Manipulation-StationGroup] 
+		
+		[IgnoreCleanupRules:true] 		
+		 
+        [FactionOwner:SPCT]
+
+        [ForceStaticGrid:true] 
+		 
+		[ForceExactPositionAndOrientation:true]
+
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:ARUM-Station]
+        [RemoteControlCodeMinDistance:100000]
+		
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC) CV Trade Outpost">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Behavior-ShopTradeStation</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+  </SpawnGroups>
+</Definitions>

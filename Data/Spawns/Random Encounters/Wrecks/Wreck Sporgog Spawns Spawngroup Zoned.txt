@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+	<!--Do Not Edit Above Here-->
+
+		<!--Copy From This Line--> 
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>(Z)WreckPirateSporgSpawnA</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpaceCargoShip:true]
+			[RivalAiSpawn:true] 
+			[SpawnRandomCargo:true] 
+			[ManipulationGroups:Manipulation-Group-Loot]
+  
+			[ZoneConditions:MES-ZoneConditionProfile-PirateZone-IceMoon]
+			
+			[FactionOwner:ARUM]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="SR - The Pilgrims Curiosity Scrap A1">
+					<Position>
+						<X>50.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>PassiveWreckBehavior</Behaviour>
+				</Prefab> 
+ 
+				<Prefab SubtypeId="SR - The Pilgrims Curiosity Scrap A2">
+					<Position>
+						<X>-50.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>PassiveWreckBehavior</Behaviour>
+				</Prefab>
+				 
+				<Prefab SubtypeId="SR - The Pilgrims Curiosity Scrap B1">
+					<Position>
+						<X>50.0</X>
+						<Y>0.0</Y>
+						<Z>50.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>ARUMWreckBehavior</Behaviour>
+				</Prefab> 
+				 
+				<Prefab SubtypeId="SR - The Pilgrims Curiosity Scrap B2">
+					<Position>
+						<X>-50.0</X>
+						<Y>0.0</Y>
+						<Z>-50.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>PassiveWreckBehavior</Behaviour>
+				</Prefab> 
+				 
+				<Prefab SubtypeId="SR - The Pilgrims Curiosity Scrap B3">
+					<Position>
+						<X>0.0</X>
+						<Y>50.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>PassiveWreckBehavior</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup> 
+		 
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>(Z)WreckPirateSporgSpawnB</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpaceCargoShip:true]
+			[RivalAiSpawn:true] 
+			[SpawnRandomCargo:true] 
+			[ManipulationGroups:Manipulation-Group-Loot]
+  
+			[ZoneConditions:MES-ZoneConditionProfile-PirateZone-IceMoon]
+			
+			[FactionOwner:ARUM]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="SR - Blue Ambassador Explorer Scrap 1">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>PassiveWreckBehavior</Behaviour>
+				</Prefab> 
+				 
+				<Prefab SubtypeId="SR - Blue Ambassador Explorer Scrap 2">
+					<Position>
+						<X>50.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>ARUMWreckBehavior</Behaviour>
+				</Prefab> 
+				 
+				<Prefab SubtypeId="SR - Blue Ambassador Explorer Scrap 3">
+					<Position>
+						<X>0.0</X>
+						<Y>50.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>PassiveWreckBehavior</Behaviour>
+				</Prefab> 
+				
+			</Prefabs>
+		</SpawnGroup> 
+		 
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>(Z)WreckPirateSporgSpawnC</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpaceCargoShip:true]
+			[RivalAiSpawn:true] 
+			[SpawnRandomCargo:true] 
+			[ManipulationGroups:Manipulation-Group-Loot]
+  
+			[ZoneConditions:MES-ZoneConditionProfile-PirateZone-IceMoon]
+			
+			[FactionOwner:ARUM]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="SR - Hermes Scrap No Trap">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>ARUMWreckBehavior</Behaviour>
+				</Prefab> 
+				 
+			</Prefabs>
+		</SpawnGroup> 
+		 
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>(Z)WreckPirateSporgSpawnC</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpaceCargoShip:true]
+			[RivalAiSpawn:true] 
+			[SpawnRandomCargo:true] 
+			[ManipulationGroups:Manipulation-Group-Loot]
+  
+			[ZoneConditions:MES-ZoneConditionProfile-PirateZone-IceMoon]
+			
+			[FactionOwner:ARUM]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="SR - LCC-3 Freighter Scrap 1">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>ARUMWreckBehavior</Behaviour>
+				</Prefab> 
+ 
+				<Prefab SubtypeId="SR - LCC-3 Freighter Scrap 2">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>50.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>PassiveWreckBehavior</Behaviour>
+				</Prefab>
+				 
+			</Prefabs>
+		</SpawnGroup>
+		<!--Copy To This Line And Paste Directly Below-->
+		
+
+
+	<!--Do Not Edit Below Here-->
+	</SpawnGroups>
+</Definitions>

@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BehaviorDroneMulti</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Patrol]
+
+        [AutopilotData:AutoPilot-Drone-Multi-A]
+        [SecondaryAutopilotData:AutoPilot-Drone-Multi-B]
+
+        [Triggers:Trigger-AggressionSwitchDrone]
+        [Triggers:Trigger-PassiveSwitchDrone] 
+		[Triggers:Trigger-Grid-Attacked-Drone] 
+		[Triggers:Trigger-DroneDamage] 
+		[Triggers:Trigger-DroneAssist]
+
+        [TargetData:Targeting-Drone-Multi]
+        [OverrideTargetData:Targeting-Drone-Multi-Override]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Targeting-Drone-Multi</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Target]
+
+        [UseCustomTargeting:true]
+        [Target:PlayerAndGrid]
+
+        [MaxDistance:2500]
+        [MaxExistingTargetDistance:3500]
+
+        [MatchAllFilters:OutsideOfSafezone]
+        [MatchAllFilters:Owner]
+        [MatchAllFilters:Relation] 
+		
+        [GetTargetBy:ClosestDistance]
+
+        [Owners:Player]
+        [Owners:NPC]
+        [Relations:Enemy] 
+		 
+		[PrioritizePlayerControlled:true]
+
+      </Description>
+
+    </EntityComponent> 
+	 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Targeting-Drone-Multi-Override</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Target]
+
+        [UseCustomTargeting:true]
+        [Target:Player] 
+
+        [MaxDistance:2500]
+        [MaxExistingTargetDistance:3500]
+
+        [MatchAllFilters:OutsideOfSafezone]
+        [MatchAllFilters:Owner]
+        [MatchAllFilters:Relation] 
+		
+        [GetTargetBy:ClosestDistance]
+
+        [Owners:Player]
+		[Owners:NPC]
+		[Relations:Enemy] 
+		[Relations:Neutral] 
+		[Relations:Friends] 
+		 
+		[PrioritizePlayerControlled:true]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AutoPilot-Drone-Multi-A</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [DisableInertiaDampeners:false] 
+		
+        [SlowDownOnWaypointApproach:true] 
+        [FlyLevelWithGravity:true] 
+ 
+		[IdealMinSpeed:10]
+		[IdealMaxSpeed:70] 
+		[MaxSpeedTolerance:1]
+		
+        [MinimumPlanetAltitude:200]
+        [IdealPlanetAltitude:300]
+        [WaypointTolerance:30] 
+ 
+		[UseVelocityCollisionEvasion:true] 
+		[CollisionEvasionWaypointDistance:50] 
+		[CollisionEvasionResumeDistance:50] 
+		 
+		[UseProjectileLeadPrediction:true] 
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AutoPilot-Drone-Multi-B</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:150]
+        [FlyLevelWithGravity:false]
+
+        [IdealMinSpeed:12]
+        [IdealMaxSpeed:70]
+        [MaxSpeedTolerance:1]
+
+        [MinimumPlanetAltitude:150]
+        [IdealPlanetAltitude:300]
+
+        [UseVelocityCollisionEvasion:true] 
+		[CollisionEvasionWaypointDistance:50] 
+		[CollisionEvasionResumeDistance:50] 
+ 
+		[UseProjectileLeadPrediction:true] 
+		
+        [LimitRotationSpeed:true] 
+        [MaxRotationMagnitude:2.6]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

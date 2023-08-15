@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents> 
+  
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES-ZoneConditionProfile-PVPSpace</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Zone Conditions]
+
+        [ZoneName:PVP Space] 
+		[MinDistanceFromZoneCenter:100]
+        [MaxDistanceFromZoneCenter:15000] 
+
+      </Description>  
+	  
+	</EntityComponent> 
+	 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES-ZoneConditionProfile-GammaPVPCluster</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Zone Conditions]
+
+        [ZoneName:Gamma PVP Cluster] 
+		[MinDistanceFromZoneCenter:100]
+        [MaxDistanceFromZoneCenter:20000] 
+
+      </Description> 
+	  
+	</EntityComponent> 
+	 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES-ZoneConditionProfile-DeltaPVPCluster</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Zone Conditions]
+
+        [ZoneName:Delta PVP Cluster] 
+		[MinDistanceFromZoneCenter:100]
+        [MaxDistanceFromZoneCenter:20000] 
+
+      </Description> 
+	  
+	</EntityComponent>
+    
+  </EntityComponents>
+</Definitions>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>ARUM-SpawnGroup-UFResearchCentre</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [StaticEncounter:true] 
+ 
+		[IgnoreCombatPhase:true] 
+		 
+		[StaticEncounterCoords:{X:-23.7191274720156 Y:-8.38732965821545 Z:2000013.09258639}]
+		[StaticEncounterForward:{X:-0.97097312917857 Y:-0.23886321365429 Z:-0.012471871388089}]
+		[StaticEncounterUp:{X:-0.239186829939243 Y:0.969845262326985 Z:0.0467955930138376}]
+		 
+		[TriggerCoords:{X:-23.7191274720156 Y:-8.38732965821545 Z:2000013.09258639}]
+        [TriggerRadius:2000] 
+ 
+        [ReplenishSystems:true] 
+		
+        [ManipulationGroups:Manipulation-StationGroup] 
+		
+		[IgnoreCleanupRules:true] 		
+		 
+        [FactionOwner:ARUM]
+
+        [ForceStaticGrid:true] 
+		 
+		[ForceExactPositionAndOrientation:true]
+
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:ARUM-Station]
+        [RemoteControlCodeMinDistance:100000] 
+		
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC) UF Research Facility">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Behavior-SafeZoneResearchStation</Behaviour>
+        </Prefab> 
+      </Prefabs>
+    </SpawnGroup>
+
+  </SpawnGroups>
+</Definitions>

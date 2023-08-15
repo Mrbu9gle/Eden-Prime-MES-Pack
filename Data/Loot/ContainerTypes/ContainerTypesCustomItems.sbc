@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ContainerTypes>
+<!-- Planet Event -->
+		<ContainerType CountMin="1" CountMax="1">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-EventShipDrop-1</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>0.3</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>UnknownOrganicSample</SubtypeId>
+					</Id>
+				</Item> 
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>0.3</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>SelectionOfMinerals</SubtypeId>
+					</Id>
+				</Item> 
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>0.3</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>SpecialistItems</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType> 
+<!-- Planet Event -->		
+  </ContainerTypes>
+</Definitions>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>ARUM-SpawnGroup-UFRepairDock</SubtypeId>
+      </Id>
+      <Description>
+		 
+		[Modular Encounters SpawnGroup]		 
+		
+        [StaticEncounter:true] 
+ 
+		[IgnoreCombatPhase:true] 
+		 
+		[StaticEncounterCoords:{X:-174.194925498187 Y:-47.6847565704585 Z:2000182.64024274}]
+		[StaticEncounterForward:{X:0.653951924309023 Y:0.196504259477393 Z:-0.730570295522455}]
+		[StaticEncounterUp:{X:-0.239156518870653 Y:0.969853007288911 Z:0.0467899960924001}]
+		 
+		[TriggerCoords:{X:-174.194925498187 Y:-47.6847565704585 Z:2000182.64024274}]
+        [TriggerRadius:2000] 
+ 
+        [ReplenishSystems:true] 
+		
+        [ManipulationGroups:Manipulation-StationGroup] 
+		
+		[IgnoreCleanupRules:true] 		
+		 
+        [FactionOwner:ARUM]
+
+        [ForceStaticGrid:true] 
+		 
+		[ForceExactPositionAndOrientation:true]
+
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:ARUM-Station]
+        [RemoteControlCodeMinDistance:100000]
+		
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC) UF Repair Dock">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Behavior-ShopRepairDock</Behaviour>
+        </Prefab>   
+      </Prefabs>
+    </SpawnGroup>
+
+  </SpawnGroups>
+</Definitions>

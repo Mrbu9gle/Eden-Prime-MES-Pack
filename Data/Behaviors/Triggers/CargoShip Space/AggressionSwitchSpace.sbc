@@ -1,0 +1,98 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Trigger-AggressionSwitch-Space</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:TargetNear]
+
+        [TargetDistance:2000]
+
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:Action-AggressionSwitch-Space]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Action-AggressionSwitch-Space</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:Chat-AggressionSwitch-Space]
+
+        [ChangeAutopilotProfile:true]
+        [AutopilotProfile:Tertiary]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:Trigger-AggressionSwitch-Space]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:Trigger-PassiveSwitch-Space] 
+        [EnableTriggerNames:Trigger-DroneSpawn-Space]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Chat-AggressionSwitch-Space</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+      
+      [UseChat:true]
+      [StartsReady:true]
+      [Chance:100]
+      [MaxChats:-1]
+      [BroadcastRandomly:true] 
+	  [IgnoreAntennaRequirement:true] 
+	  [IgnoredAntennaRangeOverride:5000]
+      
+      [Author:{GridName}]
+      [Color:Red]
+      
+      [ChatMessages:You do not have clearance to approach {PlayerName}!]
+      [ChatAudio:None]
+      [BroadcastChatType:Chat]
+      
+      [ChatMessages:Unknown entity nearby, setting engines to 80%, were getting out of here.]
+      [ChatAudio:None]
+      [BroadcastChatType:Chat] 
+	   
+	  [ChatMessages:Attempting to gain some distance to avoid conflict.]
+      [ChatAudio:None]
+      [BroadcastChatType:Chat] 
+	   
+	  [ChatMessages:Argh just my luck, increasing thruster power, i dont want any part of this.]
+      [ChatAudio:None]
+      [BroadcastChatType:Chat] 
+	   
+	  [ChatMessages:You are in violation of the United Factions treaty, please identify yourself and throttle back your engines.]
+      [ChatAudio:None]
+      [BroadcastChatType:Chat]
+
+      </Description>
+      
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

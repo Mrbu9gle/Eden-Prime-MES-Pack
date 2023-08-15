@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BehaviorFighterPlanet</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:CargoShip]
+
+        [AutopilotData:AutoPilot-Fighter-Planet]
+        [SecondaryAutopilotData:AutoPilot-Fighter-Planet-B]
+        [TertiaryAutopilotData:AutoPilot-Fighter-Planet-C]
+
+        [Triggers:Trigger-AggressionSwitch-Fighter-Planet]
+        [Triggers:Trigger-PassiveSwitch-Fighter-Planet]
+        [Triggers:Trigger-PassiveSwitchNoTarget-Fighter-Planet]
+        [Triggers:Trigger-PathDeviation-Fighter-Planet]
+        [Triggers:Trigger-ReturnToDespawn-Fighter-Planet]
+        [Triggers:Trigger-ShipDamage-Fighter-Planet]
+        [Triggers:Trigger-ReturnToSpeed-Fighter-Planet]
+        [Triggers:Trigger-ProcessEscortRequest-Fighter-Planet]
+        [Triggers:Trigger-StationAssistDirect-Fighter-Planet] 
+
+        [EscortOffsets:{X:-100 Y:0 Z:0}]
+        [EscortOffsets:{X:100 Y:0 Z:0}]
+
+        [TargetData:Targeting-Fighter-Planet]
+        [OverrideTargetData:Targeting-Fighter-Planet-Override]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Targeting-Fighter-Planet</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Target]
+
+        [UseCustomTargeting:true]
+        [Target:PlayerAndGrid]
+
+        [MaxDistance:5000]
+        [MaxExistingTargetDistance:12000]
+
+        [MatchAllFilters:OutsideOfSafezone]
+        [MatchAllFilters:Owner]
+        [MatchAllFilters:Relation]
+
+        [GetTargetBy:ClosestDistance]
+
+        [Owners:Player]
+        [Owners:NPC]
+        [Relations:Enemy]
+
+		[PrioritizePlayerControlled:true]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Targeting-Fighter-Planet-Override</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Target]
+
+        [UseCustomTargeting:true]
+        [Target:PlayerAndGrid]
+
+        [MaxDistance:12000]
+
+        [MatchAllFilters:OutsideOfSafezone]
+        [MatchAllFilters:Owner]
+        [MatchAllFilters:Relation]
+        [//MatchAllFilters:GravityThrust] 
+		
+        [GetTargetBy:ClosestDistance]
+
+        [Owners:Player]
+        [Owners:NPC]
+        [Relations:Enemy]
+
+		[PrioritizePlayerControlled:true]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AutoPilot-Fighter-Planet</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:50]
+        [FlyLevelWithGravity:true]
+        [ForceDampenersEnabled:true]
+
+        [IdealMinSpeed:12]
+        [IdealMaxSpeed:25]
+        [MaxSpeedTolerance:1]
+
+        [MinimumPlanetAltitude:1000]
+        [IdealPlanetAltitude:1200]
+
+        [WaypointTolerance:50]
+        [WaypointWaitTimeTrigger:120]
+
+        [MinAngleForLeveledDescent:135]
+        [MaxAngleForLeveledAscent:90]
+
+        [UseVelocityCollisionEvasion:false]
+        [LimitRotationSpeed:true]
+        [MaxRotationMagnitude:0.2] 
+		 
+		[UseProjectileLeadPrediction:true]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AutoPilot-Fighter-Planet-B</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:50]
+        [FlyLevelWithGravity:true]
+        [ForceDampenersEnabled:true]
+
+        [IdealMinSpeed:12]
+        [IdealMaxSpeed:25]
+        [MaxSpeedTolerance:1]
+
+        [MinimumPlanetAltitude:50]
+        [IdealPlanetAltitude:100]
+
+        [WaypointTolerance:50]
+        [WaypointWaitTimeTrigger:60]
+
+        [MinAngleForLeveledDescent:135]
+        [MaxAngleForLeveledAscent:90]
+
+        [UseVelocityCollisionEvasion:false]
+        [LimitRotationSpeed:true]
+        [MaxRotationMagnitude:0.2] 
+		 
+		[UseProjectileLeadPrediction:true]
+
+      </Description>
+
+    </EntityComponent> 
+	 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AutoPilot-Fighter-Planet-C</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:250]
+        [FlyLevelWithGravity:false]
+        [ForceDampenersEnabled:true]
+
+        [IdealMinSpeed:18]
+        [IdealMaxSpeed:70]
+        [MaxSpeedTolerance:1]
+
+        [MinimumPlanetAltitude:500]
+        [IdealPlanetAltitude:600]
+
+        [WaypointTolerance:50]
+
+        [WaypointWaitTimeTrigger:8]
+
+        [AllowStrafing:true]
+        [StrafeMaxDurationMs:3000]
+        [StrafeSpeedCutOff:20]
+
+        [OffsetPlanetMinDistFromTarget:300]
+        [OffsetPlanetMaxDistFromTarget:600]
+        [OffsetPlanetMinTargetAltitude:500]
+        [OffsetPlanetMaxTargetAltitude:600]
+
+        [LimitRotationSpeed:true]
+        [MaxRotationMagnitude:0.6] 
+		 
+		[UseProjectileLeadPrediction:true]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

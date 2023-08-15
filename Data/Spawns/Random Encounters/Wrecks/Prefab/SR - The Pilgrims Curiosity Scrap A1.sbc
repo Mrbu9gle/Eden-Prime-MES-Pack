@@ -1,0 +1,296 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Prefabs>
+    <Prefab xsi:type="MyObjectBuilder_PrefabDefinition">
+      <Id Type="MyObjectBuilder_PrefabDefinition" Subtype="SR - The Pilgrims Curiosity Scrap A1" />
+      <CubeGrids>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>76196569464817340</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <Name>76196569464817340</Name>
+          <PositionAndOrientation>
+            <Position x="0" y="0" z="0" />
+            <Forward x="0.85697937" y="0.446347475" z="0.2576049" />
+            <Up x="0.0434957445" y="0.435435" z="-0.8991687" />
+            <Orientation>
+              <X>0.277784973</X>
+              <Y>0.742723346</Y>
+              <Z>-0.452899545</Z>
+              <W>-0.407528579</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Large</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Passage">
+              <SubtypeName />
+              <EntityId>138242090870178091</EntityId>
+              <Min x="-6" y="3" z="0" />
+              <IntegrityPercent>0.947909057</IntegrityPercent>
+              <BuildPercent>0.947909057</BuildPercent>
+              <BlockOrientation Forward="Backward" Up="Left" />
+              <ColorMaskHSV x="0.07407406" y="-0.296875" z="0.003921628" />
+              <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Passage">
+              <SubtypeName />
+              <EntityId>102281649684139056</EntityId>
+              <Min x="-7" y="3" z="0" />
+              <IntegrityPercent>0.970370352</IntegrityPercent>
+              <BuildPercent>0.9999999</BuildPercent>
+              <BlockOrientation Forward="Backward" Up="Left" />
+              <ColorMaskHSV x="0.07407406" y="-0.296875" z="0.003921628" />
+              <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SolarPanel">
+              <SubtypeName>LargeBlockSolarPanel</SubtypeName>
+              <EntityId>111677422014665200</EntityId>
+              <Min x="-7" y="-1" z="0" />
+              <IntegrityPercent>0.633228838</IntegrityPercent>
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0.07407406" y="-0.296875" z="0.003921628" />
+              <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
+              <CustomName>Solar Panel 7</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SolarPanel">
+              <SubtypeName>LargeBlockSolarPanel</SubtypeName>
+              <EntityId>136764419576930549</EntityId>
+              <Min x="-7" y="4" z="0" />
+              <IntegrityPercent>0.463949829</IntegrityPercent>
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0.07407406" y="-0.296875" z="0.003921628" />
+              <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
+              <CustomName>Solar Panel 5</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Passage">
+              <SubtypeName />
+              <EntityId>112599119315849413</EntityId>
+              <Min x="-8" y="3" z="0" />
+              <IntegrityPercent>0.9851852</IntegrityPercent>
+              <BuildPercent>0.9999999</BuildPercent>
+              <BlockOrientation Forward="Backward" Up="Left" />
+              <ColorMaskHSV x="0.07407406" y="-0.296875" z="0.003921628" />
+              <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SolarPanel">
+              <SubtypeName>LargeBlockSolarPanel</SubtypeName>
+              <EntityId>75275000820471415</EntityId>
+              <Min x="-9" y="-1" z="0" />
+              <IntegrityPercent>0.633228838</IntegrityPercent>
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0.07407406" y="-0.296875" z="0.003921628" />
+              <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
+              <CustomName>Solar Panel 11</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>3</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SolarPanel">
+              <SubtypeName>LargeBlockSolarPanel</SubtypeName>
+              <EntityId>132014061052286043</EntityId>
+              <Min x="-7" y="-5" z="0" />
+              <IntegrityPercent>0.6050157</IntegrityPercent>
+              <BlockOrientation Forward="Forward" Up="Right" />
+              <ColorMaskHSV x="0.07407406" y="-0.296875" z="0.003921628" />
+              <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
+              <CustomName>Solar Panel 61</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>4</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SolarPanel">
+              <SubtypeName>LargeBlockSolarPanel</SubtypeName>
+              <EntityId>84464860431818612</EntityId>
+              <Min x="-9" y="4" z="0" />
+              <IntegrityPercent>0.181818187</IntegrityPercent>
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0.07407406" y="-0.296875" z="0.003921628" />
+              <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
+              <CustomName>Solar Panel 9</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>5</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeRamp</SubtypeName>
+              <EntityId>138202602122650342</EntityId>
+              <Min x="-5" y="4" z="0" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0.07407406" y="-0.296875" z="0.003921628" />
+              <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SolarPanel">
+              <SubtypeName>LargeBlockSolarPanel</SubtypeName>
+              <EntityId>107426013806608129</EntityId>
+              <Min x="-7" y="8" z="0" />
+              <IntegrityPercent>0.362068951</IntegrityPercent>
+              <BuildPercent>0.75</BuildPercent>
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0.07407406" y="-0.296875" z="0.003921628" />
+              <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
+              <CustomName>Solar Panel 46</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>6</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Passage">
+              <SubtypeName />
+              <EntityId>89533788827905941</EntityId>
+              <Min x="-9" y="3" z="0" />
+              <IntegrityPercent>0.9323225</IntegrityPercent>
+              <BuildPercent>0.947909057</BuildPercent>
+              <BlockOrientation Forward="Backward" Up="Left" />
+              <ColorMaskHSV x="0.07407406" y="-0.296875" z="0.003921628" />
+              <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SolarPanel">
+              <SubtypeName>LargeBlockSolarPanel</SubtypeName>
+              <EntityId>74237915646422778</EntityId>
+              <Min x="-9" y="-5" z="0" />
+              <IntegrityPercent>0.661442</IntegrityPercent>
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0.07407406" y="-0.296875" z="0.003921628" />
+              <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
+              <CustomName>Solar Panel 27</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>7</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SolarPanel">
+              <SubtypeName>LargeBlockSolarPanel</SubtypeName>
+              <EntityId>131515747246412009</EntityId>
+              <Min x="-11" y="-1" z="0" />
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0.07407406" y="-0.296875" z="0.003921628" />
+              <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Solar Panel 23</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>8</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SolarPanel">
+              <SubtypeName>LargeBlockSolarPanel</SubtypeName>
+              <EntityId>73998703832954858</EntityId>
+              <Min x="-7" y="-9" z="0" />
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0.07407406" y="-0.296875" z="0.003921628" />
+              <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Solar Panel 31</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>9</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SolarPanel">
+              <SubtypeName>LargeBlockSolarPanel</SubtypeName>
+              <EntityId>129616589266650145</EntityId>
+              <Min x="-9" y="8" z="0" />
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0.07407406" y="-0.296875" z="0.003921628" />
+              <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Solar Panel 25</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>10</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SolarPanel">
+              <SubtypeName>LargeBlockSolarPanel</SubtypeName>
+              <EntityId>137988735489002211</EntityId>
+              <Min x="-11" y="4" z="0" />
+              <IntegrityPercent>0.210031345</IntegrityPercent>
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0.07407406" y="-0.296875" z="0.003921628" />
+              <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
+              <CustomName>Solar Panel 21</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>11</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorSlope</SubtypeName>
+              <Min x="-5" y="6" z="0" />
+              <BlockOrientation Forward="Down" Up="Left" />
+              <ColorMaskHSV x="0.07407406" y="-0.296875" z="0.003921628" />
+              <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SolarPanel">
+              <SubtypeName>LargeBlockSolarPanel</SubtypeName>
+              <EntityId>118617141141713207</EntityId>
+              <Min x="-7" y="12" z="0" />
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0.07407406" y="-0.296875" z="0.003921628" />
+              <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Solar Panel 29</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>12</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeRamp</SubtypeName>
+              <EntityId>96376905934314907</EntityId>
+              <Min x="-11" y="3" z="0" />
+              <IntegrityPercent>0.9529412</IntegrityPercent>
+              <BlockOrientation Forward="Left" Up="Backward" />
+              <ColorMaskHSV x="0.07407406" y="-0.296875" z="0.003921628" />
+              <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <DisplayName>SR - The Pilgrims Curiosity Scrap A1</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <CreatePhysics>false</CreatePhysics>
+          <EnableSmallToLargeConnections>false</EnableSmallToLargeConnections>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>59</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+      </CubeGrids>
+      <EnvironmentType>None</EnvironmentType>
+    </Prefab>
+  </Prefabs>
+</Definitions>

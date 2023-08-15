@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(S)Tradeconvoy B</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpaceCargoShip:true]
+ 
+			[SpaceCargoShipChance:50]
+			
+			[RivalAiSpawn:false] 
+			
+			[UseRandomTraderFaction:true] 
+ 
+			[IgnoreCombatPhase:true]
+			 
+			[AssignContainerTypesToAllCargo:MES-ContainerTypes-EventShipDrop-1,MES-ContainerTypes-Credits-3,MES-ContainerTypes-MixedComponents-2,MES-ContainerTypes-Consumables-2,MES-ContainerTypes-MixedIngots-2] 
+			[ManipulationGroups:Manipulation-Group-Loot]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="B-60 Bulk Freighter">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BehaviorCargoShipSpace</Behaviour>
+				</Prefab> 
+				 
+				<Prefab SubtypeId="B-980 Hauler">
+					<Position>
+						<X>80.0</X>
+						<Y>0.0</Y>
+						<Z>100.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BehaviorCargoShipSpace</Behaviour>
+				</Prefab> 
+				 
+				<Prefab SubtypeId="TT-420 Freighter">
+					<Position>
+						<X>-60.0</X>
+						<Y>0.0</Y>
+						<Z>150.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BehaviorCargoShipSpace</Behaviour>
+				</Prefab> 
+				 
+				<Prefab SubtypeId="Type C Scout">
+					<Position>
+						<X>30.0</X>
+						<Y>0.0</Y>
+						<Z>100.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BehaviorFighterSpace</Behaviour>
+				</Prefab> 
+				 
+				<Prefab SubtypeId="Type C Scout">
+					<Position>
+						<X>-30.0</X>
+						<Y>0.0</Y>
+						<Z>80.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BehaviorFighterSpace</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup> 
+		 
+	</SpawnGroups>
+</Definitions>

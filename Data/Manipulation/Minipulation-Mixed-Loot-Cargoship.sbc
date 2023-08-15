@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES-Manipulation-MixedLootCS</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+		[ClearExistingContainerTypes:true]
+		[LootProfiles:MES-Loot-MixedLootLarge] 
+		[LootProfiles:MES-Loot-MixedLootSmall]
+		[LootProfiles:MES-Loot-Corpses] 
+		[LootProfiles:MES-Loot-Freight] 
+		[LootProfiles:MES-Loot-Lockers] 
+		[LootProfiles:MES-Loot-WeaponRacks] 
+		[LootProfiles:MES-Loot-CockpitLoot]
+		
+
+      </Description>
+
+    </EntityComponent>
+    
+  </EntityComponents>
+</Definitions>

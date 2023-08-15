@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Trigger-DroneDamage-NoAtmosphere</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [CommandReceiveCode:DroneDamage]
+
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:Action-DroneDamage-NoAtmosphere]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Action-DroneDamage-NoAtmosphere</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:Chat-DroneDamage-NoAtmosphere]
+
+        [ChangeBehaviorSubclass:true]
+        [NewBehaviorSubclass:Horsefly]
+ 
+		[RefreshTarget:true]
+		 
+		[TriggerTimerBlocks:true] 
+		[TimerBlockNames:Timer Block] 
+		 
+		[ChangeTargetProfile:true] 
+		[NewTargetProfileId:Targeting-Installation-NoAtmosphere-Override]
+
+        [InheritLastAttackerFromCommand:true]
+        [SwitchTargetToDamager:true] 
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Chat-DroneDamage-NoAtmosphere</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+        [IgnoreAntennaRequirement:true] 
+		[IgnoredAntennaRangeOverride:5000] 
+		
+        [Author:Automated Defence System]
+		[Color:Red]
+
+        [ChatMessages:Our drones are being attacked! Deploying weaponry.]
+        [ChatAudio:None]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages:Deploying Weapons, we must protect our drones!]
+        [ChatAudio:None]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

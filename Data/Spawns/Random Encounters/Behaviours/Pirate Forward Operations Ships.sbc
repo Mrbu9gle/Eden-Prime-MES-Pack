@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>RAI-PirateEventShipBehavior</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      
+      [BehaviorName:Passive] 
+	   
+	  [UseDamageDetection:true]
+	
+      [AutopilotData:AutoPilot-Cruiser-Space]
+      [TargetData:Targeting-Cruiser-Space]
+      [Triggers:RAI-PirateEventShipBehavior-TriggerA]
+      [Triggers:RAI-PirateEventShipBehavior-TriggerB] 
+	  [Triggers:RAI-PirateEventShipBehavior-TriggerC]
+
+      </Description>
+      
+    </EntityComponent> 
+	 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>RAI-PirateEventShipBehavior-TriggerA</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Trigger] 
+	   
+	  [Type:TargetNear] 
+	  [UseTrigger:true] 
+	  [TargetDistance:10000] 
+	  [StartsReady:true] 
+	  [MaxActions:1] 
+	  [Actions:RAI-PirateEventShipBehavior-ActionA]
+      
+      </Description>
+      
+    </EntityComponent> 
+	 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>RAI-PirateEventShipBehavior-ActionA</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+       
+	  [ChangeBehaviorSubclass:true] 
+	  [NewBehaviorSubclass:HorseFighter] 
+	  [ChangeAutopilotSpeed:true] 
+	  [NewAutopilotSpeed:70]
+	  [RefreshTarget:true] 
+	  [UseChatBroadcast:true] 
+	  [ChatData:RAI-PirateEventShipBehavior-ChatA]
+
+      </Description>
+      
+    </EntityComponent> 
+ 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>RAI-PirateEventShipBehavior-ChatA</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Chat]
+      
+      [UseChat:true]
+      [StartsReady:true]
+      [Chance:100]
+      [MaxChats:-1]
+      [BroadcastRandomly:true] 
+	  [IgnoreAntennaRequirement:true] 
+	  [IgnoredAntennaRangeOverride:15000]
+      
+      [Author:{GridName}]
+      [Color:Green]
+      
+      [ChatMessages:Im picking up something on our scanners, changing direction to take a look.]
+      [ChatAudio:None]
+      [BroadcastChatType:Chat]
+      
+      [ChatMessages:Theres something in the distance, changing heading to investigate.]
+      [ChatAudio:None]
+      [BroadcastChatType:Chat]
+ 
+      [ChatMessages:Proximity sensors are picking up a ship, full burn to target.]
+      [ChatAudio:None]
+      [BroadcastChatType:Chat] 
+ 
+	  [ChatMessages:Theres a ship approaching, investigating the source of the signal.]
+      [ChatAudio:None]
+      [BroadcastChatType:Chat] 
+	   
+	  [ChatMessages:Proximity sensors are picking up a faint signature, heading to investigate.]
+      [ChatAudio:None]
+      [BroadcastChatType:Chat]
+	  
+      </Description>
+      
+    </EntityComponent>
+	 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>RAI-PirateEventShipBehavior-TriggerB</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Trigger] 
+	   
+	  [Type:Timer] 
+	  [UseTrigger:true] 
+	  [MinCooldownMs:300000] 
+	  [MaxCooldownMs:480000]
+	  [StartsReady:false] 
+	  [MaxActions:-1] 
+	  [Actions:RAI-PirateEventShipBehavior-ActionB]
+      
+      </Description>
+      
+    </EntityComponent> 
+	 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>RAI-PirateEventShipBehavior-ActionB</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+       
+	  [ChangeBehaviorSubclass:true] 
+	  [NewBehaviorSubclass:CargoShip] 
+	  [ChangeAutopilotSpeed:true] 
+	  [NewAutopilotSpeed:25]
+      [RecalculateDespawnCoords:true] 
+	  [UseChatBroadcast:true] 
+	  [ChatData:RAI-PirateEventShipBehavior-ChatB]
+	  
+
+      </Description>
+      
+    </EntityComponent> 
+ 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>RAI-PirateEventShipBehavior-ChatB</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Chat]
+      
+      [UseChat:true]
+      [StartsReady:true]
+      [Chance:100]
+      [MaxChats:-1]
+      [BroadcastRandomly:true]
+      
+      [Author:{GridName}]
+      [Color:Green]
+      
+      [ChatMessages:Attempting to break away from this engagement. ]
+      [ChatAudio:None]
+      [BroadcastChatType:Chat]
+      
+      [ChatMessages:Systems are fried, changing course to get repairs.]
+      [ChatAudio:None]
+      [BroadcastChatType:Chat] 
+	   
+	  [ChatMessages:We cannot loose our ship over this!]
+      [ChatAudio:None]
+      [BroadcastChatType:Chat] 
+	   
+	  [ChatMessages:Changing to a evasive tactics.]
+      [ChatAudio:None]
+      [BroadcastChatType:Chat] 
+	   
+	  [ChatMessages:Changing course to relay point.]
+      [ChatAudio:None]
+      [BroadcastChatType:Chat]
+
+      </Description>
+      
+    </EntityComponent>
+ 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>RAI-PirateEventShipBehavior-TriggerC</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Trigger] 
+	   
+	  [Type:Damage] 
+	  [UseTrigger:true] 
+	  [DamageTypes:Any]
+	  [StartsReady:true] 
+	  [MaxActions:-1] 
+	  [Actions:RAI-PirateEventShipBehavior-ActionC]
+      
+      </Description>
+      
+    </EntityComponent> 
+	 
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>RAI-PirateEventShipBehavior-ActionC</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+       
+	  [ChangeBehaviorSubclass:true] 
+	  [NewBehaviorSubclass:HorseFighter] 
+	  [ChangeAutopilotSpeed:true] 
+	  [NewAutopilotSpeed:70]
+	  [RefreshTarget:true]
+
+      </Description>
+      
+    </EntityComponent>
+
+
+  </EntityComponents>
+</Definitions>

@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ContainerTypes>
+	
+		<ContainerType CountMin="1" CountMax="1">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-Credits-1</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="500" AmountMax="1000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalObject</TypeId>
+						<SubtypeId>SpaceCredit</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="1" CountMax="1">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-Credits-2</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="5000" AmountMax="10000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalObject</TypeId>
+						<SubtypeId>SpaceCredit</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="1" CountMax="1">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-Credits-3</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="50000" AmountMax="100000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalObject</TypeId>
+						<SubtypeId>SpaceCredit</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="1" CountMax="1">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-Credits-4</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="500000" AmountMax="1000000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalObject</TypeId>
+						<SubtypeId>SpaceCredit</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+		<ContainerType CountMin="1" CountMax="1">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>MES-ContainerTypes-Credits-5</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="5000000" AmountMax="10000000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalObject</TypeId>
+						<SubtypeId>SpaceCredit</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+	</ContainerTypes>																									
+</Definitions>																										

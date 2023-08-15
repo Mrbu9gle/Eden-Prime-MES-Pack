@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+	<!--Do Not Edit Above Here-->
+
+		<!--Copy From This Line-->  
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>(Z)PirateSpawn1</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpaceCargoShip:true]
+			[RivalAiSpawn:true] 
+			[SpawnRandomCargo:true] 
+			[ManipulationGroups:Manipulation-Group-Loot]
+			
+			[ZoneConditions:MES-ZoneConditionProfile-PirateZone-IceMoon] 
+			
+			[FactionOwner:SPRT]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Vengance Class Frigate">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>RAI-LargeMediumShipBehavior</Behaviour>
+				</Prefab>
+			</Prefabs> 
+			 
+			<Prefabs>
+				<Prefab SubtypeId="Type M Talon">
+					<Position>
+						<X>50.0</X>
+						<Y>0.0</Y>
+						<Z>50.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>RAI-LargeMediumShipBehavior</Behaviour>
+				</Prefab>
+			</Prefabs> 
+			 
+			<Prefabs>
+				<Prefab SubtypeId="Type M Talon">
+					<Position>
+						<X>-50.0</X>
+						<Y>0.0</Y>
+						<Z>50.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>RAI-LargeMediumShipBehavior</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup> 
+ 
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>(Z)PirateSpawn2</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpaceCargoShip:true]
+			[RivalAiSpawn:true] 
+			[SpawnRandomCargo:true] 
+			[ManipulationGroups:Manipulation-Group-Loot]
+			
+			[ZoneConditions:MES-ZoneConditionProfile-PirateZone-IceMoon] 
+			
+			[FactionOwner:SPRT]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Rusty B-30 Privateer">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>RAI-LargeMediumShipBehavior</Behaviour>
+				</Prefab>
+			</Prefabs> 
+			 
+			<Prefabs>
+				<Prefab SubtypeId="Type M Talon">
+					<Position>
+						<X>50.0</X>
+						<Y>0.0</Y>
+						<Z>50.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>RAI-LargeMediumShipBehavior</Behaviour>
+				</Prefab>
+			</Prefabs> 
+			 
+			<Prefabs>
+				<Prefab SubtypeId="Type M Talon">
+					<Position>
+						<X>-50.0</X>
+						<Y>0.0</Y>
+						<Z>50.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>RAI-LargeMediumShipBehavior</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		 
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>(Z)PirateSpawn3</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpaceCargoShip:true]
+			[RivalAiSpawn:true] 
+			[SpawnRandomCargo:true] 
+			[ManipulationGroups:Manipulation-Group-Loot]
+			
+			[ZoneConditions:MES-ZoneConditionProfile-PirateZone-IceMoon] 
+			
+			[FactionOwner:SPRT]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Rusty Assult Frigate">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>RAI-LargeMediumShipBehavior</Behaviour>
+				</Prefab>
+			</Prefabs> 
+			 
+			<Prefabs>
+				<Prefab SubtypeId="Rusty Assult Frigate">
+					<Position>
+						<X>50.0</X>
+						<Y>0.0</Y>
+						<Z>10.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>RAI-LargeMediumShipBehavior</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!--Copy To This Line And Paste Directly Below-->
+		
+
+
+	<!--Do Not Edit Below Here-->
+	</SpawnGroups>
+</Definitions>
