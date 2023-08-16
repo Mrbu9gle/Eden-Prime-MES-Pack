@@ -9,15 +9,16 @@
       </Id>
       <Description>
 
-      [RivalAI Trigger] 
-	  [Type:TargetNear] 
-	  [UseTrigger:false] 
-	  [TargetDistance:1000] 
-	  [StartsReady:true] 
-	  [MaxActions:3] 
-	  [MinCooldownMs:120000] 
-	  [MaxCooldownMs:180000]
-	  [Actions:Action-DroneSpawn-Space]
+        [RivalAI Trigger] 
+		
+	    [Type:TargetNear]
+	    [UseTrigger:false]
+	    [TargetDistance:1000]
+	    [StartsReady:true]
+	    [MaxActions:3]
+	    [MinCooldownMs:120000]
+	    [MaxCooldownMs:180000]
+	    [Actions:Action-DroneSpawn-Space]
       
       </Description>
       
@@ -30,15 +31,15 @@
       </Id>
       <Description>
 
-      [RivalAI Action]
+        [RivalAI Action]
        
-	  [ChangeAutopilotSpeed:true] 
-	  [NewAutopilotSpeed:60] 
-	  [SpawnEncounter:true] 
-	  [Spawner:DroneSpawn-Space-Spawner]
-      [UseChatBroadcast:true]
-      [ChatData:DroneSpawn-Space-Chat] 
-	  [Chance:60]
+	    [ChangeAutopilotSpeed:true]
+	    [NewAutopilotSpeed:60]
+	    [SpawnEncounter:true]
+	    [Spawner:DroneSpawn-Space-Spawner]
+        [UseChatBroadcast:true]
+        [ChatData:DroneSpawn-Space-Chat]
+	    [Chance:60]
 
       </Description>
       
@@ -51,22 +52,22 @@
       </Id>
       <Description>
 
-      [RivalAI Chat]
+        [RivalAI Chat]
       
-      [UseChat:true]
-      [StartsReady:true]
-      [Chance:100]
-      [MaxChats:3]
-      [BroadcastRandomly:true] 
-	  [IgnoreAntennaRequirement:true] 
-	  [IgnoredAntennaRangeOverride:3500]
+        [UseChat:true]
+        [StartsReady:true]
+        [Chance:100]
+        [MaxChats:3]
+        [BroadcastRandomly:true]
+	    [IgnoreAntennaRequirement:true]
+	    [IgnoredAntennaRangeOverride:3500]
       
-      [Author:{GridName}]
-      [Color:Red]
+        [Author:{GridName}]
+        [Color:Red]
       
-      [ChatMessages:Calling any nearby defence support, Engage {PlayerName}!.]
-      [ChatAudio:None]
-      [BroadcastChatType:Chat]
+        [ChatMessages:Calling any nearby defence support, Engage {PlayerName}!.]
+        [ChatAudio:None]
+        [BroadcastChatType:Chat]
 
       </Description>
       
@@ -79,42 +80,42 @@
       </Id>
       <Description>
 
-      [RivalAI Spawn]
+        [RivalAI Spawn]
       
-      [UseSpawn:true]
+        [UseSpawn:true]
       
-      [StartsReady:true]
-      [MaxSpawns:3]
+        [StartsReady:true]
+        [MaxSpawns:3]
       
-      [SpawnGroups:Type H Security Drone MK1] 
-	  [SpawnGroups:Type H Security Drone MK1-2] 
-	  [SpawnGroups:Type H Security Drone MK1-3] 
+        [SpawnGroups:Type H Security Drone MK1]
+	    [SpawnGroups:Type H Security Drone MK1-2]
+	    [SpawnGroups:Type H Security Drone MK1-3]
  
-	  [SpawnGroups:Type H Security Drone MK2] 
-	  [SpawnGroups:Type H Security Drone MK2-2] 
-	  [SpawnGroups:Type H Security Drone MK2-3] 
+	    [SpawnGroups:Type H Security Drone MK2]
+	    [SpawnGroups:Type H Security Drone MK2-2]
+	    [SpawnGroups:Type H Security Drone MK2-3]
 	   
-	  [SpawnGroups:Type H Security Drone MK3] 
-	  [SpawnGroups:Type H Security Drone MK3-2] 
-	  [SpawnGroups:Type H Security Drone MK3-3] 
+	    [SpawnGroups:Type H Security Drone MK3]
+	    [SpawnGroups:Type H Security Drone MK3-2]
+	    [SpawnGroups:Type H Security Drone MK3-3]
 	   
-	  [SpawnGroups:Type H Security Drone MK4] 
-	  [SpawnGroups:Type H Security Drone MK4-2] 
-	  [SpawnGroups:Type H Security Drone MK4-3] 
+	    [SpawnGroups:Type H Security Drone MK4]
+	    [SpawnGroups:Type H Security Drone MK4-2]
+	    [SpawnGroups:Type H Security Drone MK4-3]
 	   
-	  [SpawnGroups:Type H Security Drone MK5] 
-	  [SpawnGroups:Type H Security Drone MK5-2] 
-	  [SpawnGroups:Type H Security Drone MK5-3]
-	   
-	  [ForceSameFactionOwnership:true]
+	    [SpawnGroups:Type H Security Drone MK5]
+	    [SpawnGroups:Type H Security Drone MK5-2]
+	    [SpawnGroups:Type H Security Drone MK5-3]
+	  
+	    [ForceSameFactionOwnership:true]
       
-      [UseRelativeSpawnPosition:false]
-      [MinDistance:500]
-      [MaxDistance:1000]
-      [MinAltitude:0]
-      [MaxAltitude:100]
-      [IgnoreSafetyChecks:false] 
-	  [InheritNpcAltitude:true]
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:500]
+        [MaxDistance:1000]
+        [MinAltitude:0]
+        [MaxAltitude:100]
+        [IgnoreSafetyChecks:false]
+	    [InheritNpcAltitude:true]
       
       </Description>
       
