@@ -1,54 +1,54 @@
 ﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <EntityComponents>
+	<EntityComponents>
 
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>Trigger-ReturnToSpeed-Space</SubtypeId>
-      </Id>
-      <Description>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Trigger-ReturnToSpeed-Space</SubtypeId>
+			</Id>
+			<Description>
 
-        [RivalAI Trigger]
+			[RivalAI Trigger]
 
-        [UseTrigger:true]
-        [Type:Timer]
+			[UseTrigger:true]
+			[Type:Timer]
 
-        [MinCooldownMs:60000]
-        [MaxCooldownMs:60001]
+			[MinCooldownMs:60000]
+			[MaxCooldownMs:60001]
 
-        [StartsReady:true]
-        [MaxActions:-1]
-        [Actions:Action-ReturnToSpeed-Space]
+			[StartsReady:true]
+			[MaxActions:-1]
+			[Actions:Action-ReturnToSpeed-Space]
 
-      </Description>
+			</Description>
 
-    </EntityComponent>
+		</EntityComponent>
 
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>Action-ReturnToSpeed-Space</SubtypeId>
-      </Id>
-      <Description>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Action-ReturnToSpeed-Space</SubtypeId>
+			</Id>
+			<Description>
 
-        [RivalAI Action]
+			[RivalAI Action]
 
-        [ChangeAutopilotProfile:true]
-        [AutopilotProfile:Primary]
+			[ChangeAutopilotProfile:true]
+			[AutopilotProfile:Primary]
 
-        [ChangeAutopilotSpeed:true]
-        [NewAutopilotSpeed:-1]
+			[ChangeAutopilotSpeed:true]
+			[NewAutopilotSpeed:-1]
 
-        [CancelWaitingAtWaypoint:true]
-        [SwitchToNextWaypoint:true]
+			[CancelWaitingAtWaypoint:true]
+			[SwitchToNextWaypoint:true]
 
-        [DisableTriggers:true]
-        [DisableTriggerNames:Trigger-ReturnToSpeed-Space]
+			[DisableTriggers:true]
+			[DisableTriggerNames:Trigger-ReturnToSpeed-Space]
 
-      </Description>
+			</Description>
 
-    </EntityComponent>
+		</EntityComponent>
 
-  </EntityComponents>
+	</EntityComponents>
 </Definitions>

@@ -1,63 +1,63 @@
 ﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <EntityComponents>
+	<EntityComponents>
 
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>Trigger-ShipDamage-Cargo</SubtypeId>
-      </Id>
-      <Description>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Trigger-ShipDamage-Cargo</SubtypeId>
+			</Id>
+			<Description>
 
-        [RivalAI Trigger]
+			[RivalAI Trigger]
 
-        [UseTrigger:true]
-        [Type:Damage]
+			[UseTrigger:true]
+			[Type:Damage]
 
-        [DamageTypes:Any]
+			[DamageTypes:Any]
 
-        [ExcludedDamageTypes:Environment]
-        [ExcludedDamageTypes:Deformation]
-        [ExcludedDamageTypes:Fire]
+			[ExcludedDamageTypes:Environment]
+			[ExcludedDamageTypes:Deformation]
+			[ExcludedDamageTypes:Fire]
 
-        [MinCooldownMs:60000]
-        [MaxCooldownMs:60001]
+			[MinCooldownMs:60000]
+			[MaxCooldownMs:60001]
 
-        [StartsReady:true]
-        [MaxActions:3]
-        [Actions:Action-ShipDamage-Cargo]
+			[StartsReady:true]
+			[MaxActions:3]
+			[Actions:Action-ShipDamage-Cargo]
 
-      </Description>
+			</Description>
 
-    </EntityComponent>
+		</EntityComponent>
 
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>Action-ShipDamage-Cargo</SubtypeId>
-      </Id>
-      <Description>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Action-ShipDamage-Cargo</SubtypeId>
+			</Id>
+			<Description>
 
-        [RivalAI Action]
+			[RivalAI Action]
 
-        [ChangeAutopilotProfile:true]
-        [AutopilotProfile:Primary]
+			[ChangeAutopilotProfile:true]
+			[AutopilotProfile:Primary]
 
-        [ChangeAutopilotSpeed:true]
-        [NewAutopilotSpeed:30]
+			[ChangeAutopilotSpeed:true]
+			[NewAutopilotSpeed:30]
 
-        [CancelWaitingAtWaypoint:true]
-        [SwitchToNextWaypoint:true]
+			[CancelWaitingAtWaypoint:true]
+			[SwitchToNextWaypoint:true]
 
-        [EnableTriggers:true]
-        [EnableTriggerNames:Trigger-ReturnToSpeed-Cargo]
+			[EnableTriggers:true]
+			[EnableTriggerNames:Trigger-ReturnToSpeed-Cargo]
 
-        [ResetCooldownTimeOfTriggers:true]
-        [ResetTriggerCooldownNames:Trigger-ReturnToSpeed-Cargo]
+			[ResetCooldownTimeOfTriggers:true]
+			[ResetTriggerCooldownNames:Trigger-ReturnToSpeed-Cargo]
 
-      </Description>
+			</Description>
 
-    </EntityComponent>
+		</EntityComponent>
 
-  </EntityComponents>
+	</EntityComponents>
 </Definitions>

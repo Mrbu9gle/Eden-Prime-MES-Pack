@@ -1,82 +1,82 @@
 ﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <EntityComponents>
+	<EntityComponents>
 
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>Trigger-StationAssistDirect-Fighter-Space</SubtypeId>
-      </Id>
-      <Description>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Trigger-StationAssistDirect-Fighter-Space</SubtypeId>
+			</Id>
+			<Description>
 
-        [RivalAI Trigger]
+			[RivalAI Trigger]
 
-        [UseTrigger:true]
-        [Type:CommandReceived]
-        [CommandReceiveCode:FighterStationDamage]
+			[UseTrigger:true]
+			[Type:CommandReceived]
+			[CommandReceiveCode:FighterStationDamage]
 
-        [StartsReady:true]
-        [MaxActions:1]
-        [Actions:Action-StationAssistDirect-Fighter-Space]
+			[StartsReady:true]
+			[MaxActions:1]
+			[Actions:Action-StationAssistDirect-Fighter-Space]
 
-      </Description>
+			</Description>
 
-    </EntityComponent>
+		</EntityComponent>
 
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>Action-StationAssistDirect-Fighter-Space</SubtypeId>
-      </Id>
-      <Description>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Action-StationAssistDirect-Fighter-Space</SubtypeId>
+			</Id>
+			<Description>
 
-        [RivalAI Action]
+			[RivalAI Action]
 
-        [UseChatBroadcast:true]
-        [ChatData:Chat-StationAssistDirect-Fighter-Space]
+			[UseChatBroadcast:true]
+			[ChatData:Chat-StationAssistDirect-Fighter-Space]
 
-        [ChangeBehaviorSubclass:true]
-        [NewBehaviorSubclass:Fighter]
+			[ChangeBehaviorSubclass:true]
+			[NewBehaviorSubclass:Fighter]
 
-        [ChangeAutopilotProfile:true]
-        [AutopilotProfile:Tertiary]
+			[ChangeAutopilotProfile:true]
+			[AutopilotProfile:Tertiary]
 
-        [InheritLastAttackerFromCommand:true]
-        [SwitchTargetToDamager:true]
+			[InheritLastAttackerFromCommand:true]
+			[SwitchTargetToDamager:true]
 
-      </Description>
+			</Description>
 
-    </EntityComponent>
+		</EntityComponent>
 
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>Chat-StationAssistDirect-Fighter-Space</SubtypeId>
-      </Id>
-      <Description>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Chat-StationAssistDirect-Fighter-Space</SubtypeId>
+			</Id>
+			<Description>
 
-        [RivalAI Chat]
+			[RivalAI Chat]
 
-        [UseChat:true]
-        [StartsReady:true]
-        [MaxChats:1]
-        [BroadcastRandomly:true]
-        [IgnoreAntennaRequirement:true] 
-		[IgnoredAntennaRangeOverride:5000] 
+			[UseChat:true]
+			[StartsReady:true]
+			[MaxChats:1]
+			[BroadcastRandomly:true]
+			[IgnoreAntennaRequirement:true] 
+			[IgnoredAntennaRangeOverride:5000] 
 		
-        [Author:{GridName}]
-		[Color:Red]
+			[Author:{GridName}]
+			[Color:Red]
 
-        [ChatMessages: This is {GridName}. Distress call acknowledged, enroute to provide support.]
-        [ChatAudio:None]
-        [BroadcastChatType:Chat]
+			[ChatMessages: This is {GridName}. Distress call acknowledged, enroute to provide support.]
+			[ChatAudio:None]
+			[BroadcastChatType:Chat]
 
-        [ChatMessages:{GridName} responding to distress call.]
-        [ChatAudio:None]
-        [BroadcastChatType:Chat]
+			[ChatMessages:{GridName} responding to distress call.]
+			[ChatAudio:None]
+			[BroadcastChatType:Chat]
 
-      </Description>
-    </EntityComponent>
+			</Description>
+		</EntityComponent>
 
-  </EntityComponents>
+	</EntityComponents>
 </Definitions>

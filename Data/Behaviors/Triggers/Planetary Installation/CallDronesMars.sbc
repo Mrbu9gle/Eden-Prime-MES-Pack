@@ -1,127 +1,127 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <EntityComponents> 
+	<EntityComponents> 
   
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-          <TypeId>Inventory</TypeId>
-          <SubtypeId>Trigger-CallDrones-Mars</SubtypeId>
-      </Id>
-      <Description>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Trigger-CallDrones-Mars</SubtypeId>
+			</Id>
+			<Description>
 
-      [RivalAI Trigger] 
+			[RivalAI Trigger] 
 	  
-	  [UseTrigger:true] 
-	  [Type:PlayerNear]
-	  [TargetDistance:2000]  
-	  [StartsReady:true] 
-	  [MaxActions:2]  
+			[UseTrigger:true] 
+			[Type:PlayerNear]
+			[TargetDistance:2000]  
+			[StartsReady:true] 
+			[MaxActions:2]  
 	  
-	  [Actions:Action-CallDrones-Mars]
+			[Actions:Action-CallDrones-Mars]
       
-      </Description>
+			</Description>
       
-    </EntityComponent> 
+		</EntityComponent> 
 	 
-	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-          <TypeId>Inventory</TypeId>
-          <SubtypeId>Action-CallDrones-Mars</SubtypeId>
-      </Id>
-      <Description>
-
-      [RivalAI Action] 
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Action-CallDrones-Mars</SubtypeId>
+			</Id>
+			<Description>
+		
+			[RivalAI Action] 
 	   
-	  [SetWeaponsToMaxRange:true]  
+			[SetWeaponsToMaxRange:true]  
 	   
-	  [SpawnEncounter:true] 
-	  [Spawner:Spawner-CallDrones-Mars]
+			[SpawnEncounter:true] 
+			[Spawner:Spawner-CallDrones-Mars]
       
-      [UseChatBroadcast:true]
-      [ChatData:Chat-CallDrones-Mars]
+			[UseChatBroadcast:true]
+			[ChatData:Chat-CallDrones-Mars]
 	   
-	  [Chance:30]
+			[Chance:30]
 
-      </Description>
+			</Description>
       
-    </EntityComponent> 
+		</EntityComponent> 
  
-	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-          <TypeId>Inventory</TypeId>
-          <SubtypeId>Spawner-CallDrones-Mars</SubtypeId>
-      </Id>
-      <Description>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Spawner-CallDrones-Mars</SubtypeId>
+			</Id>
+			<Description>
 
-      [RivalAI Spawn]
+			[RivalAI Spawn]
       
-      [UseSpawn:true]
+			[UseSpawn:true]
       
-      [StartsReady:true]
-      [MaxSpawns:2]
+			[StartsReady:true]
+			[MaxSpawns:2]
       
-      [SpawnGroups:Type H Security Drone MK1] 
-	  [SpawnGroups:Type H Security Drone MK1-2] 
-	  [SpawnGroups:Type H Security Drone MK1-3] 
+			[SpawnGroups:Type H Security Drone MK1] 
+			[SpawnGroups:Type H Security Drone MK1-2] 
+			[SpawnGroups:Type H Security Drone MK1-3] 
  
-	  [SpawnGroups:Type H Security Drone MK2] 
-	  [SpawnGroups:Type H Security Drone MK2-2] 
-	  [SpawnGroups:Type H Security Drone MK2-3] 
+			[SpawnGroups:Type H Security Drone MK2] 
+			[SpawnGroups:Type H Security Drone MK2-2] 
+			[SpawnGroups:Type H Security Drone MK2-3] 
 	   
-	  [SpawnGroups:Type H Security Drone MK3] 
-	  [SpawnGroups:Type H Security Drone MK3-2] 
-	  [SpawnGroups:Type H Security Drone MK3-3] 
+			[SpawnGroups:Type H Security Drone MK3] 
+			[SpawnGroups:Type H Security Drone MK3-2] 
+			[SpawnGroups:Type H Security Drone MK3-3] 
 	   
-	  [SpawnGroups:Type H Security Drone MK4] 
-	  [SpawnGroups:Type H Security Drone MK4-2] 
-	  [SpawnGroups:Type H Security Drone MK4-3] 
+			[SpawnGroups:Type H Security Drone MK4] 
+			[SpawnGroups:Type H Security Drone MK4-2] 
+			[SpawnGroups:Type H Security Drone MK4-3] 
 	   
-	  [SpawnGroups:Type H Security Drone MK5] 
-	  [SpawnGroups:Type H Security Drone MK5-2] 
-	  [SpawnGroups:Type H Security Drone MK5-3]
+			[SpawnGroups:Type H Security Drone MK5] 
+			[SpawnGroups:Type H Security Drone MK5-2] 
+			[SpawnGroups:Type H Security Drone MK5-3]
 	   
-	  [ForceSameFactionOwnership:true] 
+			[ForceSameFactionOwnership:true] 
 	   
-	  [UseRelativeSpawnPosition:false]
-      [MinAltitude:30]
-      [MaxAltitude:100]
-      [IgnoreSafetyChecks:false] 
-	  [InheritNpcAltitude:false]
+			[UseRelativeSpawnPosition:false]
+			[MinAltitude:30]
+			[MaxAltitude:100]
+			[IgnoreSafetyChecks:false] 
+			[InheritNpcAltitude:false]
       
-      [MinDistance:100]
-      [MaxDistance:200]
+			[MinDistance:100]
+			[MaxDistance:200]
       
-      </Description>
+			</Description>
       
-    </EntityComponent>
+		</EntityComponent>
 	 
-	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-          <TypeId>Inventory</TypeId>
-          <SubtypeId>Chat-CallDrones-Mars</SubtypeId>
-      </Id>
-      <Description>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Chat-CallDrones-Mars</SubtypeId>
+			</Id>
+			<Description>
 
-      [RivalAI Chat]
+			[RivalAI Chat]
       
-      [UseChat:true]
-      [StartsReady:true]
-      [Chance:100]
-      [MaxChats:1]
-      [BroadcastRandomly:false] 
-	  [IgnoreAntennaRequirement:true] 
-	  [IgnoredAntennaRangeOverride:3000]
+			[UseChat:true]
+			[StartsReady:true]
+			[Chance:100]
+			[MaxChats:1]
+			[BroadcastRandomly:false] 
+			[IgnoreAntennaRequirement:true] 
+			[IgnoredAntennaRangeOverride:3000]
       
-      [Author:Automated Defence System]
-      [Color:Red]
+			[Author:Automated Defence System]
+			[Color:Red]
       
-      [ChatMessages:Incoming Unknown signal, Deploy defence Systems!]
-      [ChatAudio:None]
-      [BroadcastChatType:Chat]
+			[ChatMessages:Incoming Unknown signal, Deploy defence Systems!]
+			[ChatAudio:None]
+			[BroadcastChatType:Chat]
 
-      </Description>
+			</Description>
       
-    </EntityComponent> 
+		</EntityComponent> 
 	 
-  </EntityComponents>
+	</EntityComponents>
 </Definitions>

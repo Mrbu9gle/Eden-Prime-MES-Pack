@@ -1,106 +1,106 @@
 ﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <EntityComponents>
+	<EntityComponents>
 
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>Trigger-PassiveSwitch-Frigate-Space</SubtypeId>
-      </Id>
-      <Description>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Trigger-PassiveSwitch-Frigate-Space</SubtypeId>
+			</Id>
+			<Description>
 
-        [RivalAI Trigger]
+			[RivalAI Trigger]
+	
+			[UseTrigger:false]
+			[Type:TargetFar]
 
-        [UseTrigger:false]
-        [Type:TargetFar]
+			[TargetDistance:8000]
 
-        [TargetDistance:8000]
+			[StartsReady:true]
+			[MaxActions:-1]
+			[Actions:Action-PassiveSwitch-Frigate-Space]
 
-        [StartsReady:true]
-        [MaxActions:-1]
-        [Actions:Action-PassiveSwitch-Frigate-Space]
+			</Description>
 
-      </Description>
+		</EntityComponent>
 
-    </EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Action-PassiveSwitch-Frigate-Space</SubtypeId>
+			</Id>
+			<Description>
 
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>Action-PassiveSwitch-Frigate-Space</SubtypeId>
-      </Id>
-      <Description>
+			[RivalAI Action]
 
-        [RivalAI Action]
+			[UseChatBroadcast:true]
+			[ChatData:Chat-PassiveSwitch-Frigate-Space]
 
-        [UseChatBroadcast:true]
-        [ChatData:Chat-PassiveSwitch-Frigate-Space]
+			[ChangeBehaviorSubclass:true]
+			[NewBehaviorSubclass:CargoShip]
 
-        [ChangeBehaviorSubclass:true]
-        [NewBehaviorSubclass:CargoShip]
+			[ChangeAutopilotProfile:true]
+			[AutopilotProfile:Primary]
 
-        [ChangeAutopilotProfile:true]
-        [AutopilotProfile:Primary]
+			[DisableTriggers:true]
+			[DisableTriggerNames:Trigger-PassiveSwitch-Frigate-Space]
 
-        [DisableTriggers:true]
-        [DisableTriggerNames:Trigger-PassiveSwitch-Frigate-Space]
+			[EnableTriggers:true]
+			[EnableTriggerNames:Trigger-AggressionSwitch-Frigate-Space]
 
-        [EnableTriggers:true]
-        [EnableTriggerNames:Trigger-AggressionSwitch-Frigate-Space]
+			</Description>
 
-      </Description>
+		</EntityComponent>
 
-    </EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Chat-PassiveSwitch-Frigate-Space</SubtypeId>
+			</Id>
+			<Description>
 
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>Chat-PassiveSwitch-Frigate-Space</SubtypeId>
-      </Id>
-      <Description>
+			[RivalAI Chat]
 
-        [RivalAI Chat]
-
-        [UseChat:true]
-        [StartsReady:true]
-        [MaxChats:-1]
-        [BroadcastRandomly:true] 
-		[IgnoreAntennaRequirement:true] 
-		[IgnoredAntennaRangeOverride:9000] 
+			[UseChat:true]
+			[StartsReady:true]
+			[MaxChats:-1]
+			[BroadcastRandomly:true] 
+			[IgnoreAntennaRequirement:true] 
+			[IgnoredAntennaRangeOverride:9000] 
 		
-        [Author:{GridName}]
-		[Color:Green]
+			[Author:{GridName}]
+			[Color:Green]
 
-        [ChatMessages: Target is no longer a concern. Continuing on previous trajectory.]
-        [ChatAudio:None]
-        [BroadcastChatType:Chat]
+			[ChatMessages: Target is no longer a concern. Continuing on previous trajectory.]
+			[ChatAudio:None]
+			[BroadcastChatType:Chat]
 
-        [ChatMessages:Disengaging from combat.]
-        [ChatAudio:None]
-        [BroadcastChatType:Chat] 
+			[ChatMessages:Disengaging from combat.]
+			[ChatAudio:None]
+			[BroadcastChatType:Chat] 
 		 
-		[ChatMessages:Breaking away and heading home. ]
-		[ChatAudio:None]
-		[BroadcastChatType:Chat]
+			[ChatMessages:Breaking away and heading home. ]
+			[ChatAudio:None]
+			[BroadcastChatType:Chat]
       
-		[ChatMessages:Systems are fried, changing course to get repairs.]
-		[ChatAudio:None]
-		[BroadcastChatType:Chat] 
+			[ChatMessages:Systems are fried, changing course to get repairs.]
+			[ChatAudio:None]
+			[BroadcastChatType:Chat] 
 	   
-		[ChatMessages:Changing course to scan for other signals!]
-		[ChatAudio:None]
-		[BroadcastChatType:Chat] 
+			[ChatMessages:Changing course to scan for other signals!]
+			[ChatAudio:None]
+			[BroadcastChatType:Chat] 
 	   
-		[ChatMessages:Changing to a evasive tactics.]
-		[ChatAudio:None]
-		[BroadcastChatType:Chat] 
+			[ChatMessages:Changing to a evasive tactics.]
+			[ChatAudio:None]
+			[BroadcastChatType:Chat] 
 	   
-		[ChatMessages:Changing course to relay point.]
-		[ChatAudio:None]
-		[BroadcastChatType:Chat]
+			[ChatMessages:Changing course to relay point.]
+			[ChatAudio:None]
+			[BroadcastChatType:Chat]
 
-      </Description>
-    </EntityComponent>
+			</Description>
+		</EntityComponent>
 
-  </EntityComponents>
+	</EntityComponents>
 </Definitions>

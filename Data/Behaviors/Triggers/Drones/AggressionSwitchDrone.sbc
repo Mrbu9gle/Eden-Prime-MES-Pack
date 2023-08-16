@@ -1,88 +1,88 @@
 ﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <EntityComponents>
+	<EntityComponents>
 
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>Trigger-AggressionSwitchDrone</SubtypeId>
-      </Id>
-      <Description>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Trigger-AggressionSwitchDrone</SubtypeId>
+			</Id>
+			<Description>
 
-        [RivalAI Trigger]
+			[RivalAI Trigger]
 
-        [UseTrigger:false]
-        [Type:TargetNear]
+			[UseTrigger:false]
+			[Type:TargetNear]
 
-        [TargetDistance:2000]
+			[TargetDistance:2000]
 
-        [StartsReady:true]
-        [MaxActions:-1]
-        [Actions:Action-AggressionSwitchDrone]
+			[StartsReady:true]
+			[MaxActions:-1]
+			[Actions:Action-AggressionSwitchDrone]
 
-      </Description>
+			</Description>
 
-    </EntityComponent>
+		</EntityComponent>
 
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>Action-AggressionSwitchDrone</SubtypeId>
-      </Id>
-      <Description>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Action-AggressionSwitchDrone</SubtypeId>
+			</Id>
+			<Description>
 
-        [RivalAI Action]
+			[RivalAI Action]
 
-        [UseChatBroadcast:true]
-        [ChatData:Chat-AggressionSwitchDrone] 
+			[UseChatBroadcast:true]
+			[ChatData:Chat-AggressionSwitchDrone] 
 		 
-		[SetWeaponsToMaxRange:true]
+			[SetWeaponsToMaxRange:true]
 
-        [ChangeBehaviorSubclass:true]
-        [NewBehaviorSubclass:Fighter]
+			[ChangeBehaviorSubclass:true]
+			[NewBehaviorSubclass:Fighter]
 
-        [ChangeAutopilotProfile:true]
-        [AutopilotProfile:Secondary]
+			[ChangeAutopilotProfile:true]
+			[AutopilotProfile:Secondary]
 
-        [DisableTriggers:true]
-        [DisableTriggerNames:Trigger-AggressionSwitchDrone]
+			[DisableTriggers:true]
+			[DisableTriggerNames:Trigger-AggressionSwitchDrone]
 
-        [EnableTriggers:true]
-        [EnableTriggerNames:Trigger-PassiveSwitchDrone]
+			[EnableTriggers:true]
+			[EnableTriggerNames:Trigger-PassiveSwitchDrone]
 
-      </Description>
+			</Description>
 
-    </EntityComponent>
+		</EntityComponent>
 
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>Chat-AggressionSwitchDrone</SubtypeId>
-      </Id>
-      <Description>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Chat-AggressionSwitchDrone</SubtypeId>
+			</Id>
+			<Description>
 
-        [RivalAI Chat]
+			[RivalAI Chat]
 
-        [UseChat:true]
-        [StartsReady:true]
-        [MaxChats:1]
-        [BroadcastRandomly:true] 
-		[IgnoreAntennaRequirement:true] 
-		[IgnoredAntennaRangeOverride:5000] 
+			[UseChat:true]
+			[StartsReady:true]
+			[MaxChats:1]
+			[BroadcastRandomly:true] 
+			[IgnoreAntennaRequirement:true] 
+			[IgnoredAntennaRangeOverride:5000] 
 		
-        [Author:Security Drone]
-        [Color:Red]
+			[Author:Security Drone]
+			[Color:Red]
 
-        [ChatMessages: Hosile entity approaching. Engaging target.]
-        [ChatAudio:None]
-        [BroadcastChatType:Chat]
+			[ChatMessages: Hosile entity approaching. Engaging target.]
+			[ChatAudio:None]
+			[BroadcastChatType:Chat]
 
-        [ChatMessages:Deviating from position to intercept hostile entity.]
-        [ChatAudio:None]
-        [BroadcastChatType:Chat]
+			[ChatMessages:Deviating from position to intercept hostile entity.]
+			[ChatAudio:None]
+			[BroadcastChatType:Chat]
 
-      </Description>
-    </EntityComponent>
+			</Description>
+		</EntityComponent>
 
-  </EntityComponents>
+	</EntityComponents>
 </Definitions>

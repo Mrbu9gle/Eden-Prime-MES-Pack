@@ -1,222 +1,220 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <EntityComponents>
-	<!--Behaviour-->
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>BehaviorCargoShipSpace</SubtypeId>
-      </Id>
-      <Description>
+	<EntityComponents>
+		<!--Behaviour-->
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>BehaviorCargoShipSpace</SubtypeId>
+			</Id>
+			<Description>
 
-		[RivalAI Behavior]
+			[RivalAI Behavior]
 
-		[BehaviorName:CargoShip]
+			[BehaviorName:CargoShip]
 
-		[AutopilotData:AutoPilot-CargoShip-Space]
-		[SecondaryAutopilotData:AutoPilot-CargoShip-Space-B]
-		[TertiaryAutopilotData:AutoPilot-CargoShip-Space-C]
+			[AutopilotData:AutoPilot-CargoShip-Space]
+			[SecondaryAutopilotData:AutoPilot-CargoShip-Space-B]
+			[TertiaryAutopilotData:AutoPilot-CargoShip-Space-C]
 
-		[Triggers:Trigger-AggressionSwitch-Space]
-		[Triggers:Trigger-PassiveSwitch-Space]
-		[Triggers:Trigger-PassiveSwitchNoTarget-Space]
-		[Triggers:Trigger-ReturnToDespawn-Space]
-		[Triggers:Trigger-ShipDamage-Space]
-		[Triggers:Trigger-ReturnToSpeed-Space]
-		[Triggers:Trigger-ProcessEscortRequest-Space] 
-		[Triggers:Trigger-DroneSpawn-Space]
+			[Triggers:Trigger-AggressionSwitch-Space]
+			[Triggers:Trigger-PassiveSwitch-Space]
+			[Triggers:Trigger-PassiveSwitchNoTarget-Space]
+			[Triggers:Trigger-ReturnToDespawn-Space]
+			[Triggers:Trigger-ShipDamage-Space]
+			[Triggers:Trigger-ReturnToSpeed-Space]
+			[Triggers:Trigger-ProcessEscortRequest-Space] 
+			[Triggers:Trigger-DroneSpawn-Space]
 
-		[EscortOffsets:{X:-100 Y:0 Z:0}]
-		[EscortOffsets:{X:100 Y:0 Z:0}]
+			[EscortOffsets:{X:-100 Y:0 Z:0}]
+			[EscortOffsets:{X:100 Y:0 Z:0}]
 
-		[TargetData:Targeting-CargoShip-Space]
-		[OverrideTargetData:Targeting-CargoShip-Override-Space]
+			[TargetData:Targeting-CargoShip-Space]
+			[OverrideTargetData:Targeting-CargoShip-Override-Space]
 
-      </Description>
+			</Description>
 
-    </EntityComponent>
-	<!--Behaviour--> 
+		</EntityComponent>
+		<!--Behaviour--> 
 	 
-	<!--Targeting-->
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>Targeting-CargoShip-Space</SubtypeId>
-      </Id>
-      <Description>
+		<!--Targeting-->
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Targeting-CargoShip-Space</SubtypeId>
+			</Id>
+			<Description>
 
-		[RivalAI Target]
+			[RivalAI Target]
 
-		[UseCustomTargeting:true]
-		[Target:PlayerAndBlock] 
-		[BlockTargets:Thrusters] 
-		[BlockTargets:Power]  
-		[BlockTargets:Guns] 
-		[BlockTargets:Turrets] 
-		[BlockTargets:Controllers]
+			[UseCustomTargeting:true]
+			[Target:PlayerAndBlock] 
+			[BlockTargets:Thrusters] 
+			[BlockTargets:Power]  
+			[BlockTargets:Guns] 
+			[BlockTargets:Turrets] 
+			[BlockTargets:Controllers]
 
-		[MaxDistance:5000]
-		[MaxExistingTargetDistance:12000]
+			[MaxDistance:5000]
+			[MaxExistingTargetDistance:12000]
 
-		[MatchAllFilters:OutsideOfSafezone]
-		[MatchAllFilters:Owner]
-		[MatchAllFilters:Relation]
+			[MatchAllFilters:OutsideOfSafezone]
+			[MatchAllFilters:Owner]
+			[MatchAllFilters:Relation]
 
-		[GetTargetBy:ClosestDistance]
+			[GetTargetBy:ClosestDistance]
 
-        [Owners:Player]
-        [Owners:NPC]
-        [Relations:Enemy] 
+			[Owners:Player]
+			[Owners:NPC]
+			[Relations:Enemy] 
 		 
-		[PrioritizePlayerControlled:true]
+			[PrioritizePlayerControlled:true]
 
+			</Description>
 
+		</EntityComponent>
 
-      </Description>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Targeting-CargoShip-Override-Space</SubtypeId>
+			</Id>
+			<Description>
 
-    </EntityComponent>
+			[RivalAI Target]
 
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>Targeting-CargoShip-Override-Space</SubtypeId>
-      </Id>
-      <Description>
+			[UseCustomTargeting:true]
+			[Target:PlayerAndBlock] 
+			[BlockTargets:Thrusters] 
+			[BlockTargets:Power]  
+			[BlockTargets:Guns] 
+			[BlockTargets:Turrets] 
+			[BlockTargets:Controllers]
 
-        [RivalAI Target]
+			[MaxDistance:12000]
 
-        [UseCustomTargeting:true]
-		[Target:PlayerAndBlock] 
-		[BlockTargets:Thrusters] 
-		[BlockTargets:Power]  
-		[BlockTargets:Guns] 
-		[BlockTargets:Turrets] 
-		[BlockTargets:Controllers]
-
-        [MaxDistance:12000]
-
-        [MatchAllFilters:OutsideOfSafezone]
-        [MatchAllFilters:Owner]
-        [MatchAllFilters:Relation] 
+			[MatchAllFilters:OutsideOfSafezone]
+			[MatchAllFilters:Owner]
+			[MatchAllFilters:Relation] 
 		
-        [GetTargetBy:ClosestDistance]
+			[GetTargetBy:ClosestDistance]
 
-        [Owners:Player]
-        [Owners:NPC]
-        [Relations:Enemy]
+			[Owners:Player]
+			[Owners:NPC]
+			[Relations:Enemy]
 
-		[PrioritizePlayerControlled:true]
+			[PrioritizePlayerControlled:true]
 
-      </Description>
+			</Description>
 
-    </EntityComponent>
-	<!--Targeting--> 
+		</EntityComponent>
+		<!--Targeting--> 
 	 
-	<!--Autopilot-->
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>AutoPilot-CargoShip-Space</SubtypeId>
-      </Id>
-      <Description>
+		<!--Autopilot-->
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>AutoPilot-CargoShip-Space</SubtypeId>
+			</Id>
+			<Description>
 
-        [RivalAI Autopilot]
+			[RivalAI Autopilot]
 
-        [SlowDownOnWaypointApproach:true]
-        [ExtraSlowDownDistance:50]
-        [ForceDampenersEnabled:true]
+			[SlowDownOnWaypointApproach:true]
+			[ExtraSlowDownDistance:50]
+			[ForceDampenersEnabled:true]
 
-        [IdealMinSpeed:12]
-        [IdealMaxSpeed:25]
-        [MaxSpeedTolerance:1]
+			[IdealMinSpeed:12]
+			[IdealMaxSpeed:25]
+			[MaxSpeedTolerance:1]
 
-        [WaypointTolerance:50]
-        [WaypointWaitTimeTrigger:120] 
+			[WaypointTolerance:50]
+			[WaypointWaitTimeTrigger:120] 
 
-        [UseVelocityCollisionEvasion:true] 
-		[CollisionEvasionWaypointDistance:250] 
-		[CollisionEvasionResumeDistance:250] 
-		[CollisionEvasionResumeTime:60] 
+			[UseVelocityCollisionEvasion:true] 
+			[CollisionEvasionWaypointDistance:250] 
+			[CollisionEvasionResumeDistance:250] 
+			[CollisionEvasionResumeTime:60] 
 		
-        [LimitRotationSpeed:true]
-        [MaxRotationMagnitude:0.2] 
+			[LimitRotationSpeed:true]
+			[MaxRotationMagnitude:0.2] 
 		 
-		[UseProjectileLeadPrediction:true]
+			[UseProjectileLeadPrediction:true]
 
-      </Description>
+			</Description>
 
-    </EntityComponent>
+		</EntityComponent>
 
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>AutoPilot-CargoShip-Space-B</SubtypeId>
-      </Id>
-      <Description>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>AutoPilot-CargoShip-Space-B</SubtypeId>
+			</Id>
+			<Description>
 
-        [RivalAI Autopilot]
+			[RivalAI Autopilot]
 
-        [SlowDownOnWaypointApproach:true]
-        [ExtraSlowDownDistance:50]
-        [ForceDampenersEnabled:true]
+			[SlowDownOnWaypointApproach:true]
+			[ExtraSlowDownDistance:50]
+			[ForceDampenersEnabled:true]
 
-        [IdealMinSpeed:12]
-        [IdealMaxSpeed:25]
-        [MaxSpeedTolerance:1]
+			[IdealMinSpeed:12]
+			[IdealMaxSpeed:25]
+			[MaxSpeedTolerance:1]
 
-        [WaypointTolerance:50]
-        [WaypointWaitTimeTrigger:60]
+			[WaypointTolerance:50]
+			[WaypointWaitTimeTrigger:60]
 
-        [UseVelocityCollisionEvasion:true] 
-		[CollisionEvasionWaypointDistance:250] 
-		[CollisionEvasionResumeDistance:250] 
-		[CollisionEvasionResumeTime:60]
+			[UseVelocityCollisionEvasion:true] 
+			[CollisionEvasionWaypointDistance:250] 
+			[CollisionEvasionResumeDistance:250] 
+			[CollisionEvasionResumeTime:60]
 		
-        [LimitRotationSpeed:true]
-        [MaxRotationMagnitude:0.2] 
+			[LimitRotationSpeed:true]
+			[MaxRotationMagnitude:0.2] 
 		 
-		[UseProjectileLeadPrediction:true]
+			[UseProjectileLeadPrediction:true]
 
-      </Description>
+			</Description>
 
-    </EntityComponent> 
+		</EntityComponent> 
 	 
-	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>AutoPilot-CargoShip-Space-C</SubtypeId>
-      </Id>
-      <Description>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>AutoPilot-CargoShip-Space-C</SubtypeId>
+			</Id>
+			<Description>
 
-        [RivalAI Autopilot]
+			[RivalAI Autopilot]
 
-        [SlowDownOnWaypointApproach:true]
-        [ExtraSlowDownDistance:250]
-        [ForceDampenersEnabled:true]
+			[SlowDownOnWaypointApproach:true]
+			[ExtraSlowDownDistance:250]
+			[ForceDampenersEnabled:true]
 
-        [IdealMinSpeed:18]
-        [IdealMaxSpeed:60]
-        [MaxSpeedTolerance:1]
+			[IdealMinSpeed:18]
+			[IdealMaxSpeed:60]
+			[MaxSpeedTolerance:1]
 
-        [WaypointTolerance:50]
+			[WaypointTolerance:50]
 
-        [WaypointWaitTimeTrigger:8]
+			[WaypointWaitTimeTrigger:8]
 
-        [AllowStrafing:true]
-        [StrafeMaxDurationMs:3000]
-        [StrafeSpeedCutOff:20]
+			[AllowStrafing:true]
+			[StrafeMaxDurationMs:3000]
+			[StrafeSpeedCutOff:20]
 
-        [OffsetSpaceMinDistFromTarget:300]
-        [OffsetSpaceMaxDistFromTarget:600]
+			[OffsetSpaceMinDistFromTarget:300]
+			[OffsetSpaceMaxDistFromTarget:600]
 
-        [LimitRotationSpeed:true]
-        [MaxRotationMagnitude:0.6] 
+			[LimitRotationSpeed:true]
+			[MaxRotationMagnitude:0.6] 
 		 
-		[UseProjectileLeadPrediction:true]
+			[UseProjectileLeadPrediction:true]
 
-      </Description>
+			</Description>
 
-    </EntityComponent>
-	<!--Autopilot-->
-  </EntityComponents>
+		</EntityComponent>
+		<!--Autopilot-->
+	</EntityComponents>
 </Definitions>

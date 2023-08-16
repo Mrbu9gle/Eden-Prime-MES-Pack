@@ -1,96 +1,96 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <EntityComponents>
+	<EntityComponents>
 
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>Trigger-Grid-Attacked-Drone</SubtypeId>
-      </Id>
-      <Description>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Trigger-Grid-Attacked-Drone</SubtypeId>
+			</Id>
+			<Description>
 
-        [RivalAI Trigger]
+			[RivalAI Trigger]
 
-        [UseTrigger:true]
-        [Type:CommandReceived]
-        [CommandReceiveCode:StationDamage]
+			[UseTrigger:true]
+			[Type:CommandReceived]
+			[CommandReceiveCode:StationDamage]
 
-        [StartsReady:true]
-        [MaxActions:-1]
-        [Actions:Action-Grid-Attacked-Drone]
+			[StartsReady:true]
+			[MaxActions:-1]
+			[Actions:Action-Grid-Attacked-Drone]
 
-      </Description>
+			</Description>
 
-    </EntityComponent>
+		</EntityComponent>
 
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>Action-Grid-Attacked-Drone</SubtypeId>
-      </Id>
-      <Description>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Action-Grid-Attacked-Drone</SubtypeId>
+			</Id>
+			<Description>
 
-        [RivalAI Action]
+			[RivalAI Action]
 
-        [UseChatBroadcast:true]
-        [ChatData:Chat-Grid-Attacked-Drone]
+			[UseChatBroadcast:true]
+			[ChatData:Chat-Grid-Attacked-Drone]
 
-        [ChangeBehaviorSubclass:true]
-        [NewBehaviorSubclass:Fighter]
+			[ChangeBehaviorSubclass:true]
+			[NewBehaviorSubclass:Fighter]
 
-        [ChangeAutopilotProfile:true]
-        [AutopilotProfile:Secondary] 
+			[ChangeAutopilotProfile:true]
+			[AutopilotProfile:Secondary] 
  
-		[RefreshTarget:true]
+			[RefreshTarget:true]
 		 
-		[TriggerTimerBlocks:true] 
-		[TimerBlockNames:Timer Block] 
+			[TriggerTimerBlocks:true] 
+			[TimerBlockNames:Timer Block] 
 		 
-		[ChangeTargetProfile:true] 
-		[NewTargetProfileId:Targeting-Drone-Multi-Override]
+			[ChangeTargetProfile:true] 
+			[NewTargetProfileId:Targeting-Drone-Multi-Override]
 
-        [InheritLastAttackerFromCommand:true]
-        [SwitchTargetToDamager:true] 
+			[InheritLastAttackerFromCommand:true]
+			[SwitchTargetToDamager:true] 
 		 
-		[DisableTriggers:true]
-        [DisableTriggerNames:Trigger-Grid-Attacked-Drone]
+			[DisableTriggers:true]
+			[DisableTriggerNames:Trigger-Grid-Attacked-Drone]
 
-        [EnableTriggers:true]
-        [EnableTriggerNames:Trigger-PassiveSwitchDrone]
+			[EnableTriggers:true]
+			[EnableTriggerNames:Trigger-PassiveSwitchDrone]
 
-      </Description>
+			</Description>
 
-    </EntityComponent>
+		</EntityComponent>
 
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>Chat-Grid-Attacked-Drone</SubtypeId>
-      </Id>
-      <Description>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Chat-Grid-Attacked-Drone</SubtypeId>
+			</Id>
+			<Description>
 
-        [RivalAI Chat]
+			[RivalAI Chat]
 
-        [UseChat:true]
-        [StartsReady:true]
-        [MaxChats:1]
-        [BroadcastRandomly:true]
-        [IgnoreAntennaRequirement:true] 
-		[IgnoredAntennaRangeOverride:5000] 
+			[UseChat:true]
+			[StartsReady:true]
+			[MaxChats:1]
+			[BroadcastRandomly:true]
+			[IgnoreAntennaRequirement:true] 
+			[IgnoredAntennaRangeOverride:5000] 
 		
-        [Author:Security Drone]
-		[Color:Red]
+			[Author:Security Drone]
+			[Color:Red]
 
-        [ChatMessages:Distress call acknowledged, providing support.]
-        [ChatAudio:None]
-        [BroadcastChatType:Chat]
+			[ChatMessages:Distress call acknowledged, providing support.]
+			[ChatAudio:None]
+			[BroadcastChatType:Chat]
 
-        [ChatMessages:Responding to distress call.]
-        [ChatAudio:None]
-        [BroadcastChatType:Chat]
+			[ChatMessages:Responding to distress call.]
+			[ChatAudio:None]
+			[BroadcastChatType:Chat]
+	
+			</Description>
+		</EntityComponent>
 
-      </Description>
-    </EntityComponent>
-
-  </EntityComponents>
+	</EntityComponents>
 </Definitions>

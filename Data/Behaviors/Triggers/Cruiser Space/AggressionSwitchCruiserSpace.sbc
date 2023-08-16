@@ -1,98 +1,98 @@
 ﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <EntityComponents>
+	<EntityComponents>
 
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>Trigger-AggressionSwitch-Cruiser-Space</SubtypeId>
-      </Id>
-      <Description>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Trigger-AggressionSwitch-Cruiser-Space</SubtypeId>
+			</Id>
+			<Description>
 
-        [RivalAI Trigger]
+			[RivalAI Trigger]
 
-        [UseTrigger:true]
-        [Type:TargetNear]
+			[UseTrigger:true]
+			[Type:TargetNear]
 
-        [TargetDistance:8000]
+			[TargetDistance:8000]
 
-        [StartsReady:true]
-        [MaxActions:-1]
-        [Actions:Action-AggressionSwitch-Cruiser-Space]
+			[StartsReady:true]
+			[MaxActions:-1]
+			[Actions:Action-AggressionSwitch-Cruiser-Space]
+	
+			</Description>
 
-      </Description>
+		</EntityComponent>
 
-    </EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Action-AggressionSwitch-Cruiser-Space</SubtypeId>
+			</Id>
+			<Description>
 
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>Action-AggressionSwitch-Cruiser-Space</SubtypeId>
-      </Id>
-      <Description>
+			[RivalAI Action]
 
-        [RivalAI Action]
+			[UseChatBroadcast:true]
+			[ChatData:Chat-AggressionSwitch-Cruiser-Space]
 
-        [UseChatBroadcast:true]
-        [ChatData:Chat-AggressionSwitch-Cruiser-Space]
+			[ChangeBehaviorSubclass:true]
+			[NewBehaviorSubclass:HorseFighter]
 
-        [ChangeBehaviorSubclass:true]
-        [NewBehaviorSubclass:HorseFighter]
+			[ChangeAutopilotProfile:true]
+			[AutopilotProfile:Tertiary]
 
-        [ChangeAutopilotProfile:true]
-        [AutopilotProfile:Tertiary]
+			[DisableTriggers:true]
+			[DisableTriggerNames:Trigger-AggressionSwitch-Cruiser-Space]
 
-        [DisableTriggers:true]
-        [DisableTriggerNames:Trigger-AggressionSwitch-Cruiser-Space]
+			[EnableTriggers:true]
+			[EnableTriggerNames:Trigger-PassiveSwitch-Cruiser-Space]
 
-        [EnableTriggers:true]
-        [EnableTriggerNames:Trigger-PassiveSwitch-Cruiser-Space]
+			</Description>
 
-      </Description>
+		</EntityComponent>
 
-    </EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Chat-AggressionSwitch-Cruiser-Space</SubtypeId>
+			</Id>
+			<Description>
 
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>Chat-AggressionSwitch-Cruiser-Space</SubtypeId>
-      </Id>
-      <Description>
-
-        [RivalAI Chat]
-
-        [UseChat:true]
-        [StartsReady:true]
-        [MaxChats:-1]
-        [BroadcastRandomly:true]
-        [IgnoreAntennaRequirement:true] 
-		[IgnoredAntennaRangeOverride:9000]
+			[RivalAI Chat]
+	
+			[UseChat:true]
+			[StartsReady:true]
+			[MaxChats:-1]
+			[BroadcastRandomly:true]
+			[IgnoreAntennaRequirement:true] 
+			[IgnoredAntennaRangeOverride:9000]
       
-		[Author:{GridName}]
-		[Color:Red]
+			[Author:{GridName}]
+			[Color:Red]
 
-        [ChatMessages:We are picking up something on our scanners, changing direction to take a look.]
-		[ChatAudio:None]
-		[BroadcastChatType:Chat]
+			[ChatMessages:We are picking up something on our scanners, changing direction to take a look.]
+			[ChatAudio:None]
+			[BroadcastChatType:Chat]
       
-		[ChatMessages:Theres something in the distance, changing our heading to investigate.]
-		[ChatAudio:None]
-		[BroadcastChatType:Chat]
+			[ChatMessages:Theres something in the distance, changing our heading to investigate.]
+			[ChatAudio:None]
+			[BroadcastChatType:Chat]
  
-		[ChatMessages:Proximity sensors are picking up Something, full burn to Investigate.]
-		[ChatAudio:None]
-		[BroadcastChatType:Chat] 
+			[ChatMessages:Proximity sensors are picking up Something, full burn to Investigate.]
+			[ChatAudio:None]
+			[BroadcastChatType:Chat] 
  
-		[ChatMessages:We are approaching a unknown signature, investigating the source of the signal.]
-		[ChatAudio:None]
-		[BroadcastChatType:Chat] 
+			[ChatMessages:We are approaching a unknown signature, investigating the source of the signal.]
+			[ChatAudio:None]
+			[BroadcastChatType:Chat] 
 	   
-		[ChatMessages:Proximity sensors are picking up a faint signature, heading to investigate.]
-		[ChatAudio:None]
-		[BroadcastChatType:Chat]
+			[ChatMessages:Proximity sensors are picking up a faint signature, heading to investigate.]
+			[ChatAudio:None]
+			[BroadcastChatType:Chat]
 
-      </Description>
-    </EntityComponent>
+			</Description>
+		</EntityComponent>
 
-  </EntityComponents>
+	</EntityComponents>
 </Definitions>
