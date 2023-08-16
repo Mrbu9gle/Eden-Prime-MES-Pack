@@ -1,90 +1,90 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <EntityComponents>
+	<EntityComponents>
 
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>MES-Zone-PVPSpace</SubtypeId>
-      </Id>
-      <Description>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>MES-Zone-PVPSpace</SubtypeId>
+			</Id>
+			<Description>
 
-        [MES Zone]
+			[MES Zone]
 
-        [PublicName:PVP Space]
+			[PublicName:PVP Space]
 
-        [Active:true]
-        [Persistent:true]
-        [Strict:true] 
-		[NoSpawnZone:true]
+			[Active:true]
+			[Persistent:true]
+			[Strict:true] 
+			[NoSpawnZone:true]
   
-        [Coordinates:{X:3999988.95 Y:-8.12 Z:-8.08}]
-        [Radius:15000] 
+			[Coordinates:{X:3999988.95 Y:-8.12 Z:-8.08}]
+			[Radius:15000] 
 		 
-		[UseZoneAnnounce:true] 
-		[ZoneEnterAnnounce:You are entering PVP Space] 
-		[ZoneLeaveAnnounce:You are leaving PVP Space] 
+			[UseZoneAnnounce:true] 
+			[ZoneEnterAnnounce:You are entering PVP Space] 
+			[ZoneLeaveAnnounce:You are leaving PVP Space] 
 		
 
-      </Description>  
+			</Description>  
 
-    </EntityComponent> 
+		</EntityComponent> 
 	 
-	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>MES-Zone-GammaPVPCluster</SubtypeId>
-      </Id>
-      <Description>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>MES-Zone-GammaPVPCluster</SubtypeId>
+			</Id>
+			<Description>
 
-        [MES Zone]
+			[MES Zone]
 
-        [PublicName:Gamma PVP Cluster]
+			[PublicName:Gamma PVP Cluster]
 
-        [Active:true]
-        [Persistent:true]
-        [Strict:true] 
-		[NoSpawnZone:true]
+			[Active:true]
+			[Persistent:true]
+			[Strict:true] 
+			[NoSpawnZone:true]
   
-        [Coordinates:{X:0.00 Y:10000000.99 Z:0.02}]
-        [Radius:20000] 
+			[Coordinates:{X:0.00 Y:10000000.99 Z:0.02}]
+			[Radius:20000] 
 		 
-		[UseZoneAnnounce:true] 
-		[ZoneEnterAnnounce:You are entering Alliance PVP Space] 
-		[ZoneLeaveAnnounce:You are leaving Alliance PVP Space] 
+			[UseZoneAnnounce:true] 
+			[ZoneEnterAnnounce:You are entering Alliance PVP Space] 
+			[ZoneLeaveAnnounce:You are leaving Alliance PVP Space] 
 		
 
-      </Description> 
+			</Description> 
 
-    </EntityComponent> 
+		</EntityComponent> 
 	 
-	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>MES-Zone-DeltaPVPCluster</SubtypeId>
-      </Id>
-      <Description>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>MES-Zone-DeltaPVPCluster</SubtypeId>
+			</Id>
+			<Description>
 
-        [MES Zone]
+			[MES Zone]
 
-        [PublicName:Delta PVP Cluster]
+			[PublicName:Delta PVP Cluster]
 
-        [Active:true]
-        [Persistent:true]
-        [Strict:true] 
-		[NoSpawnZone:true]
+			[Active:true]
+			[Persistent:true]
+			[Strict:true] 
+			[NoSpawnZone:true]
   
-        [Coordinates:{X:0.16 Y:-10000000.00 Z:-3.02}]
-        [Radius:20000] 
+			[Coordinates:{X:0.16 Y:-10000000.00 Z:-3.02}]
+			[Radius:20000] 
 		 
-		[UseZoneAnnounce:true] 
-		[ZoneEnterAnnounce:You are entering Faction PVP Space] 
-		[ZoneLeaveAnnounce:You are leaving Faction PVP Space] 
+			[UseZoneAnnounce:true] 
+			[ZoneEnterAnnounce:You are entering Faction PVP Space] 
+			[ZoneLeaveAnnounce:You are leaving Faction PVP Space] 
 		
 
-      </Description> 
+			</Description> 
 
-    </EntityComponent>
+		</EntityComponent>
     
-  </EntityComponents>
+	</EntityComponents>
 </Definitions>
