@@ -1,220 +1,220 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<EntityComponents>
+  <EntityComponents>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>BehaviorCruiserPlanet</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BehaviorCruiserPlanet</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Behavior]
+        [RivalAI Behavior]
 
-			[BehaviorName:CargoShip]
+        [BehaviorName:CargoShip]
 
-			[AutopilotData:AutoPilot-Cruiser-Planet]
-			[SecondaryAutopilotData:AutoPilot-Cruiser-Planet-B]
-			[TertiaryAutopilotData:AutoPilot-Cruiser-Planet-C]
+        [AutopilotData:AutoPilot-Cruiser-Planet]
+        [SecondaryAutopilotData:AutoPilot-Cruiser-Planet-B]
+        [TertiaryAutopilotData:AutoPilot-Cruiser-Planet-C]
 
-			[Triggers:Trigger-AggressionSwitch-Cruiser-Planet]
-			[Triggers:Trigger-PassiveSwitch-Cruiser-Planet]
-			[Triggers:Trigger-PassiveSwitchNoTarget-Cruiser-Planet]
-			[Triggers:Trigger-PathDeviation-Cruiser-Planet]
-			[Triggers:Trigger-ReturnToDespawn-Cruiser-Planet]
-			[Triggers:Trigger-ShipDamage-Cruiser-Planet]
-			[Triggers:Trigger-ReturnToSpeed-Cruiser-Planet]
-			[Triggers:Trigger-ProcessEscortRequest-Cruiser-Planet]
-			[Triggers:Trigger-StationAssistDirect-Cruiser-Planet]
+        [Triggers:Trigger-AggressionSwitch-Cruiser-Planet]
+        [Triggers:Trigger-PassiveSwitch-Cruiser-Planet]
+        [Triggers:Trigger-PassiveSwitchNoTarget-Cruiser-Planet]
+        [Triggers:Trigger-PathDeviation-Cruiser-Planet]
+        [Triggers:Trigger-ReturnToDespawn-Cruiser-Planet]
+        [Triggers:Trigger-ShipDamage-Cruiser-Planet]
+        [Triggers:Trigger-ReturnToSpeed-Cruiser-Planet]
+        [Triggers:Trigger-ProcessEscortRequest-Cruiser-Planet]
+        [Triggers:Trigger-StationAssistDirect-Cruiser-Planet]
 
-			[EscortOffsets:{X:-100 Y:0 Z:0}]
-			[EscortOffsets:{X:100 Y:0 Z:0}]
+        [EscortOffsets:{X:-100 Y:0 Z:0}]
+        [EscortOffsets:{X:100 Y:0 Z:0}]
 
-			[TargetData:Targeting-Cruiser-Planet]
-			[OverrideTargetData:Targeting-Cruiser-Planet-Override]
+        [TargetData:Targeting-Cruiser-Planet]
+        [OverrideTargetData:Targeting-Cruiser-Planet-Override]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Targeting-Cruiser-Planet</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Targeting-Cruiser-Planet</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Target]
-	
-			[UseCustomTargeting:true]
-			[Target:PlayerAndGrid]
+        [RivalAI Target]
 
-			[MaxDistance:9000]
-			[MaxExistingTargetDistance:18000]
+        [UseCustomTargeting:true]
+        [Target:PlayerAndGrid]
 
-			[MatchAllFilters:OutsideOfSafezone]
-			[MatchAllFilters:Owner]
-			[MatchAllFilters:Relation]
+        [MaxDistance:9000]
+        [MaxExistingTargetDistance:18000]
 
-			[GetTargetBy:ClosestDistance]
+        [MatchAllFilters:OutsideOfSafezone]
+        [MatchAllFilters:Owner]
+        [MatchAllFilters:Relation]
 
-			[Owners:Player]
-			[Owners:NPC]
-			[Relations:Enemy]
+        [GetTargetBy:ClosestDistance]
 
-			[PrioritizePlayerControlled:true]
+        [Owners:Player]
+        [Owners:NPC]
+        [Relations:Enemy]
 
-			</Description>
+		[PrioritizePlayerControlled:true]
 
-		</EntityComponent>
+      </Description>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Targeting-Cruiser-Planet-Override</SubtypeId>
-			</Id>
-			<Description>
+    </EntityComponent>
 
-			[RivalAI Target]
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Targeting-Cruiser-Planet-Override</SubtypeId>
+      </Id>
+      <Description>
 
-			[UseCustomTargeting:true]
-			[Target:PlayerAndGrid]
+        [RivalAI Target]
 
-			[MaxDistance:18000]
+        [UseCustomTargeting:true]
+        [Target:PlayerAndGrid]
 
-			[MatchAllFilters:OutsideOfSafezone]
-			[MatchAllFilters:Owner]
-			[MatchAllFilters:Relation]
-			[//MatchAllFilters:GravityThrust] 
+        [MaxDistance:18000]
+
+        [MatchAllFilters:OutsideOfSafezone]
+        [MatchAllFilters:Owner]
+        [MatchAllFilters:Relation]
+        [//MatchAllFilters:GravityThrust] 
 		
-			[GetTargetBy:ClosestDistance]
+        [GetTargetBy:ClosestDistance]
 
-			[Owners:Player]
-			[Owners:NPC]
-			[Relations:Enemy]
+        [Owners:Player]
+        [Owners:NPC]
+        [Relations:Enemy]
 
-			[PrioritizePlayerControlled:true]
+		[PrioritizePlayerControlled:true]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>AutoPilot-Cruiser-Planet</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AutoPilot-Cruiser-Planet</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Autopilot]
+        [RivalAI Autopilot]
 
-			[SlowDownOnWaypointApproach:true]
-			[ExtraSlowDownDistance:50]
-			[FlyLevelWithGravity:true]
-			[ForceDampenersEnabled:true]
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:50]
+        [FlyLevelWithGravity:true]
+        [ForceDampenersEnabled:true]
 
-			[IdealMinSpeed:12]
-			[IdealMaxSpeed:25]
-			[MaxSpeedTolerance:1]
+        [IdealMinSpeed:12]
+        [IdealMaxSpeed:25]
+        [MaxSpeedTolerance:1]
 
-			[MinimumPlanetAltitude:1000]
-			[IdealPlanetAltitude:1200]
+        [MinimumPlanetAltitude:1000]
+        [IdealPlanetAltitude:1200]
 
-			[WaypointTolerance:50]
-			[WaypointWaitTimeTrigger:120]
+        [WaypointTolerance:50]
+        [WaypointWaitTimeTrigger:120]
 
-			[MinAngleForLeveledDescent:135]
-			[MaxAngleForLeveledAscent:90]
+        [MinAngleForLeveledDescent:135]
+        [MaxAngleForLeveledAscent:90]
 
-			[UseVelocityCollisionEvasion:false]
-			[LimitRotationSpeed:true]
-			[MaxRotationMagnitude:0.2] 
+        [UseVelocityCollisionEvasion:false]
+        [LimitRotationSpeed:true]
+        [MaxRotationMagnitude:0.2] 
 		 
-			[UseProjectileLeadPrediction:true]
+		[UseProjectileLeadPrediction:true]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>AutoPilot-Cruiser-Planet-B</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AutoPilot-Cruiser-Planet-B</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Autopilot]
+        [RivalAI Autopilot]
 
-			[SlowDownOnWaypointApproach:true]
-			[ExtraSlowDownDistance:50]
-			[FlyLevelWithGravity:true]
-			[ForceDampenersEnabled:true]
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:50]
+        [FlyLevelWithGravity:true]
+        [ForceDampenersEnabled:true]
 
-			[IdealMinSpeed:12]
-			[IdealMaxSpeed:25]
-			[MaxSpeedTolerance:1]
+        [IdealMinSpeed:12]
+        [IdealMaxSpeed:25]
+        [MaxSpeedTolerance:1]
 
-			[MinimumPlanetAltitude:50]
-			[IdealPlanetAltitude:100]
+        [MinimumPlanetAltitude:50]
+        [IdealPlanetAltitude:100]
 
-			[WaypointTolerance:50]
-			[WaypointWaitTimeTrigger:60]
+        [WaypointTolerance:50]
+        [WaypointWaitTimeTrigger:60]
 
-			[MinAngleForLeveledDescent:135]
-			[MaxAngleForLeveledAscent:90]
+        [MinAngleForLeveledDescent:135]
+        [MaxAngleForLeveledAscent:90]
 
-			[UseVelocityCollisionEvasion:false]
-			[LimitRotationSpeed:true]
-			[MaxRotationMagnitude:0.2] 
+        [UseVelocityCollisionEvasion:false]
+        [LimitRotationSpeed:true]
+        [MaxRotationMagnitude:0.2] 
 		 
-			[UseProjectileLeadPrediction:true]
+		[UseProjectileLeadPrediction:true]
 
-			</Description>
+      </Description>
 
-		</EntityComponent> 
+    </EntityComponent> 
 	 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>AutoPilot-Cruiser-Planet-C</SubtypeId>
-			</Id>
-			<Description>
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AutoPilot-Cruiser-Planet-C</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Autopilot]
+        [RivalAI Autopilot]
 
-			[SlowDownOnWaypointApproach:true]
-			[ExtraSlowDownDistance:250]
-			[FlyLevelWithGravity:false]
-			[ForceDampenersEnabled:true]
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:250]
+        [FlyLevelWithGravity:false]
+        [ForceDampenersEnabled:true]
 
-			[IdealMinSpeed:18]
-			[IdealMaxSpeed:50]
-			[MaxSpeedTolerance:1]
+        [IdealMinSpeed:18]
+        [IdealMaxSpeed:50]
+        [MaxSpeedTolerance:1]
 
-			[MinimumPlanetAltitude:500]
-			[IdealPlanetAltitude:600]
+        [MinimumPlanetAltitude:500]
+        [IdealPlanetAltitude:600]
 
-			[WaypointTolerance:50]
+        [WaypointTolerance:50]
 
-			[WaypointWaitTimeTrigger:8]
+        [WaypointWaitTimeTrigger:8]
 
-			[AllowStrafing:true]
-			[StrafeMaxDurationMs:3000]
-			[StrafeSpeedCutOff:20]
+        [AllowStrafing:true]
+        [StrafeMaxDurationMs:3000]
+        [StrafeSpeedCutOff:20]
 
-			[OffsetPlanetMinDistFromTarget:300]
-			[OffsetPlanetMaxDistFromTarget:600]
-			[OffsetPlanetMinTargetAltitude:500]
-			[OffsetPlanetMaxTargetAltitude:600]
+        [OffsetPlanetMinDistFromTarget:300]
+        [OffsetPlanetMaxDistFromTarget:600]
+        [OffsetPlanetMinTargetAltitude:500]
+        [OffsetPlanetMaxTargetAltitude:600]
 
-			[LimitRotationSpeed:true]
-			[MaxRotationMagnitude:0.6] 
+        [LimitRotationSpeed:true]
+        [MaxRotationMagnitude:0.6] 
 		 
-			[UseProjectileLeadPrediction:true]
+		[UseProjectileLeadPrediction:true]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
 
-	</EntityComponents>
+  </EntityComponents>
 </Definitions>

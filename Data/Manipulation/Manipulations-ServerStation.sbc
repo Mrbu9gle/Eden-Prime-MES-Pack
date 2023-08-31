@@ -1,91 +1,91 @@
 ﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<EntityComponents>
+  <EntityComponents>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
 
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Manipulation-StationGroup</SubtypeId>
-			</Id>
-			<Description>
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Manipulation-StationGroup</SubtypeId>
+      </Id>
+      <Description>
 
-			[MES Manipulation Group]
+        [MES Manipulation Group]
 
-			[ManipulationProfiles:MES-Manipulation-RivalAi]
-			[ManipulationProfiles:Manipulation-StationSetup]
+        [ManipulationProfiles:MES-Manipulation-RivalAi]
+        [ManipulationProfiles:Manipulation-StationSetup]
         
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
 
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Manipulation-StationSetup</SubtypeId>
-			</Id>
-			<Description>
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Manipulation-StationSetup</SubtypeId>
+      </Id>
+      <Description>
 
-			[MES Manipulation]
+        [MES Manipulation]
 
-			[IgnoreShieldProviderMod:true]
+        [IgnoreShieldProviderMod:true]
 
-			[ShipyardSetup:true]
-			[ShipyardConsoleBlockNames:{Any}]
-			[ShipyardProfileNames:Shipyard-MainProfile]
+        [ShipyardSetup:true]
+        [ShipyardConsoleBlockNames:{Any}]
+        [ShipyardProfileNames:Shipyard-MainProfile]
 
-			[SuitUpgradeSetup:true]
-			[SuitUpgradeBlockNames:{Any}]
-			[SuitUpgradeProfileNames:SuitUpgrades-MainProfile]
+        [SuitUpgradeSetup:true]
+        [SuitUpgradeBlockNames:{Any}]
+        [SuitUpgradeProfileNames:SuitUpgrades-MainProfile]
 
-			[SetDoorsAnyoneCanUse:true]
-			[SetConnectorsTradeMode:true]
+        [SetDoorsAnyoneCanUse:true]
+        [SetConnectorsTradeMode:true]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
     
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
 
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Shipyard-MainProfile</SubtypeId>
-			</Id>
-			<Description>
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Shipyard-MainProfile</SubtypeId>
+      </Id>
+      <Description>
 
-			[MES Shipyard]
+        [MES Shipyard]
 
-			[AllowBlueprintBuilding:false] //This feature isn't even built yet, so don't get any ideas.
-			[AllowScrapPurchasing:true]
-			[AllowRepairAndConstruction:true]
-			[AllowGridTakeover:true]
+        [AllowBlueprintBuilding:false] //This feature isn't even built yet, so don't get any ideas.
+        [AllowScrapPurchasing:true]
+        [AllowRepairAndConstruction:true]
+        [AllowGridTakeover:true]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
     
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+  <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
 
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>SuitUpgrades-MainProfile</SubtypeId>
-			</Id>
-			<Description>
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SuitUpgrades-MainProfile</SubtypeId>
+      </Id>
+      <Description>
 
-			[MES Suit Upgrades]
+        [MES Suit Upgrades]
 
-			[AllowJetpackInhibitorMod:false]
-			[AllowHandDrillInhibitorMod:false]
-			[AllowPersonnelInhibitorMod:false]
-			[AllowEnergyInhibitorMod:false]
-			[AllowSolarChargingMod:true]
-			[AllowDamageReductionMod:true]
+        [AllowJetpackInhibitorMod:false]
+        [AllowHandDrillInhibitorMod:false]
+        [AllowPersonnelInhibitorMod:false]
+        [AllowEnergyInhibitorMod:false]
+        [AllowSolarChargingMod:true]
+        [AllowDamageReductionMod:true]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
     
-	</EntityComponents>
+  </EntityComponents>
 </Definitions>

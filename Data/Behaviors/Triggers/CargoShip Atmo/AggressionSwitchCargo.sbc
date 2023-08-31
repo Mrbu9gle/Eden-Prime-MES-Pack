@@ -1,98 +1,98 @@
 ﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<EntityComponents>
+  <EntityComponents>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Trigger-AggressionSwitch-Cargo</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Trigger-AggressionSwitch-Cargo</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Trigger]
+        [RivalAI Trigger]
 
-			[UseTrigger:true]
-			[Type:TargetNear]
+        [UseTrigger:true]
+        [Type:TargetNear]
 
-			[TargetDistance:2000]
+        [TargetDistance:2000]
 
-			[StartsReady:true]
-			[MaxActions:-1]
-			[Actions:Action-AggressionSwitch-Cargo]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:Action-AggressionSwitch-Cargo]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
 	
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Action-AggressionSwitch-Cargo</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Action-AggressionSwitch-Cargo</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Action]
+        [RivalAI Action]
 
-			[UseChatBroadcast:true]
-			[ChatData:Chat-AggressionSwitch-Cargo]
+        [UseChatBroadcast:true]
+        [ChatData:Chat-AggressionSwitch-Cargo]
 
-			[ChangeAutopilotProfile:true]
-			[AutopilotProfile:Tertiary]
+        [ChangeAutopilotProfile:true]
+        [AutopilotProfile:Tertiary]
 
-			[DisableTriggers:true]
-			[DisableTriggerNames:Trigger-AggressionSwitch-Cargo]
+        [DisableTriggers:true]
+        [DisableTriggerNames:Trigger-AggressionSwitch-Cargo]
 
-			[EnableTriggers:true]
-			[EnableTriggerNames:Trigger-PassiveSwitch-Cargo] 
-			[EnableTriggerNames:Trigger-DroneSpawn-Atmo]
+        [EnableTriggers:true]
+        [EnableTriggerNames:Trigger-PassiveSwitch-Cargo] 
+        [EnableTriggerNames:Trigger-DroneSpawn-Atmo]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Chat-AggressionSwitch-Cargo</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>Chat-AggressionSwitch-Cargo</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Chat]
+      [RivalAI Chat]
       
-			[UseChat:true]
-			[StartsReady:true]
-			[Chance:100]
-			[MaxChats:-1]
-			[BroadcastRandomly:true]
-			[IgnoreAntennaRequirement:true]
-			[IgnoredAntennaRangeOverride:5000]
+      [UseChat:true]
+      [StartsReady:true]
+      [Chance:100]
+      [MaxChats:-1]
+      [BroadcastRandomly:true] 
+	  [IgnoreAntennaRequirement:true] 
+	  [IgnoredAntennaRangeOverride:5000]
       
-			[Author:{GridName}]
-			[Color:Red]
+      [Author:{GridName}]
+      [Color:Red]
       
-			[ChatMessages:You do not have clearance to approach {PlayerName}!]
-			[ChatAudio:None]
-			[BroadcastChatType:Chat]
+      [ChatMessages:You do not have clearance to approach {PlayerName}!]
+      [ChatAudio:None]
+      [BroadcastChatType:Chat]
       
-			[ChatMessages:Unknown entity nearby, setting engines to 80%, were getting out of here.]
-			[ChatAudio:None]
-			[BroadcastChatType:Chat]
+      [ChatMessages:Unknown entity nearby, setting engines to 80%, were getting out of here.]
+      [ChatAudio:None]
+      [BroadcastChatType:Chat] 
 	   
-			[ChatMessages:Attempting to gain some distance to avoid conflict.]
-			[ChatAudio:None]
-			[BroadcastChatType:Chat]
+	  [ChatMessages:Attempting to gain some distance to avoid conflict.]
+      [ChatAudio:None]
+      [BroadcastChatType:Chat] 
 	   
-			[ChatMessages:Argh just my luck, increasing thruster power, i dont want any part of this.]
-			[ChatAudio:None]
-			[BroadcastChatType:Chat]
+	  [ChatMessages:Argh just my luck, increasing thruster power, i dont want any part of this.]
+      [ChatAudio:None]
+      [BroadcastChatType:Chat] 
 	   
-			[ChatMessages:You are in violation of the United Factions treaty, please identify yourself and throttle back your engines.]
-			[ChatAudio:None]
-			[BroadcastChatType:Chat]
+	  [ChatMessages:You are in violation of the United Factions treaty, please identify yourself and throttle back your engines.]
+      [ChatAudio:None]
+      [BroadcastChatType:Chat]
 
-			</Description>
+      </Description>
       
-		</EntityComponent>
+    </EntityComponent>
 
-	</EntityComponents>
+  </EntityComponents>
 </Definitions>

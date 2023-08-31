@@ -1,80 +1,80 @@
 ﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<EntityComponents>
+  <EntityComponents>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Trigger-PassiveSwitch-Space</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Trigger-PassiveSwitch-Space</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Trigger]
+        [RivalAI Trigger]
 
-			[UseTrigger:false]
-			[Type:TargetFar]
+        [UseTrigger:false]
+        [Type:TargetFar]
 
-			[TargetDistance:4000]
+        [TargetDistance:4000]
 
-			[StartsReady:true]
-			[MaxActions:-1]
-			[Actions:Action-PassiveSwitch-Space]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:Action-PassiveSwitch-Space]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Action-PassiveSwitch-Space</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Action-PassiveSwitch-Space</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Action]
+        [RivalAI Action]
 
-			[UseChatBroadcast:true]
-			[ChatData:Chat-PassiveSwitch-Space]
+        [UseChatBroadcast:true]
+        [ChatData:Chat-PassiveSwitch-Space]
 
-			[ChangeAutopilotProfile:true]
-			[AutopilotProfile:Primary]
+        [ChangeAutopilotProfile:true]
+        [AutopilotProfile:Primary]
 
-			[DisableTriggers:true]
-			[DisableTriggerNames:Trigger-PassiveSwitch-Space]
+        [DisableTriggers:true]
+        [DisableTriggerNames:Trigger-PassiveSwitch-Space]
 
-			[EnableTriggers:true]
-			[EnableTriggerNames:Trigger-AggressionSwitch-Space]
+        [EnableTriggers:true]
+        [EnableTriggerNames:Trigger-AggressionSwitch-Space]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Chat-PassiveSwitch-Space</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Chat-PassiveSwitch-Space</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Chat]
+        [RivalAI Chat]
 
-			[UseChat:true]
-			[StartsReady:true]
-			[MaxChats:-1]
-			[BroadcastRandomly:true]
-			[Author:{GridName}]
-			[Color:Green]
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:-1]
+        [BroadcastRandomly:true]
+        [Author:{GridName}]
+		[Color:Green]
 
-			[ChatMessages: Target is no longer a concern. Continuing on previous trajectory.]
-			[ChatAudio:None]
-			[BroadcastChatType:Chat]
+        [ChatMessages: Target is no longer a concern. Continuing on previous trajectory.]
+        [ChatAudio:None]
+        [BroadcastChatType:Chat]
 
-			[ChatMessages:Disengaging from combat.]
-			[ChatAudio:None]
-			[BroadcastChatType:Chat]
+        [ChatMessages:Disengaging from combat.]
+        [ChatAudio:None]
+        [BroadcastChatType:Chat]
 
-			</Description>
-		</EntityComponent>
+      </Description>
+    </EntityComponent>
 
-	</EntityComponents>
+  </EntityComponents>
 </Definitions>

@@ -1,42 +1,42 @@
 ﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<EntityComponents>
+  <EntityComponents>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Trigger-ReturnToDespawn-Cargo</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Trigger-ReturnToDespawn-Cargo</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Trigger]
+        [RivalAI Trigger]
 
-			[UseTrigger:true]
-			[Type:BehaviorTriggerD]
+        [UseTrigger:true]
+        [Type:BehaviorTriggerD]
 
-			[StartsReady:true]
-			[MaxActions:-1]
-			[Actions:Action-ReturnToDespawn-Cargo]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:Action-ReturnToDespawn-Cargo]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Action-ReturnToDespawn-Cargo</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Action-ReturnToDespawn-Cargo</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Action]
+        [RivalAI Action]
 
-			[ChangeAutopilotProfile:true]
-			[AutopilotProfile:Primary]
+        [ChangeAutopilotProfile:true]
+        [AutopilotProfile:Primary]
         
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
 
-	</EntityComponents>
+  </EntityComponents>
 </Definitions>

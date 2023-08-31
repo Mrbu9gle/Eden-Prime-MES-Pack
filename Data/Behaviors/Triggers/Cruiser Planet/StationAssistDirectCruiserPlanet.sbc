@@ -1,82 +1,82 @@
 ﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<EntityComponents>
+  <EntityComponents>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Trigger-StationAssistDirect-Cruiser-Planet</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Trigger-StationAssistDirect-Cruiser-Planet</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Trigger]
+        [RivalAI Trigger]
 
-			[UseTrigger:true]
-			[Type:CommandReceived]
-			[CommandReceiveCode:StationDamage]
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [CommandReceiveCode:StationDamage]
 
-			[StartsReady:true]
-			[MaxActions:1]
-			[Actions:Action-StationAssistDirect-Cruiser-Planet]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:Action-StationAssistDirect-Cruiser-Planet]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Action-StationAssistDirect-Cruiser-Planet</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Action-StationAssistDirect-Cruiser-Planet</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Action]
+        [RivalAI Action]
 
-			[UseChatBroadcast:true]
-			[ChatData:Chat-StationAssistDirect-Cruiser-Planet]
+        [UseChatBroadcast:true]
+        [ChatData:Chat-StationAssistDirect-Cruiser-Planet]
 
-			[ChangeBehaviorSubclass:true]
-			[NewBehaviorSubclass:HorseFighter]
+        [ChangeBehaviorSubclass:true]
+        [NewBehaviorSubclass:HorseFighter]
 
-			[ChangeAutopilotProfile:true]
-			[AutopilotProfile:Tertiary]
+        [ChangeAutopilotProfile:true]
+        [AutopilotProfile:Tertiary]
 
-			[InheritLastAttackerFromCommand:true]
-			[SwitchTargetToDamager:true]
+        [InheritLastAttackerFromCommand:true]
+        [SwitchTargetToDamager:true]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Chat-StationAssistDirect-Cruiser-Planet</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Chat-StationAssistDirect-Cruiser-Planet</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Chat]
+        [RivalAI Chat]
 
-			[UseChat:true]
-			[StartsReady:true]
-			[MaxChats:-1]
-			[BroadcastRandomly:true]
-			[IgnoreAntennaRequirement:true] 
-			[IgnoredAntennaRangeOverride:7000]
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:-1]
+        [BroadcastRandomly:true]
+        [IgnoreAntennaRequirement:true] 
+		[IgnoredAntennaRangeOverride:7000]
       
-			[Author:{GridName}]
-			[Color:Red]
+		[Author:{GridName}]
+		[Color:Red]
 
-			[ChatMessages: This is {GridName}. Distress call acknowledged, enroute to provide support.]
-			[ChatAudio:None]
-			[BroadcastChatType:Chat]
+        [ChatMessages: This is {GridName}. Distress call acknowledged, enroute to provide support.]
+        [ChatAudio:None]
+        [BroadcastChatType:Chat]
 
-			[ChatMessages:{GridName} responding to distress call.]
-			[ChatAudio:None]
-			[BroadcastChatType:Chat]
+        [ChatMessages:{GridName} responding to distress call.]
+        [ChatAudio:None]
+        [BroadcastChatType:Chat]
 
-			</Description>
-		</EntityComponent>
+      </Description>
+    </EntityComponent>
 
-	</EntityComponents>
+  </EntityComponents>
 </Definitions>

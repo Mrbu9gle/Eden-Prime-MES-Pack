@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Definition xsi:type="MyObjectBuilder_FactionTypeDefinition"> 
+        <Id Type="MyObjectBuilder_FactionTypeDefinition" Subtype="Miner" />
+
+        <OffersList>
+            <ItemId Type="MyObjectBuilder_Ore" Subtype="Iron" />
+            <ItemId Type="MyObjectBuilder_Ore" Subtype="Nickel" />
+            <ItemId Type="MyObjectBuilder_Ore" Subtype="Cobalt" />
+            <ItemId Type="MyObjectBuilder_Ore" Subtype="Magnesium" />
+            <ItemId Type="MyObjectBuilder_Ore" Subtype="Silicon" />
+            <ItemId Type="MyObjectBuilder_Ore" Subtype="Silver" />
+            <ItemId Type="MyObjectBuilder_Ore" Subtype="Gold" />
+            <ItemId Type="MyObjectBuilder_Ore" Subtype="Platinum" />
+            <ItemId Type="MyObjectBuilder_Ore" Subtype="Uranium" />
+            <ItemId Type="MyObjectBuilder_Datapad" Subtype="Datapad" />
+
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Iron" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Nickel" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Silicon" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Cobalt" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Magnesium" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Silver" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Gold" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Platinum" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Uranium" />
+
+            <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrill3Item" />
+            <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrill4Item" />
+
+            <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Medkit" />
+            <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Powerkit" />
+
+            <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="ClangCola" />
+            <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="CosmicCoffee" />
+        </OffersList>
+
+        <OrdersList>
+            <ItemId Type="MyObjectBuilder_Ore" Subtype="Cobalt" />
+            <ItemId Type="MyObjectBuilder_Ore" Subtype="Magnesium" />
+            <ItemId Type="MyObjectBuilder_Ore" Subtype="Silver" />
+            <ItemId Type="MyObjectBuilder_Ore" Subtype="Gold" />
+            <ItemId Type="MyObjectBuilder_Ore" Subtype="Platinum" />
+            <ItemId Type="MyObjectBuilder_Ore" Subtype="Uranium" />
+
+            <ItemId Type="MyObjectBuilder_Component" Subtype="SteelPlate" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Construction" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Detector" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Motor" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Computer" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="LargeTube" />
+
+        </OrdersList>
+
+        <CanSellOxygen>true</CanSellOxygen>
+        <CanSellHydrogen>true</CanSellHydrogen>
+
+        <MaxContractCount>15</MaxContractCount>
+
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_FactionTypeDefinition">
+        <Id Type="MyObjectBuilder_FactionTypeDefinition" Subtype="Trader" />
+
+        <OffersList>
+            <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AutomaticRifleItem" />
+            <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="PreciseAutomaticRifleItem" />
+            <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="RapidFireAutomaticRifleItem" />
+            <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="UltimateAutomaticRifleItem" />
+            <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="SemiAutoPistolItem" />
+            <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="FullAutoPistolItem" />
+            <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="ElitePistolItem" />
+            <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="BasicHandHeldLauncherItem" />
+            <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AdvancedHandHeldLauncherItem" />
+
+            <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
+            <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="Welder2Item" />
+
+            <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinderItem" />
+            <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinder2Item" />
+            <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinder3Item" />
+            <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinder4Item" />
+
+            <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
+            <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrill2Item" />
+
+            <ItemId Type="MyObjectBuilder_OxygenContainerObject" Subtype="OxygenBottle" />
+            <ItemId Type="MyObjectBuilder_GasContainerObject" Subtype="HydrogenBottle" />
+
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Construction" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="MetalGrid" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="InteriorPlate" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="SteelPlate" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Girder" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="SmallTube" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="LargeTube" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Motor" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Display" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="BulletproofGlass" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Superconductor" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Computer" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Reactor" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Thrust" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="GravityGenerator" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="RadioCommunication" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Detector" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Explosives" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="SolarCell" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="PowerCell" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Canvas" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Medical" />
+            <ItemId Type="MyObjectBuilder_Datapad" Subtype="Datapad" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="ZoneChip" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="EngineerPlushie" />
+
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="NATO_25x184mm" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="Missile200mm" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="AutocannonClip" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="MediumCalibreAmmo" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="LargeCalibreAmmo" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="LargeRailgunAmmo" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="SmallRailgunAmmo" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="InteriorTurret_Mag_100rd" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="SemiAutoPistolMagazine" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="FullAutoPistolMagazine" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="ElitePistolMagazine" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="AutomaticRifleGun_Mag_20rd" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="RapidFireAutomaticRifleGun_Mag_50rd" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="PreciseAutomaticRifleGun_Mag_5rd" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="UltimateAutomaticRifleGun_Mag_30rd" />
+
+            <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Medkit" />
+            <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Powerkit" />
+
+            <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="ClangCola" />
+            <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="CosmicCoffee" />
+        </OffersList>
+
+        <OrdersList>
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Cobalt" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Magnesium" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Silver" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Gold" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Platinum" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Uranium" />
+
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Superconductor" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Reactor" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Thrust" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="GravityGenerator" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="RadioCommunication" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Detector" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="SolarCell" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="PowerCell" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="EngineerPlushie" />
+        </OrdersList>
+
+        <CanSellOxygen>true</CanSellOxygen>
+        <CanSellHydrogen>true</CanSellHydrogen>
+
+        <MaxContractCount>15</MaxContractCount>
+
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_FactionTypeDefinition">
+        <Id Type="MyObjectBuilder_FactionTypeDefinition" Subtype="Builder" />
+
+        <OffersList>
+            <ItemId Type="MyObjectBuilder_Datapad" Subtype="Datapad" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="ZoneChip" />
+
+            <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="Welder3Item" />
+            <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="Welder4Item" />
+
+            <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Medkit" />
+            <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Powerkit" />
+
+            <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="ClangCola" />
+            <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="CosmicCoffee" />
+        </OffersList>
+
+        <OrdersList>
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Construction" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="MetalGrid" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="InteriorPlate" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="SteelPlate" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Girder" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="SmallTube" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="LargeTube" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Motor" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Display" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="BulletproofGlass" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Superconductor" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Computer" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Reactor" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Thrust" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="GravityGenerator" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="RadioCommunication" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Detector" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Explosives" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="SolarCell" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="PowerCell" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Canvas" />
+        </OrdersList>
+
+        <GridsForSale> 
+			<PrefabName>Federal Ablator</PrefabName>
+            <PrefabName>Federal Armed Transport</PrefabName>
+            <PrefabName>Federal Assult Frigate</PrefabName>
+            <PrefabName>Federal Attack Shuttle</PrefabName>
+            <PrefabName>Federal B-30 Privateer</PrefabName>
+            <PrefabName>Federal B-980 Hauler</PrefabName>
+            <PrefabName>Federal Buisness Shipment</PrefabName>
+            <PrefabName>Federal Combatant mk.1</PrefabName>
+            <PrefabName>Federal Commercial Freighter</PrefabName>
+            <PrefabName>Federal Cursor</PrefabName>
+            <PrefabName>Federal Damage Merchant</PrefabName>
+            <PrefabName>Federal Fighter</PrefabName>
+            <PrefabName>Federal Gas Transport</PrefabName>
+            <PrefabName>Federal Ion Gat Ship</PrefabName>
+            <PrefabName>Federal J-Class Courier</PrefabName>
+            <PrefabName>Federal M Siren</PrefabName>
+            <PrefabName>Federal Mining Barge</PrefabName>
+            <PrefabName>Federal Mining Hauler</PrefabName>
+            <PrefabName>Federal Mining Trasport</PrefabName>
+            <PrefabName>Federal Pilum mk.2</PrefabName>
+            <PrefabName>Federal Private Shuttle</PrefabName>
+            <PrefabName>Federal Space Pod</PrefabName>
+            <PrefabName>Federal Thugboat</PrefabName>
+            <PrefabName>Federal Transgressor mk.1</PrefabName>
+            <PrefabName>Federal TT-420 Freighter</PrefabName>
+            <PrefabName>Federal U-92 Patrol Craft</PrefabName> 
+			<PrefabName>Rusty Ablator</PrefabName>
+            <PrefabName>Rusty Armed Transport</PrefabName>
+            <PrefabName>Rusty Assult Frigate</PrefabName>
+            <PrefabName>Rusty Attack Shuttle</PrefabName>
+            <PrefabName>Rusty B-30 Privateerr</PrefabName>
+            <PrefabName>Rusty B-980 Hauler</PrefabName>
+            <PrefabName>Rusty Buisness Shipment</PrefabName>
+            <PrefabName>Rusty Combatant mk.1</PrefabName>
+            <PrefabName>Rusty Commercial Freighter</PrefabName>
+            <PrefabName>Rusty Cursor</PrefabName>
+            <PrefabName>Rusty Damage Merchant</PrefabName>
+            <PrefabName>Rusty Fighter</PrefabName>
+            <PrefabName>Rusty Gas Transport</PrefabName>
+            <PrefabName>Rusty Ion Gat Ship</PrefabName>
+            <PrefabName>Rusty J-Class Courier</PrefabName>
+            <PrefabName>Rusty M Siren</PrefabName>
+            <PrefabName>Rusty Mining Barge</PrefabName>
+            <PrefabName>Rusty Mining Hauler</PrefabName>
+            <PrefabName>Rusty Mining Trasport</PrefabName>
+            <PrefabName>Rusty Pilum mk.2</PrefabName>
+            <PrefabName>Rusty Private Shuttle</PrefabName>
+            <PrefabName>Rusty Space Pod</PrefabName>
+            <PrefabName>Rusty Thugboat</PrefabName>
+            <PrefabName>Rusty Transgressor mk.1</PrefabName>
+            <PrefabName>Rusty TT-420 Freighter</PrefabName>
+            <PrefabName>Rusty U-92 Patrol Craft</PrefabName>
+            <PrefabName>ATV-Survivor</PrefabName>
+            <PrefabName>Fighter2</PrefabName>
+            <PrefabName>MinerSmallShip</PrefabName>
+            <PrefabName>Civic Hauler</PrefabName>
+            <PrefabName>Cursor</PrefabName>
+            <PrefabName>Buddy Miner</PrefabName>
+            <PrefabName>Atmo Constructor</PrefabName>
+            <PrefabName>Scout Miner</PrefabName>
+            <PrefabName>Solar Scout</PrefabName>
+            <PrefabName>Aggressive Miner</PrefabName>
+            <PrefabName>Gerbil Miner</PrefabName>
+            <PrefabName>Ion Constructor</PrefabName>
+            <PrefabName>Kite Miner</PrefabName>
+            <PrefabName>Ion Light Scout</PrefabName>
+            <PrefabName>Ion Tug Ship</PrefabName>
+            <PrefabName>Turtle Miner</PrefabName>
+            <PrefabName>U-92 Patrol Craft</PrefabName>
+            <PrefabName>Lunar Scout mk.4</PrefabName>
+            <PrefabName>LCC-3 Freighter</PrefabName>
+            <PrefabName>Burstfire Bomber</PrefabName>
+            <PrefabName>Hydro Scout Rover</PrefabName>
+            <PrefabName>Lunar Scout mk.2</PrefabName>
+            <PrefabName>T-Ion Fade</PrefabName>
+            <PrefabName>Blue Ambassador Explorer</PrefabName>
+            <PrefabName>Red Cruiser</PrefabName>
+            <PrefabName>Rescue Rover 1</PrefabName>
+            <PrefabName>TT-15 Freighter</PrefabName>
+            <PrefabName>RespawnSpacePod</PrefabName>
+            <PrefabName>RespawnShip</PrefabName>
+            <PrefabName>B-980 Hauler</PrefabName>
+            <PrefabName>TT-420 Freighter</PrefabName>
+            <PrefabName>J-Class Courier</PrefabName>
+            <PrefabName>B-60 Bulk Freighter</PrefabName>
+            <PrefabName>H-01 Prospector</PrefabName>
+            <PrefabName>H-01 Sapper</PrefabName>
+            <PrefabName>PV-4 Buggy</PrefabName>
+            <PrefabName>MiniMerchant</PrefabName>
+            <PrefabName>Cargo Shuttle</PrefabName>
+        </GridsForSale>
+
+    </Definition>
+
+</Definitions>
+

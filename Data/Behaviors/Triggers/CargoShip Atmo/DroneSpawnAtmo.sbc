@@ -1,109 +1,108 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<EntityComponents> 
+  <EntityComponents> 
 	 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Trigger-DroneSpawn-Atmo</SubtypeId>
-			</Id>
-			<Description>
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>Trigger-DroneSpawn-Atmo</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Trigger] 
-		
-			[Type:PlayerNear] 
-			[UseTrigger:false] 
-			[TargetDistance:1000] 
-			[StartsReady:true] 
-			[MaxActions:3] 
-			[MinCooldownMs:120000] 
-			[MaxCooldownMs:180000]
-			[Actions:Action-DroneSpawn-Atmo]
+      [RivalAI Trigger] 
+	  [Type:PlayerNear] 
+	  [UseTrigger:false] 
+	  [TargetDistance:1000] 
+	  [StartsReady:true] 
+	  [MaxActions:3] 
+	  [MinCooldownMs:120000] 
+	  [MaxCooldownMs:180000]
+	  [Actions:Action-DroneSpawn-Atmo]
       
-			</Description>
+      </Description>
       
-		</EntityComponent> 
+    </EntityComponent> 
 	 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Action-DroneSpawn-Atmo</SubtypeId>
-			</Id>
-			<Description>
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>Action-DroneSpawn-Atmo</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Action]
+      [RivalAI Action]
        
-			[ChangeAutopilotSpeed:true] 
-			[NewAutopilotSpeed:60] 
-			[SpawnEncounter:true] 
-			[Spawner:DroneSpawn-Atmo-Spawner]
-			[UseChatBroadcast:true]
-			[ChatData:DroneSpawn-Atmo-Chat] 
-			[Chance:60]
+	  [ChangeAutopilotSpeed:true] 
+	  [NewAutopilotSpeed:60] 
+	  [SpawnEncounter:true] 
+	  [Spawner:DroneSpawn-Atmo-Spawner]
+      [UseChatBroadcast:true]
+      [ChatData:DroneSpawn-Atmo-Chat] 
+	  [Chance:60]
 
-			</Description>
+      </Description>
       
-		</EntityComponent> 
+    </EntityComponent> 
 	 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>DroneSpawn-Atmo-Chat</SubtypeId>
-			</Id>
-			<Description>
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DroneSpawn-Atmo-Chat</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Chat]
+      [RivalAI Chat]
       
-			[UseChat:true]
-			[StartsReady:true]
-			[Chance:100]
-			[MaxChats:3]
-			[BroadcastRandomly:true] 
-			[IgnoreAntennaRequirement:true] 
-			[IgnoredAntennaRangeOverride:3500]
+      [UseChat:true]
+      [StartsReady:true]
+      [Chance:100]
+      [MaxChats:3]
+      [BroadcastRandomly:true] 
+	  [IgnoreAntennaRequirement:true] 
+	  [IgnoredAntennaRangeOverride:3500]
       
-			[Author:{GridName}]
-			[Color:Red]
+      [Author:{GridName}]
+      [Color:Red]
       
-			[ChatMessages:Calling any nearby defence support, Engage {PlayerName}!.]
-			[ChatAudio:None]
-			[BroadcastChatType:Chat]
+      [ChatMessages:Calling any nearby defence support, Engage {PlayerName}!.]
+      [ChatAudio:None]
+      [BroadcastChatType:Chat]
 
-			</Description>
+      </Description>
       
-		</EntityComponent> 
+    </EntityComponent> 
 	 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>DroneSpawn-Atmo-Spawner</SubtypeId>
-			</Id>
-			<Description>
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DroneSpawn-Atmo-Spawner</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Spawn]
+      [RivalAI Spawn]
       
-			[UseSpawn:true]
+      [UseSpawn:true]
       
-			[StartsReady:true]
-			[MaxSpawns:3]
+      [StartsReady:true]
+      [MaxSpawns:3]
       
-			[SpawnGroups:Defence Drone MK2] 
-			[SpawnGroups:Defence Drone MK2-2] 
-			[SpawnGroups:Defence Drone MK2-3] 
+      [SpawnGroups:Defence Drone MK2] 
+	  [SpawnGroups:Defence Drone MK2-2] 
+	  [SpawnGroups:Defence Drone MK2-3] 
 	   
-			[ForceSameFactionOwnership:true]
+	  [ForceSameFactionOwnership:true]
       
-			[UseRelativeSpawnPosition:false]
-			[MinDistance:500]
-			[MaxDistance:1000]
-			[MinAltitude:0]
-			[MaxAltitude:100]
-			[IgnoreSafetyChecks:false] 
-			[InheritNpcAltitude:true]
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:500]
+      [MaxDistance:1000]
+      [MinAltitude:0]
+      [MaxAltitude:100]
+      [IgnoreSafetyChecks:false] 
+	  [InheritNpcAltitude:true]
       
-			</Description>
+      </Description>
       
-		</EntityComponent>
+    </EntityComponent>
 
-	</EntityComponents>
+  </EntityComponents>
 </Definitions>

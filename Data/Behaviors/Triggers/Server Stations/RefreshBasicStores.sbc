@@ -1,89 +1,89 @@
 ﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<EntityComponents>
+  <EntityComponents>
     
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Trigger-RefreshBasicStores</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Trigger-RefreshBasicStores</SubtypeId>
+      </Id>
+      <Description>
 
-			[MES AI Trigger]
+        [MES AI Trigger]
 
-			[UseTrigger:true]
-			[Type:Timer]
+        [UseTrigger:true]
+        [Type:Timer]
 
-			[MinCooldownMs:1200000]
-			[MaxCooldownMs:2000000]
-			[StartsReady:true]
+        [MinCooldownMs:1200000]
+        [MaxCooldownMs:2000000]
+        [StartsReady:true]
 
-			[MaxActions:-1]
-			[Actions:Action-RefreshBasicStores]
+        [MaxActions:-1]
+        [Actions:Action-RefreshBasicStores]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
     
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Action-RefreshBasicStores</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Action-RefreshBasicStores</SubtypeId>
+      </Id>
+      <Description>
 
-			[MES AI Action]
+        [MES AI Action]
 
-			[UseChatBroadcast:true]
-			[ChatData:Chat-RefreshBasicStores]
+        [UseChatBroadcast:true]
+        [ChatData:Chat-RefreshBasicStores]
 
-			[ApplyStoreProfiles:true]
-			[ClearStoreContentsFirst:true]
+        [ApplyStoreProfiles:true]
+        [ClearStoreContentsFirst:true]
 
-			[StoreBlocks:Store]
-			[StoreProfiles:StoreProfile-BasicStation]
+        [StoreBlocks:Store]
+        [StoreProfiles:StoreProfile-BasicStation]
 
-			[StoreBlocks:Vending Machine (Tools)]
-			[StoreProfiles:StoreProfile-VendingToolsBasic]
+        [StoreBlocks:Vending Machine (Tools)]
+        [StoreProfiles:StoreProfile-VendingToolsBasic]
 
-			[StoreBlocks:Vending Machine (Consumables)]
-			[StoreProfiles:StoreProfile-VendingConsumablesBasic]
+        [StoreBlocks:Vending Machine (Consumables)]
+        [StoreProfiles:StoreProfile-VendingConsumablesBasic]
 
-			</Description>
-	
-		</EntityComponent>
+      </Description>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Chat-RefreshBasicStores</SubtypeId>
-			</Id>
-			<Description>
+    </EntityComponent>
 
-			[MES AI Chat]
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Chat-RefreshBasicStores</SubtypeId>
+      </Id>
+      <Description>
 
-			[UseChat:true]
-			[StartsReady:true]
-			[MaxChats:-1]
-			[BroadcastRandomly:true]
-			[Author:Station Administrator]
-			[Color:Green]
-			[Chance:40]
+        [MES AI Chat]
 
-			[ChatMessages:Our inventory rotation is complete. Come see what's for sale!]
-			[ChatAudio:ArcHudGPSNotification1]
-			[BroadcastChatType:Chat]
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:-1]
+        [BroadcastRandomly:true]
+        [Author:Station Administrator]
+        [Color:Green]
+        [Chance:40]
 
-			[ChatMessages:Still waiting for the next delivery, but we did find some stuff in storage you might find useful.]
-			[ChatAudio:ArcHudGPSNotification1]
-			[BroadcastChatType:Chat]
+        [ChatMessages:Our inventory rotation is complete. Come see what's for sale!]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
 
-			[ChatMessages:On-hand stock has now been made available for purchase.]
-			[ChatAudio:ArcHudGPSNotification1]
-			[BroadcastChatType:Chat]
+        [ChatMessages:Still waiting for the next delivery, but we did find some stuff in storage you might find useful.]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
 
-			</Description>
-		</EntityComponent>
+        [ChatMessages:On-hand stock has now been made available for purchase.]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
     
-	</EntityComponents>
+  </EntityComponents>
 </Definitions>

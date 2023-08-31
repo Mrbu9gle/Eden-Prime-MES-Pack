@@ -1,206 +1,206 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<EntityComponents>
+  <EntityComponents>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>BehaviorFighterSpace</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BehaviorFighterSpace</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Behavior]
+        [RivalAI Behavior]
 
-			[BehaviorName:CargoShip]
+        [BehaviorName:CargoShip]
 
-			[AutopilotData:AutoPilot-Fighter-Space]
-			[SecondaryAutopilotData:AutoPilot-Fighter-Space-B]
-			[TertiaryAutopilotData:AutoPilot-Fighter-Space-C]
+        [AutopilotData:AutoPilot-Fighter-Space]
+        [SecondaryAutopilotData:AutoPilot-Fighter-Space-B]
+        [TertiaryAutopilotData:AutoPilot-Fighter-Space-C]
 
-			[Triggers:Trigger-AggressionSwitch-Fighter-Space]
-			[Triggers:Trigger-PassiveSwitch-Fighter-Space]
-			[Triggers:Trigger-PassiveSwitchNoTarget-Fighter-Space]
-			[Triggers:Trigger-ReturnToDespawn-Fighter-Space]
-			[Triggers:Trigger-ShipDamage-Fighter-Space]
-			[Triggers:Trigger-ReturnToSpeed-Fighter-Space]
-			[Triggers:Trigger-ProcessEscortRequest-Fighter-Space]
-			[Triggers:Trigger-StationAssistDirect-Fighter-Space] 
+        [Triggers:Trigger-AggressionSwitch-Fighter-Space]
+        [Triggers:Trigger-PassiveSwitch-Fighter-Space]
+        [Triggers:Trigger-PassiveSwitchNoTarget-Fighter-Space]
+        [Triggers:Trigger-ReturnToDespawn-Fighter-Space]
+        [Triggers:Trigger-ShipDamage-Fighter-Space]
+        [Triggers:Trigger-ReturnToSpeed-Fighter-Space]
+        [Triggers:Trigger-ProcessEscortRequest-Fighter-Space]
+        [Triggers:Trigger-StationAssistDirect-Fighter-Space] 
 
-			[EscortOffsets:{X:-100 Y:0 Z:0}]
-			[EscortOffsets:{X:100 Y:0 Z:0}]
+        [EscortOffsets:{X:-100 Y:0 Z:0}]
+        [EscortOffsets:{X:100 Y:0 Z:0}]
 
-			[TargetData:Targeting-Fighter-Space]
-			[OverrideTargetData:Targeting-Fighter-Space-Override]
+        [TargetData:Targeting-Fighter-Space]
+        [OverrideTargetData:Targeting-Fighter-Space-Override]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Targeting-Fighter-Space</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Targeting-Fighter-Space</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Target]
+        [RivalAI Target]
 
-			[UseCustomTargeting:true]
-			[Target:PlayerAndGrid]
+        [UseCustomTargeting:true]
+        [Target:PlayerAndGrid]
 
-			[MaxDistance:5000]
-			[MaxExistingTargetDistance:10000]
+        [MaxDistance:5000]
+        [MaxExistingTargetDistance:10000]
 
-			[MatchAllFilters:OutsideOfSafezone]
-			[MatchAllFilters:Owner]
-			[MatchAllFilters:Relation]
+        [MatchAllFilters:OutsideOfSafezone]
+        [MatchAllFilters:Owner]
+        [MatchAllFilters:Relation]
 
-			[GetTargetBy:ClosestDistance]
+        [GetTargetBy:ClosestDistance]
 
-			[Owners:Player]
-			[Owners:NPC]
-			[Relations:Enemy] 
-			
-			[PrioritizePlayerControlled:true]
-
-			</Description>
-
-		</EntityComponent>
-
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Targeting-Fighter-Space-Override</SubtypeId>
-			</Id>
-			<Description>
-
-			[RivalAI Target]
-
-			[UseCustomTargeting:true]
-			[Target:PlayerAndGrid]
-
-			[MaxDistance:10000]
-
-			[MatchAllFilters:OutsideOfSafezone]
-			[MatchAllFilters:Owner]
-			[MatchAllFilters:Relation] 
-		
-			[GetTargetBy:ClosestDistance]
-
-			[Owners:Player]
-			[Owners:NPC]
-			[Relations:Enemy] 
-		
-			[PrioritizePlayerControlled:true]
-
-			</Description>
-
-		</EntityComponent>
-
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>AutoPilot-Fighter-Space</SubtypeId>
-			</Id>
-			<Description>
-
-			[RivalAI Autopilot]
-
-			[SlowDownOnWaypointApproach:true]
-			[ExtraSlowDownDistance:50]
-			[ForceDampenersEnabled:true]
-
-			[IdealMinSpeed:12]
-			[IdealMaxSpeed:25]
-			[MaxSpeedTolerance:1]
-
-			[WaypointTolerance:50]
-			[WaypointWaitTimeTrigger:120]
-
-			[UseVelocityCollisionEvasion:true] 
-			[CollisionEvasionWaypointDistance:250] 
-			[CollisionEvasionResumeDistance:250] 
-			[CollisionEvasionResumeTime:60] 
-		
-			[LimitRotationSpeed:true]
-			[MaxRotationMagnitude:0.2] 
+        [Owners:Player]
+        [Owners:NPC]
+        [Relations:Enemy] 
 		 
-			[UseProjectileLeadPrediction:true]
+		[PrioritizePlayerControlled:true]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>AutoPilot-Fighter-Space-B</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Targeting-Fighter-Space-Override</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Autopilot]
+        [RivalAI Target]
 
-			[SlowDownOnWaypointApproach:true]
-			[ExtraSlowDownDistance:50]
-			[ForceDampenersEnabled:true]
+        [UseCustomTargeting:true]
+        [Target:PlayerAndGrid]
 
-			[IdealMinSpeed:12]
-			[IdealMaxSpeed:25]
-			[MaxSpeedTolerance:1]
+        [MaxDistance:10000]
 
-			[WaypointTolerance:50]
-			[WaypointWaitTimeTrigger:60]
-
-			[UseVelocityCollisionEvasion:true] 
-			[CollisionEvasionWaypointDistance:250] 
-			[CollisionEvasionResumeDistance:250] 
-			[CollisionEvasionResumeTime:60] 
+        [MatchAllFilters:OutsideOfSafezone]
+        [MatchAllFilters:Owner]
+        [MatchAllFilters:Relation] 
 		
-			[LimitRotationSpeed:true]
-			[MaxRotationMagnitude:0.2] 
+        [GetTargetBy:ClosestDistance]
+
+        [Owners:Player]
+        [Owners:NPC]
+        [Relations:Enemy] 
+		
+		[PrioritizePlayerControlled:true]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AutoPilot-Fighter-Space</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:50]
+        [ForceDampenersEnabled:true]
+
+        [IdealMinSpeed:12]
+        [IdealMaxSpeed:25]
+        [MaxSpeedTolerance:1]
+
+        [WaypointTolerance:50]
+        [WaypointWaitTimeTrigger:120]
+
+        [UseVelocityCollisionEvasion:true] 
+		[CollisionEvasionWaypointDistance:250] 
+		[CollisionEvasionResumeDistance:250] 
+		[CollisionEvasionResumeTime:60] 
+		
+        [LimitRotationSpeed:true]
+        [MaxRotationMagnitude:0.2] 
 		 
-			[UseProjectileLeadPrediction:true]
+		[UseProjectileLeadPrediction:true]
 
-			</Description>
+      </Description>
 
-		</EntityComponent> 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AutoPilot-Fighter-Space-B</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:50]
+        [ForceDampenersEnabled:true]
+
+        [IdealMinSpeed:12]
+        [IdealMaxSpeed:25]
+        [MaxSpeedTolerance:1]
+
+        [WaypointTolerance:50]
+        [WaypointWaitTimeTrigger:60]
+
+        [UseVelocityCollisionEvasion:true] 
+		[CollisionEvasionWaypointDistance:250] 
+		[CollisionEvasionResumeDistance:250] 
+		[CollisionEvasionResumeTime:60] 
+		
+        [LimitRotationSpeed:true]
+        [MaxRotationMagnitude:0.2] 
+		 
+		[UseProjectileLeadPrediction:true]
+
+      </Description>
+
+    </EntityComponent> 
 	 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>AutoPilot-Fighter-Space-C</SubtypeId>
-			</Id>
-			<Description>
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AutoPilot-Fighter-Space-C</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Autopilot]
+        [RivalAI Autopilot]
 
-			[SlowDownOnWaypointApproach:true]
-			[ExtraSlowDownDistance:250]
-			[ForceDampenersEnabled:true]
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:250]
+        [ForceDampenersEnabled:true]
 
-			[IdealMinSpeed:18]
-			[IdealMaxSpeed:70]
-			[MaxSpeedTolerance:1]
+        [IdealMinSpeed:18]
+        [IdealMaxSpeed:70]
+        [MaxSpeedTolerance:1]
 
-			[WaypointTolerance:50]
+        [WaypointTolerance:50]
 
-			[WaypointWaitTimeTrigger:8]
+        [WaypointWaitTimeTrigger:8]
 
-			[AllowStrafing:true]
-			[StrafeMaxDurationMs:3000]
-			[StrafeSpeedCutOff:20]
+        [AllowStrafing:true]
+        [StrafeMaxDurationMs:3000]
+        [StrafeSpeedCutOff:20]
 
-			[OffsetSpaceMinDistFromTarget:300]
-			[OffsetSpaceMaxDistFromTarget:600]
+        [OffsetSpaceMinDistFromTarget:300]
+        [OffsetSpaceMaxDistFromTarget:600]
 
-			[LimitRotationSpeed:true]
-			[MaxRotationMagnitude:0.6] 
+        [LimitRotationSpeed:true]
+        [MaxRotationMagnitude:0.6] 
 		 
-			[UseProjectileLeadPrediction:true]
+		[UseProjectileLeadPrediction:true]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
 
-	</EntityComponents>
+  </EntityComponents>
 </Definitions>

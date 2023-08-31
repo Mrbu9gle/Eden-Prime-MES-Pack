@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<EntityComponents>
+  <EntityComponents>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Trigger-ProcessEscortRequest-Cruiser-Planet</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Trigger-ProcessEscortRequest-Cruiser-Planet</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Trigger]
-	
-			[UseTrigger:true]
-			[Type:CommandReceived]
-			[CommandReceiveCode:EscortRequest]
+        [RivalAI Trigger]
 
-			[StartsReady:true]
-			[MinCooldownMs:0]
-			[MaxCooldownMs:0]
-			[MaxActions:-1]
-			[Actions:Action-ProcessEscortRequest-Cruiser-Planet]
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [CommandReceiveCode:EscortRequest]
 
-			</Description>
+        [StartsReady:true]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:0]
+        [MaxActions:-1]
+        [Actions:Action-ProcessEscortRequest-Cruiser-Planet]
 
-		</EntityComponent>
+      </Description>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Action-ProcessEscortRequest-Cruiser-Planet</SubtypeId>
-			</Id>
-			<Description>
+    </EntityComponent>
 
-			[RivalAI Action]
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Action-ProcessEscortRequest-Cruiser-Planet</SubtypeId>
+      </Id>
+      <Description>
 
-			[AssignEscortFromCommand:true]
+        [RivalAI Action]
 
-			</Description>
+        [AssignEscortFromCommand:true]
 
-		</EntityComponent>
+      </Description>
+
+    </EntityComponent>
     
-	</EntityComponents>
+  </EntityComponents>
 </Definitions>

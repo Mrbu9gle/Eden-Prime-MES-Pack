@@ -1,51 +1,51 @@
 ﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<EntityComponents>
+  <EntityComponents>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Trigger-PassiveSwitchNoTarget-Fighter-Space</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Trigger-PassiveSwitchNoTarget-Fighter-Space</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Trigger]
+        [RivalAI Trigger]
 
-			[UseTrigger:false]
-			[Type:ChangedTarget]
+        [UseTrigger:false]
+        [Type:ChangedTarget]
 
-			[MinCooldownMs:2000]
-			[MaxCooldownMs:2001]
-	
-			[StartsReady:false]
-			[MaxActions:-1]
-			[Actions:Action-PassiveSwitchNoTarget-Fighter-Space]
+        [MinCooldownMs:2000]
+        [MaxCooldownMs:2001]
 
-			</Description>
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:Action-PassiveSwitchNoTarget-Fighter-Space]
 
-		</EntityComponent>
+      </Description>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Action-PassiveSwitchNoTarget-Fighter-Space</SubtypeId>
-			</Id>
-			<Description>
+    </EntityComponent>
 
-			[RivalAI Action]
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Action-PassiveSwitchNoTarget-Fighter-Space</SubtypeId>
+      </Id>
+      <Description>
 
-			[ChangeBehaviorSubclass:true]
-			[NewBehaviorSubclass:CargoShip]
-	
-			[ChangeAutopilotProfile:true]
-			[AutopilotProfile:Primary]
+        [RivalAI Action]
 
-			[DisableTriggers:true]
-			[DisableTriggerNames:Trigger-PassiveSwitchNoTarget-Fighter-Space]
+        [ChangeBehaviorSubclass:true]
+        [NewBehaviorSubclass:CargoShip]
 
-			</Description>
+        [ChangeAutopilotProfile:true]
+        [AutopilotProfile:Primary]
 
-		</EntityComponent>
+        [DisableTriggers:true]
+        [DisableTriggerNames:Trigger-PassiveSwitchNoTarget-Fighter-Space]
 
-	</EntityComponents>
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
 </Definitions>

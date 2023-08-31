@@ -1,48 +1,48 @@
 ﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<EntityComponents>
+  <EntityComponents>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Trigger-PassiveSwitchNoTarget-Space</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Trigger-PassiveSwitchNoTarget-Space</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Trigger]
+        [RivalAI Trigger]
 
-			[UseTrigger:false]
-			[Type:ChangedTarget]
+        [UseTrigger:false]
+        [Type:ChangedTarget]
 
-			[MinCooldownMs:2000]
-			[MaxCooldownMs:2001]
+        [MinCooldownMs:2000]
+        [MaxCooldownMs:2001]
 
-			[StartsReady:false]
-			[MaxActions:-1]
-			[Actions:Action-PassiveSwitchNoTarget-Space]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:Action-PassiveSwitchNoTarget-Space]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Action-PassiveSwitchNoTarget-Space</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Action-PassiveSwitchNoTarget-Space</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Action]
+        [RivalAI Action]
 
-			[ChangeAutopilotProfile:true]
-			[AutopilotProfile:Primary]
+        [ChangeAutopilotProfile:true]
+        [AutopilotProfile:Primary]
 
-			[DisableTriggers:true]
-			[DisableTriggerNames:Trigger-PassiveSwitchNoTarget-Space]
+        [DisableTriggers:true]
+        [DisableTriggerNames:Trigger-PassiveSwitchNoTarget-Space]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
 
-	</EntityComponents>
+  </EntityComponents>
 </Definitions>

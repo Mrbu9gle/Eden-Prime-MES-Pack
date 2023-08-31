@@ -1,84 +1,84 @@
 ﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<EntityComponents>
+  <EntityComponents>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Trigger-CallAtmoCargoShip</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Trigger-CallAtmoCargoShip</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Trigger]
+        [RivalAI Trigger]
 
-			[UseTrigger:true]
-			[Type:Timer]
+        [UseTrigger:true]
+        [Type:Timer]
 
-			[MinCooldownMs:240000]
-			[MaxCooldownMs:360001]
-			[StartsReady:true]
+        [MinCooldownMs:240000]
+        [MaxCooldownMs:360001]
+        [StartsReady:true]
         
-			[MaxActions:-1]
-			[Actions:Action-CallAtmoCargoShip]
+        [MaxActions:-1]
+        [Actions:Action-CallAtmoCargoShip]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Action-CallAtmoCargoShip</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Action-CallAtmoCargoShip</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Action]
+        [RivalAI Action]
 
-			[BroadcastCommandProfiles:true]
-			[CommandProfileIds:Command-CallAtmoCargoShip]
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:Command-CallAtmoCargoShip]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Command-CallAtmoCargoShip</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Command-CallAtmoCargoShip</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Command]
+        [RivalAI Command]
 
-			[CommandCode:PathDeviation]
-			[SingleRecipient:true]
-			[SendWaypoint:true]
-			[MatchSenderReceiverOwners:true]
-			[Waypoint:Waypoint-CallAtmoCargoShip]
+        [CommandCode:PathDeviation]
+        [SingleRecipient:true]
+        [SendWaypoint:true]
+        [MatchSenderReceiverOwners:true]
+        [Waypoint:Waypoint-CallAtmoCargoShip]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Waypoint-CallAtmoCargoShip</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Waypoint-CallAtmoCargoShip</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Waypoint]
+        [RivalAI Waypoint]
 
-			[Waypoint:EntityRandom]
-			[RelativeEntity:Self]
-			[MinDistance:60]
-			[MaxDistance:101]
-			[MinAltitude:60]
-			[MaxAltitude:101]
+        [Waypoint:EntityRandom]
+        [RelativeEntity:Self]
+        [MinDistance:60]
+        [MaxDistance:101]
+        [MinAltitude:60]
+        [MaxAltitude:101]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
     
-	</EntityComponents>
+  </EntityComponents>
 </Definitions>

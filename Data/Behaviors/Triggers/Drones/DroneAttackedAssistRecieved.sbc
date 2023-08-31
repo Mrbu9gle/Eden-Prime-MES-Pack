@@ -1,93 +1,93 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<EntityComponents>
+  <EntityComponents>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Trigger-DroneAssist</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Trigger-DroneAssist</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Trigger]
+        [RivalAI Trigger]
 
-			[UseTrigger:true]
-			[Type:CommandReceived]
-			[CommandReceiveCode:DroneDamage]
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [CommandReceiveCode:DroneDamage]
 
-			[StartsReady:true]
-			[MaxActions:-1]
-			[Actions:Action-DroneAssist]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:Action-DroneAssist]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Action-DroneAssist</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Action-DroneAssist</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Action]
+        [RivalAI Action]
 
-			[UseChatBroadcast:true]
-			[ChatData:Chat-DroneAssist]
+        [UseChatBroadcast:true]
+        [ChatData:Chat-DroneAssist]
 
-			[ChangeBehaviorSubclass:true]
-			[NewBehaviorSubclass:Fighter] 
+        [ChangeBehaviorSubclass:true]
+        [NewBehaviorSubclass:Fighter] 
 		 
-			[ChangeAutopilotProfile:true]
-			[AutopilotProfile:Secondary]
+		[ChangeAutopilotProfile:true]
+        [AutopilotProfile:Secondary]
  
-			[RefreshTarget:true]
+		[RefreshTarget:true]
 		 
-			[TriggerTimerBlocks:true] 
-			[TimerBlockNames:Timer Block] 
+		[TriggerTimerBlocks:true] 
+		[TimerBlockNames:Timer Block] 
 		 
-			[ChangeTargetProfile:true] 
-			[NewTargetProfileId:Targeting-Drone-Multi-Override]
+		[ChangeTargetProfile:true] 
+		[NewTargetProfileId:Targeting-Drone-Multi-Override]
 
-			[InheritLastAttackerFromCommand:true]
-			[SwitchTargetToDamager:true] 
+        [InheritLastAttackerFromCommand:true]
+        [SwitchTargetToDamager:true] 
  
-			[EnableTriggers:true]
-			[EnableTriggerNames:Trigger-PassiveSwitchDrone]
+		[EnableTriggers:true]
+        [EnableTriggerNames:Trigger-PassiveSwitchDrone]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Chat-DroneAssist</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Chat-DroneAssist</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Chat]
+        [RivalAI Chat]
 
-			[UseChat:true]
-			[StartsReady:true]
-			[MaxChats:1]
-			[BroadcastRandomly:true]
-			[IgnoreAntennaRequirement:true] 
-			[IgnoredAntennaRangeOverride:5000] 
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+        [IgnoreAntennaRequirement:true] 
+		[IgnoredAntennaRangeOverride:5000] 
 		
-			[Author:Automated Defence System]
-			[Color:Red]
+        [Author:Automated Defence System]
+		[Color:Red]
 
-			[ChatMessages:Assisting friendlies, Deploying weaponry.]
-			[ChatAudio:None]
-			[BroadcastChatType:Chat]
+        [ChatMessages:Assisting friendlies, Deploying weaponry.]
+        [ChatAudio:None]
+        [BroadcastChatType:Chat]
 
-			[ChatMessages:Deploying Weapons, we must join the fight!]
-			[ChatAudio:None]
-			[BroadcastChatType:Chat]
+        [ChatMessages:Deploying Weapons, we must join the fight!]
+        [ChatAudio:None]
+        [BroadcastChatType:Chat]
 
-			</Description>
-		</EntityComponent>
+      </Description>
+    </EntityComponent>
 
-	</EntityComponents>
+  </EntityComponents>
 </Definitions>

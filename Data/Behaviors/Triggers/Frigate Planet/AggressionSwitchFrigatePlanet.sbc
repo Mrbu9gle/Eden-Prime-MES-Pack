@@ -1,98 +1,98 @@
 ﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<EntityComponents>
+  <EntityComponents>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Trigger-AggressionSwitch-Frigate-Planet</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Trigger-AggressionSwitch-Frigate-Planet</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Trigger]
+        [RivalAI Trigger]
 
-			[UseTrigger:true]
-			[Type:TargetNear]
+        [UseTrigger:true]
+        [Type:TargetNear]
 
-			[TargetDistance:4000]
+        [TargetDistance:4000]
 
-			[StartsReady:true]
-			[MaxActions:-1]
-			[Actions:Action-AggressionSwitch-Frigate-Planet]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:Action-AggressionSwitch-Frigate-Planet]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Action-AggressionSwitch-Frigate-Planet</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Action-AggressionSwitch-Frigate-Planet</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Action]
+        [RivalAI Action]
 
-			[UseChatBroadcast:true]
-			[ChatData:Chat-AggressionSwitch-Frigate-Planet]
+        [UseChatBroadcast:true]
+        [ChatData:Chat-AggressionSwitch-Frigate-Planet]
 
-			[ChangeBehaviorSubclass:true]
-			[NewBehaviorSubclass:HorseFighter]
+        [ChangeBehaviorSubclass:true]
+        [NewBehaviorSubclass:HorseFighter]
 
-			[ChangeAutopilotProfile:true]
-			[AutopilotProfile:Tertiary]
+        [ChangeAutopilotProfile:true]
+        [AutopilotProfile:Tertiary]
 
-			[DisableTriggers:true]
-			[DisableTriggerNames:Trigger-AggressionSwitch-Frigate-Planet]
+        [DisableTriggers:true]
+        [DisableTriggerNames:Trigger-AggressionSwitch-Frigate-Planet]
 
-			[EnableTriggers:true]
-			[EnableTriggerNames:Trigger-PassiveSwitch-Frigate-Planet]
+        [EnableTriggers:true]
+        [EnableTriggerNames:Trigger-PassiveSwitch-Frigate-Planet]
 
-			</Description>
+      </Description>
 
-		</EntityComponent>
+    </EntityComponent>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Chat-AggressionSwitch-Frigate-Planet</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Chat-AggressionSwitch-Frigate-Planet</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Chat]
+        [RivalAI Chat]
 
-			[UseChat:true]
-			[StartsReady:true]
-			[MaxChats:-1]
-			[BroadcastRandomly:true]
-			[IgnoreAntennaRequirement:true] 
-			[IgnoredAntennaRangeOverride:9000]
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:-1]
+        [BroadcastRandomly:true]
+        [IgnoreAntennaRequirement:true] 
+		[IgnoredAntennaRangeOverride:9000]
       
-			[Author:{GridName}]
-			[Color:Red]
+		[Author:{GridName}]
+		[Color:Red]
 
-			[ChatMessages:We are picking up something on our scanners, changing direction to take a look.]
-			[ChatAudio:None]
-			[BroadcastChatType:Chat]
+        [ChatMessages:We are picking up something on our scanners, changing direction to take a look.]
+		[ChatAudio:None]
+		[BroadcastChatType:Chat]
       
-			[ChatMessages:Theres something in the distance, changing our heading to investigate.]
-			[ChatAudio:None]
-			[BroadcastChatType:Chat]
+		[ChatMessages:Theres something in the distance, changing our heading to investigate.]
+		[ChatAudio:None]
+		[BroadcastChatType:Chat]
  
-			[ChatMessages:Proximity sensors are picking up Something, full burn to Investigate.]
-			[ChatAudio:None]
-			[BroadcastChatType:Chat] 
+		[ChatMessages:Proximity sensors are picking up Something, full burn to Investigate.]
+		[ChatAudio:None]
+		[BroadcastChatType:Chat] 
  
-			[ChatMessages:We are approaching a unknown signature, investigating the source of the signal.]
-			[ChatAudio:None]
-			[BroadcastChatType:Chat] 
+		[ChatMessages:We are approaching a unknown signature, investigating the source of the signal.]
+		[ChatAudio:None]
+		[BroadcastChatType:Chat] 
 	   
-			[ChatMessages:Proximity sensors are picking up a faint signature, heading to investigate.]
-			[ChatAudio:None]
-			[BroadcastChatType:Chat]
+		[ChatMessages:Proximity sensors are picking up a faint signature, heading to investigate.]
+		[ChatAudio:None]
+		[BroadcastChatType:Chat]
 
-			</Description>
-		</EntityComponent>
+      </Description>
+    </EntityComponent>
 
-	</EntityComponents>
+  </EntityComponents>
 </Definitions>

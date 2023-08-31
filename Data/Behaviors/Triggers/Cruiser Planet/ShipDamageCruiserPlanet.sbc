@@ -1,63 +1,63 @@
 ﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<EntityComponents>
+  <EntityComponents>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Trigger-ShipDamage-Cruiser-Planet</SubtypeId>
-			</Id>
-			<Description>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Trigger-ShipDamage-Cruiser-Planet</SubtypeId>
+      </Id>
+      <Description>
 
-			[RivalAI Trigger]
+        [RivalAI Trigger]
 
-			[UseTrigger:true]
-			[Type:Damage]
-	
-			[DamageTypes:Any]
+        [UseTrigger:true]
+        [Type:Damage]
 
-			[ExcludedDamageTypes:Environment]
-			[ExcludedDamageTypes:Deformation]
-			[ExcludedDamageTypes:Fire]
+        [DamageTypes:Any]
 
-			[MinCooldownMs:60000]
-			[MaxCooldownMs:60001]
+        [ExcludedDamageTypes:Environment]
+        [ExcludedDamageTypes:Deformation]
+        [ExcludedDamageTypes:Fire]
 
-			[StartsReady:true]
-			[MaxActions:3]
-			[Actions:Action-ShipDamage-Cruiser-Planet]
+        [MinCooldownMs:60000]
+        [MaxCooldownMs:60001]
 
-			</Description>
+        [StartsReady:true]
+        [MaxActions:3]
+        [Actions:Action-ShipDamage-Cruiser-Planet]
 
-		</EntityComponent>
+      </Description>
 
-		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Action-ShipDamage-Cruiser-Planet</SubtypeId>
-			</Id>
-			<Description>
+    </EntityComponent>
 
-			[RivalAI Action]
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Action-ShipDamage-Cruiser-Planet</SubtypeId>
+      </Id>
+      <Description>
 
-			[ChangeAutopilotProfile:true]
-			[AutopilotProfile:Primary]
+        [RivalAI Action]
 
-			[ChangeAutopilotSpeed:true]
-			[NewAutopilotSpeed:30]
+        [ChangeAutopilotProfile:true]
+        [AutopilotProfile:Primary]
 
-			[CancelWaitingAtWaypoint:true]
-			[SwitchToNextWaypoint:true]
+        [ChangeAutopilotSpeed:true]
+        [NewAutopilotSpeed:30]
 
-			[EnableTriggers:true]
-			[EnableTriggerNames:Trigger-ReturnToSpeed-Cruiser-Planet]
+        [CancelWaitingAtWaypoint:true]
+        [SwitchToNextWaypoint:true]
 
-			[ResetCooldownTimeOfTriggers:true]
-			[ResetTriggerCooldownNames:Trigger-ReturnToSpeed-Cruiser-Planet]
+        [EnableTriggers:true]
+        [EnableTriggerNames:Trigger-ReturnToSpeed-Cruiser-Planet]
 
-			</Description>
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:Trigger-ReturnToSpeed-Cruiser-Planet]
 
-		</EntityComponent>
+      </Description>
 
-	</EntityComponents>
+    </EntityComponent>
+
+  </EntityComponents>
 </Definitions>
