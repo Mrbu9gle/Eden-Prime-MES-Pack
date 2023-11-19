@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(S)Federal Combatant</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[SpaceCargoShip:true]
+ 
+			[SpaceCargoShipChance:30]
+			
+			[RivalAiSpawn:false] 
+			
+			[UseRandomBuilderFaction:true] 
+ 
+			[UseCombatPhase:true]
+			 
+			[SpawnRandomCargo:true] 
+			[ManipulationGroups:Manipulation-Group-Fighter]
+			[ReplenishSystems:true]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Federal Combatant mk.1">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BehaviorFighterSpace</Behaviour>
+				</Prefab> 
+				<Prefab SubtypeId="Federal Combatant mk.1">
+					<Position>
+						<X>60.0</X>
+						<Y>0.0</Y>
+						<Z>-60.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BehaviorFighterSpace</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+	</SpawnGroups>
+</Definitions>
