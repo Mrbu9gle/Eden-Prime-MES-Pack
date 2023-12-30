@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(S)Rusty Buisness Shipment</SubtypeId>
+				<SubtypeId>(S)RustyBuisnessShipment</SubtypeId>
 			</Id>
 			<Description>
 
@@ -19,7 +19,8 @@
 			
 			[AssignContainerTypesToAllCargo:MES-ContainerTypes-EventShipDrop-1,MES-ContainerTypes-MixedComponents-3,MES-ContainerTypes-Credits-5,MES-ContainerTypes-MixedIngots-1,MES-ContainerTypes-PistolWeapons-3] 
 			[ManipulationGroups:Manipulation-Group-Loot] 
-			[ReplenishSystems:true]
+			[ManipulationProfiles:MES-Manipulation-MaxTurretRange]
+			[ReplenishSystems:true] 
 			
 			[FactionOwner:SPRT] 
 			 

@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(S)Rusty Combatant MK1</SubtypeId>
+				<SubtypeId>(S)RustyCombatantMK1</SubtypeId>
 			</Id>
 			<Description>
 
@@ -18,8 +18,9 @@
 			[RivalAiSpawn:false]  
 			
 			[SpawnRandomCargo:true] 
-			[ManipulationGroups:Manipulation-Group-Fighter]
-			[ReplenishSystems:true]
+			[ManipulationGroups:Manipulation-Group-Fighter] 
+			[ManipulationProfiles:MES-Manipulation-MaxTurretRange]
+			[ReplenishSystems:true] 
 			
 			[FactionOwner:SPRT] 
 			 

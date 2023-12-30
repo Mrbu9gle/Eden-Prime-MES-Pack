@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(S)Rusty Ablator</SubtypeId>
+				<SubtypeId>(S)RustyAblator</SubtypeId>
 			</Id>
 			<Description>
 
@@ -18,7 +18,8 @@
 			[RivalAiSpawn:false]  
 			
 			[SpawnRandomCargo:true] 
-			[ManipulationGroups:Manipulation-Group-Fighter]
+			[ManipulationGroups:Manipulation-Group-Fighter] 
+			[ManipulationProfiles:MES-Manipulation-MaxTurretRange]
 			[ReplenishSystems:true]
 			
 			[FactionOwner:SPRT] 

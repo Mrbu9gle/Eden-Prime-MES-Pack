@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(P)Ore Processing Outpost Atmo</SubtypeId>
+				<SubtypeId>(P)OreProcessingOutpostAtmo</SubtypeId>
 			</Id>
 			<Description>
 
@@ -20,6 +20,7 @@
 			  
 			[AssignContainerTypesToAllCargo:MES-ContainerTypes-MixedOres-1,MES-ContainerTypes-MixedIngots-1,MES-ContainerTypes-EventShipDrop-1]
 			[ManipulationGroups:Manipulation-Group-Loot] 
+			[ManipulationProfiles:MES-Manipulation-MaxTurretRange]
  
 			[InitializeStoreBlocks:true] 
 			[ContainerTypesForStoreOrders:MES-ContainerTypes-MESStoreBuyComponents-1,MES-ContainerTypes-MESStoreBuyOre-1,MES-ContainerTypes-MESStoreBuyIngots-1]
@@ -54,7 +55,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(P)Ore Processing Outpost NAtmo</SubtypeId>
+				<SubtypeId>(P)OreProcessingOutpostNAtmo</SubtypeId>
 			</Id>
 			<Description>
 
@@ -69,6 +70,7 @@
 			  
 			[AssignContainerTypesToAllCargo:MES-ContainerTypes-MixedOres-1,MES-ContainerTypes-MixedIngots-1]
 			[ManipulationGroups:Manipulation-Group-Loot] 
+			[ManipulationProfiles:MES-Manipulation-MaxTurretRange]
  
 			[InitializeStoreBlocks:true] 
 			[ContainerTypesForStoreOrders:MES-ContainerTypes-MESStoreBuyComponents-1,MES-ContainerTypes-MESStoreBuyOre-1,MES-ContainerTypes-MESStoreBuyIngots-1]
@@ -103,7 +105,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(P)Ore Processing Outpost Mars</SubtypeId>
+				<SubtypeId>(P)OreProcessingOutpostMars</SubtypeId>
 			</Id>
 			<Description>
 
@@ -118,6 +120,7 @@
 			  
 			[AssignContainerTypesToAllCargo:MES-ContainerTypes-MixedOres-1,MES-ContainerTypes-MixedIngots-1]
 			[ManipulationGroups:Manipulation-Group-Loot] 
+			[ManipulationProfiles:MES-Manipulation-MaxTurretRange]			
  
 			[InitializeStoreBlocks:true] 
 			[ContainerTypesForStoreOrders:MES-ContainerTypes-MESStoreBuyComponents-1,MES-ContainerTypes-MESStoreBuyOre-1,MES-ContainerTypes-MESStoreBuyIngots-1]

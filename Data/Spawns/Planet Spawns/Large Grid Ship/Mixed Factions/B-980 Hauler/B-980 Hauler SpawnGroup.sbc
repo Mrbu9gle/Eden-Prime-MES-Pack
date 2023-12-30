@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(P)B-980 Hauler</SubtypeId>
+				<SubtypeId>(P)B-980Hauler</SubtypeId>
 			</Id>
 			<Description>
 
@@ -22,8 +22,9 @@
 			[IgnoreCombatPhase:true]
 			 
 			[AssignContainerTypesToAllCargo:MES-ContainerTypes-MixedComponents-2,MES-ContainerTypes-Credits-2,MES-ContainerTypes-EventShipDrop-1,MES-ContainerTypes-MixedIngots-2] 
-			[ManipulationGroups:Manipulation-Group-Loot]
-			[ReplenishSystems:true]
+			[ManipulationGroups:Manipulation-Group-Loot] 
+			[ManipulationProfiles:MES-Manipulation-MaxTurretRange]
+			[ReplenishSystems:true] 
 				
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]

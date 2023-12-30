@@ -1,0 +1,63 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>ARUM-SpawnGroup-ROEarth</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup] 
+		 
+		[StaticEncounter:true] 
+ 
+		[IgnoreCombatPhase:true] 
+		 
+		[StaticEncounterCoords:{X:-397651.734965109 Y:-65336.2911502146 Z:40496.7725302504}]
+		[StaticEncounterForward:{X:-0.0143205894241412 Y:0.0394532526600026 Z:-0.999118792523237}]
+		[StaticEncounterUp:{X:0.00799030057634526 Y:-0.999184837524557 Z:-0.0395703873840506}]
+		 
+		[StaticEncounterUsePlanetDirectionAndAltitude:true]
+		[StaticEncounterPlanet:Mars]
+		[StaticEncounterPlanetDirection:{X:0.000399023050475688 Y:-0.999222739196937 Z:-0.0394177403255765}]
+		[StaticEncounterPlanetAltitude:6.43551254579506]
+		 
+		[TriggerCoords:{X:-397651.734965109 Y:-65336.2911502146 Z:40496.7725302504}]
+        [TriggerRadius:2000] 
+ 
+        [ReplenishSystems:true] 
+		
+        [ManipulationGroups:Manipulation-StationGroupNoShipyard] 
+		
+		[IgnoreCleanupRules:true] 		
+		 
+        [FactionOwner:ARUM]
+
+        [ForceStaticGrid:true] 
+		 
+		[ForceExactPositionAndOrientation:true]
+
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:ARUM-Station]
+        [RemoteControlCodeMinDistance:100000] 
+		
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC) RO Earth">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Behavior-SafeZoneStation</Behaviour>
+        </Prefab> 
+      </Prefabs>
+    </SpawnGroup>
+
+  </SpawnGroups>
+</Definitions>

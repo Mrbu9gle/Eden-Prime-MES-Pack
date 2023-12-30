@@ -1,0 +1,63 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>ARUM-SpawnGroup-EdenHQ</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup] 
+		 
+		[StaticEncounter:true] 
+ 
+		[IgnoreCombatPhase:true] 
+		 
+		[StaticEncounterCoords:{X:338559.242020285 Y:-3987.44280720921 Z:37783.5627961859}]
+		[StaticEncounterForward:{X:0.175437089692245 Y:0.0120216680436704 Z:-0.984417242361065}]
+		[StaticEncounterUp:{X:-0.982117524590361 Y:-0.0672493496271344 Z:-0.175848494071543}]
+		 
+		[StaticEncounterUsePlanetDirectionAndAltitude:true]
+		[StaticEncounterPlanet:EarthLike]
+		[StaticEncounterPlanetDirection:{X:-0.982133563414021 Y:-0.0669302590932552 Z:-0.175880652811466}]
+		[StaticEncounterPlanetAltitude:-2.22545949335472]
+		 
+		[TriggerCoords:{X:338559.242020285 Y:-3987.44280720921 Z:37783.5627961859}]
+        [TriggerRadius:2000] 
+ 
+        [ReplenishSystems:true] 
+		
+        [ManipulationGroups:Manipulation-StationGroupNoShipyard] 
+		
+		[IgnoreCleanupRules:true] 		
+		 
+        [FactionOwner:ARUM]
+
+        [ForceStaticGrid:true] 
+		 
+		[ForceExactPositionAndOrientation:true]
+
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:ARUM-Station]
+        [RemoteControlCodeMinDistance:100000] 
+		
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC) ARUM Eden HQ">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Behavior-SafeZoneStation</Behaviour>
+        </Prefab> 
+      </Prefabs>
+    </SpawnGroup>
+
+  </SpawnGroups>
+</Definitions>

@@ -1,13 +1,12 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Factions>
-	<!--Do Not Edit Above Here-->
 
-		<!--Copy From This Line-->
+		<!--Spector Coalition-->
 		<Faction Tag="SPCT" Founder="Spector Coalition CEO">
 			<Id>
-				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>FactionSpectorCoalition</SubtypeId> <!--Must Be Unique-->
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> 
+				<SubtypeId>FactionSpectorCoalition</SubtypeId>
 			</Id>
 			<DisplayName>Spector Coalition</DisplayName>
 			<IsDefault>true</IsDefault>
@@ -17,8 +16,71 @@
 			<StartingBalance>1000000</StartingBalance>
 			<Type>None</Type> <!--None, Miner, Trader, Builder-->
 			<DiscoveredByDefault>false</DiscoveredByDefault>
-			<FactionIcon>Textures\FactionLogo\SPCTLogo.dds</FactionIcon> <!--Game or Mod Path For Texture File-->
+			<FactionIcon>Textures\FactionLogo\SPCTLogo.dds</FactionIcon>
 		</Faction> 
+		<Faction Tag="SPEN" Founder="Spector Engineering CEO">
+			<Id>
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> 
+				<SubtypeId>SpectorEngineering</SubtypeId>
+			</Id>
+			<DisplayName>Spector Engineering</DisplayName>
+			<IsDefault>true</IsDefault>
+			<DefaultRelation>Neutral</DefaultRelation> <!--Enemies, Neutral, Friends-->
+			<AcceptHumans>false</AcceptHumans>
+			<AutoAcceptMember>false</AutoAcceptMember>
+			<StartingBalance>1000000</StartingBalance>
+			<Type>None</Type> <!--None, Miner, Trader, Builder-->
+			<DiscoveredByDefault>false</DiscoveredByDefault>
+			<FactionIcon>Textures\FactionLogo\SPCTLogo.dds</FactionIcon>
+		</Faction> 
+		<Faction Tag="SPOP" Founder="Spector Operations CEO">
+			<Id>
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> 
+				<SubtypeId>SpectorOperations</SubtypeId>
+			</Id>
+			<DisplayName>Spector Operations</DisplayName>
+			<IsDefault>true</IsDefault>
+			<DefaultRelation>Neutral</DefaultRelation> <!--Enemies, Neutral, Friends-->
+			<AcceptHumans>false</AcceptHumans>
+			<AutoAcceptMember>false</AutoAcceptMember>
+			<StartingBalance>1000000</StartingBalance>
+			<Type>None</Type> <!--None, Miner, Trader, Builder-->
+			<DiscoveredByDefault>false</DiscoveredByDefault>
+			<FactionIcon>Textures\FactionLogo\SPCTLogo.dds</FactionIcon>
+		</Faction> 
+		<Faction Tag="SPTR" Founder="Spector Trade CEO">
+			<Id>
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> 
+				<SubtypeId>SpectorTrade</SubtypeId>
+			</Id>
+			<DisplayName>Spector Trade</DisplayName>
+			<IsDefault>true</IsDefault>
+			<DefaultRelation>Neutral</DefaultRelation> <!--Enemies, Neutral, Friends-->
+			<AcceptHumans>false</AcceptHumans>
+			<AutoAcceptMember>false</AutoAcceptMember>
+			<StartingBalance>1000000</StartingBalance>
+			<Type>None</Type> <!--None, Miner, Trader, Builder-->
+			<DiscoveredByDefault>false</DiscoveredByDefault>
+			<FactionIcon>Textures\FactionLogo\SPCTLogo.dds</FactionIcon>
+		</Faction> 
+		<Faction Tag="SPFU" Founder="Spector Fuel CEO">
+			<Id>
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> 
+				<SubtypeId>SpectorFuel</SubtypeId>
+			</Id>
+			<DisplayName>Spector Fuel</DisplayName>
+			<IsDefault>true</IsDefault>
+			<DefaultRelation>Neutral</DefaultRelation> <!--Enemies, Neutral, Friends-->
+			<AcceptHumans>false</AcceptHumans>
+			<AutoAcceptMember>false</AutoAcceptMember>
+			<StartingBalance>1000000</StartingBalance>
+			<Type>None</Type> <!--None, Miner, Trader, Builder-->
+			<DiscoveredByDefault>false</DiscoveredByDefault>
+			<FactionIcon>Textures\FactionLogo\SPCTLogo.dds</FactionIcon>
+		</Faction>
+		<!--Spector Coalition--> 
+		 
+		<!--Astrum Tech-->
 		<Faction Tag="ARUM" Founder="Astrum Tech CEO">
             <Id>
                 <TypeId>MyObjectBuilder_FactionDefinition</TypeId>
@@ -34,55 +96,121 @@
             <DiscoveredByDefault>true</DiscoveredByDefault>
             <FactionIcon>Textures\FactionLogo\ARUMLogo.dds</FactionIcon>
         </Faction> 
+		<!--Astrum Tech--> 
+		 
+		<!--Capture Coalition-->
 		<Faction Tag="CAPT" Founder="Capture Coalition CEO">
 			<Id>
-				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>FactionCaptureCoalition</SubtypeId> <!--Must Be Unique-->
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> 
+				<SubtypeId>FactionCaptureCoalition</SubtypeId> 
 			</Id>
 			<DisplayName>Capture Coalition</DisplayName>
 			<IsDefault>true</IsDefault>
-			<DefaultRelation>Neutral</DefaultRelation> <!--Enemies, Neutral, Friends-->
+			<DefaultRelation>Neutral</DefaultRelation> 
 			<AcceptHumans>false</AcceptHumans>
 			<AutoAcceptMember>false</AutoAcceptMember>
 			<StartingBalance>1000000</StartingBalance>
-			<Type>None</Type> <!--None, Miner, Trader, Builder-->
+			<Type>None</Type>
 			<DiscoveredByDefault>false</DiscoveredByDefault>
-			<FactionIcon>Textures\FactionLogo\Meteor.dds</FactionIcon> <!--Game or Mod Path For Texture File-->
+			<FactionIcon>Textures\FactionLogo\Meteor.dds</FactionIcon>
 		</Faction> 
+		<!--Capture Coalition--> 
+		 
+		<!--United Factions-->
 		<Faction Tag="UNFA" Founder="United Factions CEO">
 			<Id>
-				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>UnitedFactions</SubtypeId> <!--Must Be Unique-->
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> 
+				<SubtypeId>UnitedFactions</SubtypeId>
 			</Id>
 			<DisplayName>United Factions</DisplayName>
 			<IsDefault>true</IsDefault>
-			<DefaultRelation>Neutral</DefaultRelation> <!--Enemies, Neutral, Friends-->
+			<DefaultRelation>Neutral</DefaultRelation>
 			<AcceptHumans>false</AcceptHumans>
 			<AutoAcceptMember>false</AutoAcceptMember>
 			<StartingBalance>1000000</StartingBalance>
-			<Type>None</Type> <!--None, Miner, Trader, Builder-->
+			<Type>None</Type>
 			<DiscoveredByDefault>true</DiscoveredByDefault>
-			<FactionIcon>Textures\FactionLogo\TreeOfLife.dds</FactionIcon> <!--Game or Mod Path For Texture File-->
+			<FactionIcon>Textures\FactionLogo\TreeOfLife.dds</FactionIcon>
 		</Faction> 
+		<Faction Tag="UFEN" Founder="United Factions Engineering CEO">
+			<Id>
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> 
+				<SubtypeId>UnitedFactionsEngineering</SubtypeId>
+			</Id>
+			<DisplayName>United Factions Engineering</DisplayName>
+			<IsDefault>true</IsDefault>
+			<DefaultRelation>Neutral</DefaultRelation>
+			<AcceptHumans>false</AcceptHumans>
+			<AutoAcceptMember>false</AutoAcceptMember>
+			<StartingBalance>1000000</StartingBalance>
+			<Type>None</Type>
+			<DiscoveredByDefault>true</DiscoveredByDefault>
+			<FactionIcon>Textures\FactionLogo\TreeOfLife.dds</FactionIcon>
+		</Faction> 
+		<Faction Tag="UFOP" Founder="United Factions Operations CEO">
+			<Id>
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> 
+				<SubtypeId>UnitedFactionsOperations</SubtypeId>
+			</Id>
+			<DisplayName>United Factions Operations</DisplayName>
+			<IsDefault>true</IsDefault>
+			<DefaultRelation>Neutral</DefaultRelation>
+			<AcceptHumans>false</AcceptHumans>
+			<AutoAcceptMember>false</AutoAcceptMember>
+			<StartingBalance>1000000</StartingBalance>
+			<Type>None</Type>
+			<DiscoveredByDefault>true</DiscoveredByDefault>
+			<FactionIcon>Textures\FactionLogo\TreeOfLife.dds</FactionIcon>
+		</Faction> 
+		<Faction Tag="UFTR" Founder="United Factions Trade CEO">
+			<Id>
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> 
+				<SubtypeId>UnitedFactionsTrade</SubtypeId>
+			</Id>
+			<DisplayName>United Factions Trade</DisplayName>
+			<IsDefault>true</IsDefault>
+			<DefaultRelation>Neutral</DefaultRelation>
+			<AcceptHumans>false</AcceptHumans>
+			<AutoAcceptMember>false</AutoAcceptMember>
+			<StartingBalance>1000000</StartingBalance>
+			<Type>None</Type>
+			<DiscoveredByDefault>true</DiscoveredByDefault>
+			<FactionIcon>Textures\FactionLogo\TreeOfLife.dds</FactionIcon>
+		</Faction> 
+		<Faction Tag="UFFU" Founder="United Factions Fuel CEO">
+			<Id>
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> 
+				<SubtypeId>UnitedFactionsFuel</SubtypeId>
+			</Id>
+			<DisplayName>United Factions Fuel</DisplayName>
+			<IsDefault>true</IsDefault>
+			<DefaultRelation>Neutral</DefaultRelation>
+			<AcceptHumans>false</AcceptHumans>
+			<AutoAcceptMember>false</AutoAcceptMember>
+			<StartingBalance>1000000</StartingBalance>
+			<Type>None</Type>
+			<DiscoveredByDefault>true</DiscoveredByDefault>
+			<FactionIcon>Textures\FactionLogo\TreeOfLife.dds</FactionIcon>
+		</Faction>
+		<!--United Factions--> 
+		 
+		<!--Cult Of The Saberoids-->
 		<Faction Tag="CULT" Founder="Cult Of The Saberoids CEO">
 			<Id>
-				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>CultOfTheSaberoids</SubtypeId> <!--Must Be Unique-->
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId>
+				<SubtypeId>CultOfTheSaberoids</SubtypeId>
 			</Id>
 			<DisplayName>Cult Of The Saberoids</DisplayName>
 			<IsDefault>true</IsDefault>
-			<DefaultRelation>Neutral</DefaultRelation> <!--Enemies, Neutral, Friends-->
+			<DefaultRelation>Neutral</DefaultRelation>
 			<AcceptHumans>false</AcceptHumans>
 			<AutoAcceptMember>false</AutoAcceptMember>
 			<StartingBalance>1000000</StartingBalance>
-			<Type>None</Type> <!--None, Miner, Trader, Builder-->
+			<Type>None</Type>
 			<DiscoveredByDefault>false</DiscoveredByDefault>
-			<FactionIcon>Textures\FactionLogo\SPRTLogo.dds</FactionIcon> <!--Game or Mod Path For Texture File-->
-		</Faction>
-		<!--Copy To This Line And Paste Directly Below-->
+			<FactionIcon>Textures\FactionLogo\SPRTLogo.dds</FactionIcon>
+		</Faction> 
+		<!--Cult Of The Saberoids-->
 
-
-
-	<!--Do Not Edit Below Here-->
 	</Factions>
 </Definitions>

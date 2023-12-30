@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(S)Rusty Lander Type M</SubtypeId>
+				<SubtypeId>(S)RustyLanderTypeM</SubtypeId>
 			</Id>
 			<Description>
 
@@ -18,8 +18,9 @@
 			[RivalAiSpawn:false] 
 			
 			[AssignContainerTypesToAllCargo:MES-ContainerTypes-EventShipDrop-1,MES-ContainerTypes-MixedComponents-3,MES-ContainerTypes-Credits-4,MES-ContainerTypes-PistolWeapons-3,MES-ContainerTypes-Consumables-2] 
-			[ManipulationGroups:Manipulation-Group-Loot]
-			[ReplenishSystems:true]
+			[ManipulationGroups:Manipulation-Group-Loot] 
+			[ManipulationProfiles:MES-Manipulation-MaxTurretRange]
+			[ReplenishSystems:true] 
 			
 			[FactionOwner:SPRT] 
 			 

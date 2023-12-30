@@ -5,7 +5,7 @@
      	<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(S)Rusty Mining Hauler</SubtypeId>
+				<SubtypeId>(S)RustyMiningHauler</SubtypeId>
 			</Id>
 			<Description>
 
@@ -18,8 +18,9 @@
 			[RivalAiSpawn:false]  
 			
 			[AssignContainerTypesToAllCargo:MES-ContainerTypes-EventShipDrop-1,MES-ContainerTypes-MixedOres-2,MES-ContainerTypes-Credits-4,MES-ContainerTypes-PistolWeapons-3,MES-ContainerTypes-MixedAmmo-3] 
-			[ManipulationGroups:Manipulation-Group-Loot]
-			[ReplenishSystems:true]
+			[ManipulationGroups:Manipulation-Group-Loot] 
+			[ManipulationProfiles:MES-Manipulation-MaxTurretRange]
+			[ReplenishSystems:true] 
 			
 			[FactionOwner:SPRT] 
 			 

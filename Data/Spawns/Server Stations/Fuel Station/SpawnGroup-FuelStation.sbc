@@ -5,7 +5,7 @@
     <SpawnGroup>
       <Id>
         <TypeId>SpawnGroupDefinition</TypeId>
-        <SubtypeId>ARUM-SpawnGroup-FuelStation</SubtypeId>
+        <SubtypeId>UNFA-SpawnGroup-FuelStation</SubtypeId>
       </Id>
       <Description>
 
@@ -24,11 +24,11 @@
  
         [ReplenishSystems:true] 
 		
-        [ManipulationGroups:Manipulation-StationGroup] 
+        [ManipulationGroups:Manipulation-StationGroupNoShipyard] 
 		
 		[IgnoreCleanupRules:true] 		
 		 
-        [FactionOwner:ARUM]
+        [FactionOwner:UNFA]
 
         [ForceStaticGrid:true] 
 		 

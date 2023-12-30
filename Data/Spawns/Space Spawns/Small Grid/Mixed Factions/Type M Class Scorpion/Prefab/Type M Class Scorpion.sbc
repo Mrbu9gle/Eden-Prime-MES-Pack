@@ -6,47 +6,26 @@
       <CubeGrids>
         <CubeGrid>
           <SubtypeName />
-          <EntityId>116837016219924665</EntityId>
+          <EntityId>105147757232524044</EntityId>
           <PersistentFlags>CastShadows InScene</PersistentFlags>
-          <Name>116837016219924665</Name>
+          <Name>105147757232524044</Name>
           <PositionAndOrientation>
             <Position x="0" y="0" z="0" />
-            <Forward x="-0.187236175" y="-0.5618008" z="0.8058056" />
-            <Up x="-0.5178548" y="-0.640613" z="-0.5669581" />
+            <Forward x="-0.820176542" y="-0.5426997" z="-0.181073159" />
+            <Up x="0.190096185" y="-0.557029843" z="0.808443666" />
             <Orientation>
-              <X>0.90569663</X>
-              <Y>-0.2874307</Y>
-              <Z>0.00448574172</Z>
-              <W>-0.311572015</W>
+              <X>0.457261235</X>
+              <Y>0.4476333</Y>
+              <Z>0.7546039</Z>
+              <W>0.14529112</W>
             </Orientation>
           </PositionAndOrientation>
           <LocalPositionAndOrientation xsi:nil="true" />
-          <ComponentContainer>
-            <Components>
-              <ComponentData>
-                <TypeId>MyModStorageComponentBase</TypeId>
-                <Component xsi:type="MyObjectBuilder_ModStorageComponent">
-                  <Storage>
-                    <dictionary>
-                      <item>
-                        <Key>75bbb4f5-4fb9-4230-beef-bb79c9811502</Key>
-                        <Value>GAA=</Value>
-                      </item>
-                      <item>
-                        <Key>75bbb4f5-4fb9-4230-beef-bb79c9811503</Key>
-                        <Value>EhYIABD///////////8BIAAtAAAAADAA</Value>
-                      </item>
-                    </dictionary>
-                  </Storage>
-                </Component>
-              </ComponentData>
-            </Components>
-          </ComponentContainer>
           <GridSizeEnum>Small</GridSizeEnum>
           <CubeBlocks>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Cockpit">
               <SubtypeName>DBSmallBlockFighterCockpit</SubtypeName>
-              <EntityId>118871844671255923</EntityId>
+              <EntityId>94127385932345876</EntityId>
               <Min x="-1" y="-1" z="-2" />
               <ColorMaskHSV x="0.575" y="0" z="0" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
@@ -66,12 +45,340 @@
                       <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
                     </Component>
                   </ComponentData>
+                  <ComponentData>
+                    <TypeId>MyMultiTextPanelComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_MultiTextPanelComponent">
+                      <TextPanelsContents>
+                        <MySerializedTextPanelData>
+                          <ChangeInterval>0</ChangeInterval>
+                          <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                          <FontSize>1</FontSize>
+                          <ShowText>NONE</ShowText>
+                          <FontColor>
+                            <PackedValue>4294967295</PackedValue>
+                            <X>255</X>
+                            <Y>255</Y>
+                            <Z>255</Z>
+                            <R>255</R>
+                            <G>255</G>
+                            <B>255</B>
+                            <A>255</A>
+                          </FontColor>
+                          <BackgroundColor>
+                            <PackedValue>4278190080</PackedValue>
+                            <X>0</X>
+                            <Y>0</Y>
+                            <Z>0</Z>
+                            <R>0</R>
+                            <G>0</G>
+                            <B>0</B>
+                            <A>255</A>
+                          </BackgroundColor>
+                          <CurrentShownTexture>0</CurrentShownTexture>
+                          <ContentType>SCRIPT</ContentType>
+                          <SelectedScript>TSS_ArtificialHorizon</SelectedScript>
+                          <TextPadding>2</TextPadding>
+                          <CustomizeScripts>true</CustomizeScripts>
+                          <ScriptBackgroundColor>
+                            <PackedValue>4288108544</PackedValue>
+                            <X>0</X>
+                            <Y>88</Y>
+                            <Z>151</Z>
+                            <R>0</R>
+                            <G>88</G>
+                            <B>151</B>
+                            <A>255</A>
+                          </ScriptBackgroundColor>
+                          <ScriptForegroundColor>
+                            <PackedValue>4294962611</PackedValue>
+                            <X>179</X>
+                            <Y>237</Y>
+                            <Z>255</Z>
+                            <R>179</R>
+                            <G>237</G>
+                            <B>255</B>
+                            <A>255</A>
+                          </ScriptForegroundColor>
+                          <Sprites>
+                            <Length>0</Length>
+                          </Sprites>
+                        </MySerializedTextPanelData>
+                        <MySerializedTextPanelData>
+                          <ChangeInterval>0</ChangeInterval>
+                          <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                          <FontSize>1</FontSize>
+                          <ShowText>NONE</ShowText>
+                          <FontColor>
+                            <PackedValue>4294967295</PackedValue>
+                            <X>255</X>
+                            <Y>255</Y>
+                            <Z>255</Z>
+                            <R>255</R>
+                            <G>255</G>
+                            <B>255</B>
+                            <A>255</A>
+                          </FontColor>
+                          <BackgroundColor>
+                            <PackedValue>4278190080</PackedValue>
+                            <X>0</X>
+                            <Y>0</Y>
+                            <Z>0</Z>
+                            <R>0</R>
+                            <G>0</G>
+                            <B>0</B>
+                            <A>255</A>
+                          </BackgroundColor>
+                          <CurrentShownTexture>0</CurrentShownTexture>
+                          <ContentType>SCRIPT</ContentType>
+                          <SelectedScript>TSS_ClockAnalog</SelectedScript>
+                          <TextPadding>2</TextPadding>
+                          <CustomizeScripts>true</CustomizeScripts>
+                          <ScriptBackgroundColor>
+                            <PackedValue>4288108544</PackedValue>
+                            <X>0</X>
+                            <Y>88</Y>
+                            <Z>151</Z>
+                            <R>0</R>
+                            <G>88</G>
+                            <B>151</B>
+                            <A>255</A>
+                          </ScriptBackgroundColor>
+                          <ScriptForegroundColor>
+                            <PackedValue>4294962611</PackedValue>
+                            <X>179</X>
+                            <Y>237</Y>
+                            <Z>255</Z>
+                            <R>179</R>
+                            <G>237</G>
+                            <B>255</B>
+                            <A>255</A>
+                          </ScriptForegroundColor>
+                          <Sprites>
+                            <Length>0</Length>
+                          </Sprites>
+                        </MySerializedTextPanelData>
+                        <MySerializedTextPanelData>
+                          <ChangeInterval>0</ChangeInterval>
+                          <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                          <FontSize>1</FontSize>
+                          <ShowText>NONE</ShowText>
+                          <FontColor>
+                            <PackedValue>4294967295</PackedValue>
+                            <X>255</X>
+                            <Y>255</Y>
+                            <Z>255</Z>
+                            <R>255</R>
+                            <G>255</G>
+                            <B>255</B>
+                            <A>255</A>
+                          </FontColor>
+                          <BackgroundColor>
+                            <PackedValue>4278190080</PackedValue>
+                            <X>0</X>
+                            <Y>0</Y>
+                            <Z>0</Z>
+                            <R>0</R>
+                            <G>0</G>
+                            <B>0</B>
+                            <A>255</A>
+                          </BackgroundColor>
+                          <CurrentShownTexture>0</CurrentShownTexture>
+                          <ContentType>SCRIPT</ContentType>
+                          <SelectedScript>TSS_Gravity</SelectedScript>
+                          <TextPadding>2</TextPadding>
+                          <CustomizeScripts>true</CustomizeScripts>
+                          <ScriptBackgroundColor>
+                            <PackedValue>4288108544</PackedValue>
+                            <X>0</X>
+                            <Y>88</Y>
+                            <Z>151</Z>
+                            <R>0</R>
+                            <G>88</G>
+                            <B>151</B>
+                            <A>255</A>
+                          </ScriptBackgroundColor>
+                          <ScriptForegroundColor>
+                            <PackedValue>4294962611</PackedValue>
+                            <X>179</X>
+                            <Y>237</Y>
+                            <Z>255</Z>
+                            <R>179</R>
+                            <G>237</G>
+                            <B>255</B>
+                            <A>255</A>
+                          </ScriptForegroundColor>
+                          <Sprites>
+                            <Length>0</Length>
+                          </Sprites>
+                        </MySerializedTextPanelData>
+                        <MySerializedTextPanelData>
+                          <ChangeInterval>0</ChangeInterval>
+                          <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                          <FontSize>1</FontSize>
+                          <ShowText>NONE</ShowText>
+                          <FontColor>
+                            <PackedValue>4294967295</PackedValue>
+                            <X>255</X>
+                            <Y>255</Y>
+                            <Z>255</Z>
+                            <R>255</R>
+                            <G>255</G>
+                            <B>255</B>
+                            <A>255</A>
+                          </FontColor>
+                          <BackgroundColor>
+                            <PackedValue>4278190080</PackedValue>
+                            <X>0</X>
+                            <Y>0</Y>
+                            <Z>0</Z>
+                            <R>0</R>
+                            <G>0</G>
+                            <B>0</B>
+                            <A>255</A>
+                          </BackgroundColor>
+                          <CurrentShownTexture>0</CurrentShownTexture>
+                          <ContentType>SCRIPT</ContentType>
+                          <SelectedScript>TSS_EnergyHydrogen</SelectedScript>
+                          <TextPadding>2</TextPadding>
+                          <CustomizeScripts>true</CustomizeScripts>
+                          <ScriptBackgroundColor>
+                            <PackedValue>4288108544</PackedValue>
+                            <X>0</X>
+                            <Y>88</Y>
+                            <Z>151</Z>
+                            <R>0</R>
+                            <G>88</G>
+                            <B>151</B>
+                            <A>255</A>
+                          </ScriptBackgroundColor>
+                          <ScriptForegroundColor>
+                            <PackedValue>4294962611</PackedValue>
+                            <X>179</X>
+                            <Y>237</Y>
+                            <Z>255</Z>
+                            <R>179</R>
+                            <G>237</G>
+                            <B>255</B>
+                            <A>255</A>
+                          </ScriptForegroundColor>
+                          <Sprites>
+                            <Length>0</Length>
+                          </Sprites>
+                        </MySerializedTextPanelData>
+                        <MySerializedTextPanelData>
+                          <ChangeInterval>0</ChangeInterval>
+                          <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                          <FontSize>1</FontSize>
+                          <ShowText>NONE</ShowText>
+                          <FontColor>
+                            <PackedValue>4294967295</PackedValue>
+                            <X>255</X>
+                            <Y>255</Y>
+                            <Z>255</Z>
+                            <R>255</R>
+                            <G>255</G>
+                            <B>255</B>
+                            <A>255</A>
+                          </FontColor>
+                          <BackgroundColor>
+                            <PackedValue>4278190080</PackedValue>
+                            <X>0</X>
+                            <Y>0</Y>
+                            <Z>0</Z>
+                            <R>0</R>
+                            <G>0</G>
+                            <B>0</B>
+                            <A>255</A>
+                          </BackgroundColor>
+                          <CurrentShownTexture>0</CurrentShownTexture>
+                          <SelectedScript />
+                          <TextPadding>2</TextPadding>
+                          <ScriptBackgroundColor>
+                            <PackedValue>4288108544</PackedValue>
+                            <X>0</X>
+                            <Y>88</Y>
+                            <Z>151</Z>
+                            <R>0</R>
+                            <G>88</G>
+                            <B>151</B>
+                            <A>255</A>
+                          </ScriptBackgroundColor>
+                          <ScriptForegroundColor>
+                            <PackedValue>4294962611</PackedValue>
+                            <X>179</X>
+                            <Y>237</Y>
+                            <Z>255</Z>
+                            <R>179</R>
+                            <G>237</G>
+                            <B>255</B>
+                            <A>255</A>
+                          </ScriptForegroundColor>
+                          <Sprites>
+                            <Length>0</Length>
+                          </Sprites>
+                        </MySerializedTextPanelData>
+                        <MySerializedTextPanelData>
+                          <ChangeInterval>0</ChangeInterval>
+                          <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                          <FontSize>1</FontSize>
+                          <ShowText>NONE</ShowText>
+                          <FontColor>
+                            <PackedValue>4294967295</PackedValue>
+                            <X>255</X>
+                            <Y>255</Y>
+                            <Z>255</Z>
+                            <R>255</R>
+                            <G>255</G>
+                            <B>255</B>
+                            <A>255</A>
+                          </FontColor>
+                          <BackgroundColor>
+                            <PackedValue>4278190080</PackedValue>
+                            <X>0</X>
+                            <Y>0</Y>
+                            <Z>0</Z>
+                            <R>0</R>
+                            <G>0</G>
+                            <B>0</B>
+                            <A>255</A>
+                          </BackgroundColor>
+                          <CurrentShownTexture>0</CurrentShownTexture>
+                          <SelectedScript />
+                          <TextPadding>2</TextPadding>
+                          <ScriptBackgroundColor>
+                            <PackedValue>4288108544</PackedValue>
+                            <X>0</X>
+                            <Y>88</Y>
+                            <Z>151</Z>
+                            <R>0</R>
+                            <G>88</G>
+                            <B>151</B>
+                            <A>255</A>
+                          </ScriptBackgroundColor>
+                          <ScriptForegroundColor>
+                            <PackedValue>4294962611</PackedValue>
+                            <X>179</X>
+                            <Y>237</Y>
+                            <Z>255</Z>
+                            <R>179</R>
+                            <G>237</G>
+                            <B>255</B>
+                            <A>255</A>
+                          </ScriptForegroundColor>
+                          <Sprites>
+                            <Length>0</Length>
+                          </Sprites>
+                        </MySerializedTextPanelData>
+                      </TextPanelsContents>
+                    </Component>
+                  </ComponentData>
                 </Components>
               </ComponentContainer>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
               <UseSingleWeaponMode>false</UseSingleWeaponMode>
               <Toolbar>
                 <ToolbarType>Character</ToolbarType>
@@ -83,7 +390,7 @@
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                       <Action>WCMouseToggle</Action>
                       <GridEntityId>0</GridEntityId>
-                      <BlockEntityId>118871844671255923</BlockEntityId>
+                      <BlockEntityId>94127385932345876</BlockEntityId>
                       <GroupName>Guns</GroupName>
                     </Data>
                   </Slot>
@@ -120,12 +427,12 @@
               </OnLockedToolbar>
               <PilotRelativeWorld>
                 <Position x="-3.3744814395904541" y="2.3094274997711182" z="0.72310382127761841" />
-                <Forward x="0.497684151" y="-0.866854668" z="-0.02955746" />
-                <Up x="0.8577454" y="0.486822933" z="0.165155411" />
+                <Forward x="0.4976841" y="-0.8668546" z="-0.0295575131" />
+                <Up x="0.8577454" y="0.486822873" z="0.165155381" />
                 <Orientation>
                   <X>-0.297843575</X>
                   <Y>-0.629690766</Y>
-                  <Z>-0.409728885</Z>
+                  <Z>-0.4097289</Z>
                   <W>0.588983</W>
                 </Orientation>
               </PilotRelativeWorld>
@@ -133,337 +440,16 @@
               <IsInFirstPersonView>true</IsInFirstPersonView>
               <OxygenLevel>1</OxygenLevel>
               <PilotJetpackEnabled xsi:nil="true" />
-              <TextPanels>
-                <MySerializedTextPanelData>
-                  <ChangeInterval>0</ChangeInterval>
-                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
-                  <FontSize>1</FontSize>
-                  <ShowText>NONE</ShowText>
-                  <FontColor>
-                    <PackedValue>4294967295</PackedValue>
-                    <X>255</X>
-                    <Y>255</Y>
-                    <Z>255</Z>
-                    <R>255</R>
-                    <G>255</G>
-                    <B>255</B>
-                    <A>255</A>
-                  </FontColor>
-                  <BackgroundColor>
-                    <PackedValue>4278190080</PackedValue>
-                    <X>0</X>
-                    <Y>0</Y>
-                    <Z>0</Z>
-                    <R>0</R>
-                    <G>0</G>
-                    <B>0</B>
-                    <A>255</A>
-                  </BackgroundColor>
-                  <CurrentShownTexture>0</CurrentShownTexture>
-                  <ContentType>SCRIPT</ContentType>
-                  <SelectedScript>TSS_ArtificialHorizon</SelectedScript>
-                  <TextPadding>2</TextPadding>
-                  <CustomizeScripts>true</CustomizeScripts>
-                  <ScriptBackgroundColor>
-                    <PackedValue>4288108544</PackedValue>
-                    <X>0</X>
-                    <Y>88</Y>
-                    <Z>151</Z>
-                    <R>0</R>
-                    <G>88</G>
-                    <B>151</B>
-                    <A>255</A>
-                  </ScriptBackgroundColor>
-                  <ScriptForegroundColor>
-                    <PackedValue>4294962611</PackedValue>
-                    <X>179</X>
-                    <Y>237</Y>
-                    <Z>255</Z>
-                    <R>179</R>
-                    <G>237</G>
-                    <B>255</B>
-                    <A>255</A>
-                  </ScriptForegroundColor>
-                  <Sprites>
-                    <Length>0</Length>
-                  </Sprites>
-                </MySerializedTextPanelData>
-                <MySerializedTextPanelData>
-                  <ChangeInterval>0</ChangeInterval>
-                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
-                  <FontSize>1</FontSize>
-                  <ShowText>NONE</ShowText>
-                  <FontColor>
-                    <PackedValue>4294967295</PackedValue>
-                    <X>255</X>
-                    <Y>255</Y>
-                    <Z>255</Z>
-                    <R>255</R>
-                    <G>255</G>
-                    <B>255</B>
-                    <A>255</A>
-                  </FontColor>
-                  <BackgroundColor>
-                    <PackedValue>4278190080</PackedValue>
-                    <X>0</X>
-                    <Y>0</Y>
-                    <Z>0</Z>
-                    <R>0</R>
-                    <G>0</G>
-                    <B>0</B>
-                    <A>255</A>
-                  </BackgroundColor>
-                  <CurrentShownTexture>0</CurrentShownTexture>
-                  <ContentType>SCRIPT</ContentType>
-                  <SelectedScript>TSS_ClockAnalog</SelectedScript>
-                  <TextPadding>2</TextPadding>
-                  <CustomizeScripts>true</CustomizeScripts>
-                  <ScriptBackgroundColor>
-                    <PackedValue>4288108544</PackedValue>
-                    <X>0</X>
-                    <Y>88</Y>
-                    <Z>151</Z>
-                    <R>0</R>
-                    <G>88</G>
-                    <B>151</B>
-                    <A>255</A>
-                  </ScriptBackgroundColor>
-                  <ScriptForegroundColor>
-                    <PackedValue>4294962611</PackedValue>
-                    <X>179</X>
-                    <Y>237</Y>
-                    <Z>255</Z>
-                    <R>179</R>
-                    <G>237</G>
-                    <B>255</B>
-                    <A>255</A>
-                  </ScriptForegroundColor>
-                  <Sprites>
-                    <Length>0</Length>
-                  </Sprites>
-                </MySerializedTextPanelData>
-                <MySerializedTextPanelData>
-                  <ChangeInterval>0</ChangeInterval>
-                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
-                  <FontSize>1</FontSize>
-                  <ShowText>NONE</ShowText>
-                  <FontColor>
-                    <PackedValue>4294967295</PackedValue>
-                    <X>255</X>
-                    <Y>255</Y>
-                    <Z>255</Z>
-                    <R>255</R>
-                    <G>255</G>
-                    <B>255</B>
-                    <A>255</A>
-                  </FontColor>
-                  <BackgroundColor>
-                    <PackedValue>4278190080</PackedValue>
-                    <X>0</X>
-                    <Y>0</Y>
-                    <Z>0</Z>
-                    <R>0</R>
-                    <G>0</G>
-                    <B>0</B>
-                    <A>255</A>
-                  </BackgroundColor>
-                  <CurrentShownTexture>0</CurrentShownTexture>
-                  <ContentType>SCRIPT</ContentType>
-                  <SelectedScript>TSS_Gravity</SelectedScript>
-                  <TextPadding>2</TextPadding>
-                  <CustomizeScripts>true</CustomizeScripts>
-                  <ScriptBackgroundColor>
-                    <PackedValue>4288108544</PackedValue>
-                    <X>0</X>
-                    <Y>88</Y>
-                    <Z>151</Z>
-                    <R>0</R>
-                    <G>88</G>
-                    <B>151</B>
-                    <A>255</A>
-                  </ScriptBackgroundColor>
-                  <ScriptForegroundColor>
-                    <PackedValue>4294962611</PackedValue>
-                    <X>179</X>
-                    <Y>237</Y>
-                    <Z>255</Z>
-                    <R>179</R>
-                    <G>237</G>
-                    <B>255</B>
-                    <A>255</A>
-                  </ScriptForegroundColor>
-                  <Sprites>
-                    <Length>0</Length>
-                  </Sprites>
-                </MySerializedTextPanelData>
-                <MySerializedTextPanelData>
-                  <ChangeInterval>0</ChangeInterval>
-                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
-                  <FontSize>1</FontSize>
-                  <ShowText>NONE</ShowText>
-                  <FontColor>
-                    <PackedValue>4294967295</PackedValue>
-                    <X>255</X>
-                    <Y>255</Y>
-                    <Z>255</Z>
-                    <R>255</R>
-                    <G>255</G>
-                    <B>255</B>
-                    <A>255</A>
-                  </FontColor>
-                  <BackgroundColor>
-                    <PackedValue>4278190080</PackedValue>
-                    <X>0</X>
-                    <Y>0</Y>
-                    <Z>0</Z>
-                    <R>0</R>
-                    <G>0</G>
-                    <B>0</B>
-                    <A>255</A>
-                  </BackgroundColor>
-                  <CurrentShownTexture>0</CurrentShownTexture>
-                  <ContentType>SCRIPT</ContentType>
-                  <SelectedScript>TSS_EnergyHydrogen</SelectedScript>
-                  <TextPadding>2</TextPadding>
-                  <CustomizeScripts>true</CustomizeScripts>
-                  <ScriptBackgroundColor>
-                    <PackedValue>4288108544</PackedValue>
-                    <X>0</X>
-                    <Y>88</Y>
-                    <Z>151</Z>
-                    <R>0</R>
-                    <G>88</G>
-                    <B>151</B>
-                    <A>255</A>
-                  </ScriptBackgroundColor>
-                  <ScriptForegroundColor>
-                    <PackedValue>4294962611</PackedValue>
-                    <X>179</X>
-                    <Y>237</Y>
-                    <Z>255</Z>
-                    <R>179</R>
-                    <G>237</G>
-                    <B>255</B>
-                    <A>255</A>
-                  </ScriptForegroundColor>
-                  <Sprites>
-                    <Length>0</Length>
-                  </Sprites>
-                </MySerializedTextPanelData>
-                <MySerializedTextPanelData>
-                  <ChangeInterval>0</ChangeInterval>
-                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
-                  <FontSize>1</FontSize>
-                  <ShowText>NONE</ShowText>
-                  <FontColor>
-                    <PackedValue>4294967295</PackedValue>
-                    <X>255</X>
-                    <Y>255</Y>
-                    <Z>255</Z>
-                    <R>255</R>
-                    <G>255</G>
-                    <B>255</B>
-                    <A>255</A>
-                  </FontColor>
-                  <BackgroundColor>
-                    <PackedValue>4278190080</PackedValue>
-                    <X>0</X>
-                    <Y>0</Y>
-                    <Z>0</Z>
-                    <R>0</R>
-                    <G>0</G>
-                    <B>0</B>
-                    <A>255</A>
-                  </BackgroundColor>
-                  <CurrentShownTexture>0</CurrentShownTexture>
-                  <SelectedScript />
-                  <TextPadding>2</TextPadding>
-                  <ScriptBackgroundColor>
-                    <PackedValue>4288108544</PackedValue>
-                    <X>0</X>
-                    <Y>88</Y>
-                    <Z>151</Z>
-                    <R>0</R>
-                    <G>88</G>
-                    <B>151</B>
-                    <A>255</A>
-                  </ScriptBackgroundColor>
-                  <ScriptForegroundColor>
-                    <PackedValue>4294962611</PackedValue>
-                    <X>179</X>
-                    <Y>237</Y>
-                    <Z>255</Z>
-                    <R>179</R>
-                    <G>237</G>
-                    <B>255</B>
-                    <A>255</A>
-                  </ScriptForegroundColor>
-                  <Sprites>
-                    <Length>0</Length>
-                  </Sprites>
-                </MySerializedTextPanelData>
-                <MySerializedTextPanelData>
-                  <ChangeInterval>0</ChangeInterval>
-                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
-                  <FontSize>1</FontSize>
-                  <ShowText>NONE</ShowText>
-                  <FontColor>
-                    <PackedValue>4294967295</PackedValue>
-                    <X>255</X>
-                    <Y>255</Y>
-                    <Z>255</Z>
-                    <R>255</R>
-                    <G>255</G>
-                    <B>255</B>
-                    <A>255</A>
-                  </FontColor>
-                  <BackgroundColor>
-                    <PackedValue>4278190080</PackedValue>
-                    <X>0</X>
-                    <Y>0</Y>
-                    <Z>0</Z>
-                    <R>0</R>
-                    <G>0</G>
-                    <B>0</B>
-                    <A>255</A>
-                  </BackgroundColor>
-                  <CurrentShownTexture>0</CurrentShownTexture>
-                  <SelectedScript />
-                  <TextPadding>2</TextPadding>
-                  <ScriptBackgroundColor>
-                    <PackedValue>4288108544</PackedValue>
-                    <X>0</X>
-                    <Y>88</Y>
-                    <Z>151</Z>
-                    <R>0</R>
-                    <G>88</G>
-                    <B>151</B>
-                    <A>255</A>
-                  </ScriptBackgroundColor>
-                  <ScriptForegroundColor>
-                    <PackedValue>4294962611</PackedValue>
-                    <X>179</X>
-                    <Y>237</Y>
-                    <Z>255</Z>
-                    <R>179</R>
-                    <G>237</G>
-                    <B>255</B>
-                    <A>255</A>
-                  </ScriptForegroundColor>
-                  <Sprites>
-                    <Length>0</Length>
-                  </Sprites>
-                </MySerializedTextPanelData>
-              </TextPanels>
               <TargetData>
                 <TargetId>0</TargetId>
                 <IsTargetLocked>false</IsTargetLocked>
                 <LockingProgress>0</LockingProgress>
               </TargetData>
+              <SitAnimation>0</SitAnimation>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OxygenGenerator">
               <SubtypeName>OxygenGeneratorSmall</SubtypeName>
-              <EntityId>81419526833153225</EntityId>
+              <EntityId>124797283632217653</EntityId>
               <Min x="-1" y="-1" z="4" />
               <BlockOrientation Forward="Forward" Up="Down" />
               <ColorMaskHSV x="0.575" y="0" z="0" />
@@ -504,23 +490,24 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>119742262136447753</EntityId>
+              <EntityId>74601217127417140</EntityId>
               <Min x="1" y="0" z="6" />
               <BlockOrientation Forward="Left" Up="Backward" />
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>105538890370673271</EntityId>
+              <EntityId>88936679178462001</EntityId>
               <Min x="-1" y="0" z="6" />
               <BlockOrientation Forward="Left" Up="Backward" />
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Reactor">
               <SubtypeName>SmallBlockSmallGeneratorWarfare2</SubtypeName>
-              <EntityId>117325459175996284</EntityId>
+              <EntityId>82023983457324425</EntityId>
               <Min x="1" y="-1" z="6" />
               <BlockOrientation Forward="Backward" Up="Up" />
               <ShareMode>Faction</ShareMode>
@@ -559,12 +546,13 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
               <Capacity>1</Capacity>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Reactor">
               <SubtypeName>SmallBlockSmallGeneratorWarfare2</SubtypeName>
-              <EntityId>75217994047167344</EntityId>
+              <EntityId>126850840829045797</EntityId>
               <Min x="-1" y="-1" z="6" />
               <BlockOrientation Forward="Backward" Up="Up" />
               <ShareMode>Faction</ShareMode>
@@ -603,24 +591,25 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
               <Enabled>true</Enabled>
               <Capacity>1</Capacity>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>88286213892936598</EntityId>
+              <EntityId>134842857500047440</EntityId>
               <Min x="-2" y="0" z="6" />
               <BlockOrientation Forward="Down" Up="Left" />
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>96229021014322763</EntityId>
+              <EntityId>112886278863306281</EntityId>
               <Min x="2" y="0" z="6" />
               <BlockOrientation Forward="Down" Up="Right" />
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallGatlingGun">
               <SubtypeName>SmallGatlingGunWarfare2</SubtypeName>
-              <EntityId>104133608727015470</EntityId>
+              <EntityId>103263195033433795</EntityId>
               <Min x="-2" y="1" z="1" />
               <BlockOrientation Forward="Forward" Up="Right" />
               <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
@@ -641,25 +630,13 @@
                       <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
                     </Component>
                   </ComponentData>
-                  <ComponentData>
-                    <TypeId>MyModStorageComponentBase</TypeId>
-                    <Component xsi:type="MyObjectBuilder_ModStorageComponent">
-                      <Storage>
-                        <dictionary>
-                          <item>
-                            <Key>75bbb4f5-4fb9-4230-beef-bb79c9811501</Key>
-                            <Value>+ny9AQoJCAAQdB0AAAAAEq8BCAASNi0AgLtEMi8IARAAGAAgACgAMABQAIABAJABAKABALABAMABAMgBANABeNgBAOgBAPABAPgBABpCEgcNAAAAABAAGAAgl4CAgICAgIACMAA4AEAASAJSIxobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAIAAoADAAIh8IABAAGg8NAAAAACUAAAAAPQAAAAAgACoGIPf///8HKg4IABABGAEgASgAMAA4AAgh</Value>
-                          </item>
-                        </dictionary>
-                      </Storage>
-                    </Component>
-                  </ComponentData>
                 </Components>
               </ComponentContainer>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
               <IsShooting>false</IsShooting>
               <IsShootingFromTerminal>false</IsShootingFromTerminal>
@@ -667,8 +644,8 @@
               <MinFov>0.1</MinFov>
               <MaxFov>1.04719758</MaxFov>
               <GunBase>
-                <RemainingAmmo>1</RemainingAmmo>
-                <CurrentAmmoMagazineName>Energy</CurrentAmmoMagazineName>
+                <RemainingAmmo>140</RemainingAmmo>
+                <CurrentAmmoMagazineName>NATO_25x184mm</CurrentAmmoMagazineName>
                 <RemainingAmmosList>
                   <RemainingAmmoIns SubtypeName="NATO_25x184mm" Amount="75" />
                 </RemainingAmmosList>
@@ -677,7 +654,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallModularThruster</SubtypeName>
-              <EntityId>117289865343092994</EntityId>
+              <EntityId>88134606842252513</EntityId>
               <Min x="2" y="0" z="2" />
               <BlockOrientation Forward="Forward" Up="Left" />
               <ColorMaskHSV x="0.575" y="0" z="0" />
@@ -704,11 +681,12 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallGatlingGun">
               <SubtypeName>SmallBlockAutocannon</SubtypeName>
-              <EntityId>99770015752851807</EntityId>
+              <EntityId>144094496935657889</EntityId>
               <Min x="3" y="0" z="0" />
               <BlockOrientation Forward="Forward" Up="Down" />
               <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
@@ -729,25 +707,13 @@
                       <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
                     </Component>
                   </ComponentData>
-                  <ComponentData>
-                    <TypeId>MyModStorageComponentBase</TypeId>
-                    <Component xsi:type="MyObjectBuilder_ModStorageComponent">
-                      <Storage>
-                        <dictionary>
-                          <item>
-                            <Key>75bbb4f5-4fb9-4230-beef-bb79c9811501</Key>
-                            <Value>+ny9AQoJCAAQCR0AAAAAEq8BCAASNi0AQBxFMi8IARAAGAAgACgAMABQAIABAJABAKABALABAMABAMgBANABeNgBAOgBAPABAPgBABpCEgcNAAAAABAAGAAgl4CAgICAgIACMAA4AEAASAJSIxobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAIAAoADAAIh8IABAAGg8NAAAAACUAAAAAPQAAAAAgACoGIPb///8HKg4IABABGAEgASgAMAA4AAgh</Value>
-                          </item>
-                        </dictionary>
-                      </Storage>
-                    </Component>
-                  </ComponentData>
                 </Components>
               </ComponentContainer>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
               <IsShooting>false</IsShooting>
               <IsShootingFromTerminal>false</IsShootingFromTerminal>
@@ -755,8 +721,8 @@
               <MinFov>0.1</MinFov>
               <MaxFov>1.04719758</MaxFov>
               <GunBase>
-                <RemainingAmmo>1</RemainingAmmo>
-                <CurrentAmmoMagazineName>Energy</CurrentAmmoMagazineName>
+                <RemainingAmmo>16</RemainingAmmo>
+                <CurrentAmmoMagazineName>AutocannonClip</CurrentAmmoMagazineName>
                 <RemainingAmmosList>
                   <RemainingAmmoIns SubtypeName="AutocannonClip" Amount="9" />
                 </RemainingAmmosList>
@@ -765,13 +731,13 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>84365726728667458</EntityId>
+              <EntityId>138253415128235629</EntityId>
               <Min x="2" y="0" z="4" />
               <BlockOrientation Forward="Down" Up="Right" />
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallModularThruster</SubtypeName>
-              <EntityId>108057666009960646</EntityId>
+              <EntityId>97276354368165275</EntityId>
               <Min x="-2" y="0" z="2" />
               <BlockOrientation Forward="Forward" Up="Left" />
               <ColorMaskHSV x="0.575" y="0" z="0" />
@@ -798,23 +764,24 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>110164607888224418</EntityId>
+              <EntityId>77866101658942857</EntityId>
               <Min x="-2" y="0" z="4" />
               <BlockOrientation Forward="Forward" Up="Left" />
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>110718277080475597</EntityId>
+              <EntityId>76307331961725828</EntityId>
               <Min x="2" y="0" z="5" />
               <BlockOrientation Forward="Down" Up="Right" />
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallGatlingGun">
               <SubtypeName>SmallBlockAutocannon</SubtypeName>
-              <EntityId>74586555437778190</EntityId>
+              <EntityId>75659775974431735</EntityId>
               <Min x="-3" y="0" z="0" />
               <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
@@ -834,25 +801,13 @@
                       <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
                     </Component>
                   </ComponentData>
-                  <ComponentData>
-                    <TypeId>MyModStorageComponentBase</TypeId>
-                    <Component xsi:type="MyObjectBuilder_ModStorageComponent">
-                      <Storage>
-                        <dictionary>
-                          <item>
-                            <Key>75bbb4f5-4fb9-4230-beef-bb79c9811501</Key>
-                            <Value>+ny9AQoJCAAQCR0AAAAAEq8BCAASNi0AQBxFMi8IARAAGAAgACgAMABQAIABAJABAKABALABAMABAMgBANABeNgBAOgBAPABAPgBABpCEgcNAAAAABAAGAAgl4CAgICAgIACMAA4AEAASAJSIxobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAIAAoADAAIh8IABAAGg8NAAAAACUAAAAAPQAAAAAgACoGIPX///8HKg4IABABGAEgASgAMAA4AAgh</Value>
-                          </item>
-                        </dictionary>
-                      </Storage>
-                    </Component>
-                  </ComponentData>
                 </Components>
               </ComponentContainer>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
               <Enabled>true</Enabled>
               <IsShooting>false</IsShooting>
               <IsShootingFromTerminal>false</IsShootingFromTerminal>
@@ -860,8 +815,8 @@
               <MinFov>0.1</MinFov>
               <MaxFov>1.04719758</MaxFov>
               <GunBase>
-                <RemainingAmmo>1</RemainingAmmo>
-                <CurrentAmmoMagazineName>Energy</CurrentAmmoMagazineName>
+                <RemainingAmmo>16</RemainingAmmo>
+                <CurrentAmmoMagazineName>AutocannonClip</CurrentAmmoMagazineName>
                 <RemainingAmmosList>
                   <RemainingAmmoIns SubtypeName="AutocannonClip" Amount="9" />
                 </RemainingAmmosList>
@@ -870,7 +825,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallGatlingGun">
               <SubtypeName>SmallGatlingGunWarfare2</SubtypeName>
-              <EntityId>98432586372675101</EntityId>
+              <EntityId>85857513485969504</EntityId>
               <Min x="2" y="-1" z="1" />
               <BlockOrientation Forward="Forward" Up="Right" />
               <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
@@ -891,25 +846,13 @@
                       <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
                     </Component>
                   </ComponentData>
-                  <ComponentData>
-                    <TypeId>MyModStorageComponentBase</TypeId>
-                    <Component xsi:type="MyObjectBuilder_ModStorageComponent">
-                      <Storage>
-                        <dictionary>
-                          <item>
-                            <Key>75bbb4f5-4fb9-4230-beef-bb79c9811501</Key>
-                            <Value>+ny9AQoJCAAQdB0AAAAAEq8BCAASNi0AgLtEMi8IARAAGAAgACgAMABQAIABAJABAKABALABAMABAMgBANABeNgBAOgBAPABAPgBABpCEgcNAAAAABAAGAAgl4CAgICAgIACMAA4AEAASAJSIxobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAIAAoADAAIh8IABAAGg8NAAAAACUAAAAAPQAAAAAgACoGIPT///8HKg4IABABGAEgASgAMAA4AAgh</Value>
-                          </item>
-                        </dictionary>
-                      </Storage>
-                    </Component>
-                  </ComponentData>
                 </Components>
               </ComponentContainer>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
               <Enabled>true</Enabled>
               <IsShooting>false</IsShooting>
               <IsShootingFromTerminal>false</IsShootingFromTerminal>
@@ -917,8 +860,8 @@
               <MinFov>0.1</MinFov>
               <MaxFov>1.04719758</MaxFov>
               <GunBase>
-                <RemainingAmmo>1</RemainingAmmo>
-                <CurrentAmmoMagazineName>Energy</CurrentAmmoMagazineName>
+                <RemainingAmmo>140</RemainingAmmo>
+                <CurrentAmmoMagazineName>NATO_25x184mm</CurrentAmmoMagazineName>
                 <RemainingAmmosList>
                   <RemainingAmmoIns SubtypeName="NATO_25x184mm" Amount="81" />
                 </RemainingAmmosList>
@@ -927,13 +870,13 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>123235964160740753</EntityId>
+              <EntityId>120592791199710695</EntityId>
               <Min x="-2" y="0" z="5" />
               <BlockOrientation Forward="Forward" Up="Left" />
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallModularThruster</SubtypeName>
-              <EntityId>135517233817798841</EntityId>
+              <EntityId>142625167755749354</EntityId>
               <Min x="3" y="-1" z="3" />
               <BlockOrientation Forward="Forward" Up="Right" />
               <ColorMaskHSV x="0" y="-0.8" z="0.4" />
@@ -960,11 +903,12 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>3</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallGatlingGun">
               <SubtypeName>SmallGatlingGunWarfare2</SubtypeName>
-              <EntityId>112249152194088582</EntityId>
+              <EntityId>92328033511035589</EntityId>
               <Min x="2" y="1" z="1" />
               <BlockOrientation Forward="Forward" Up="Right" />
               <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
@@ -985,25 +929,13 @@
                       <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
                     </Component>
                   </ComponentData>
-                  <ComponentData>
-                    <TypeId>MyModStorageComponentBase</TypeId>
-                    <Component xsi:type="MyObjectBuilder_ModStorageComponent">
-                      <Storage>
-                        <dictionary>
-                          <item>
-                            <Key>75bbb4f5-4fb9-4230-beef-bb79c9811501</Key>
-                            <Value>+ny9AQoJCAAQdB0AAAAAEq8BCAASNi0AgLtEMi8IARAAGAAgACgAMABQAIABAJABAKABALABAMABAMgBANABeNgBAOgBAPABAPgBABpCEgcNAAAAABAAGAAgl4CAgICAgIACMAA4AEAASAJSIxobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAIAAoADAAIh8IABAAGg8NAAAAACUAAAAAPQAAAAAgACoGIPP///8HKg4IABABGAEgASgAMAA4AAgh</Value>
-                          </item>
-                        </dictionary>
-                      </Storage>
-                    </Component>
-                  </ComponentData>
                 </Components>
               </ComponentContainer>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>3</NumberInGrid>
               <Enabled>true</Enabled>
               <IsShooting>false</IsShooting>
               <IsShootingFromTerminal>false</IsShootingFromTerminal>
@@ -1011,8 +943,8 @@
               <MinFov>0.1</MinFov>
               <MaxFov>1.04719758</MaxFov>
               <GunBase>
-                <RemainingAmmo>1</RemainingAmmo>
-                <CurrentAmmoMagazineName>Energy</CurrentAmmoMagazineName>
+                <RemainingAmmo>140</RemainingAmmo>
+                <CurrentAmmoMagazineName>NATO_25x184mm</CurrentAmmoMagazineName>
                 <RemainingAmmosList>
                   <RemainingAmmoIns SubtypeName="NATO_25x184mm" Amount="78" />
                 </RemainingAmmosList>
@@ -1021,7 +953,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallGatlingGun">
               <SubtypeName>SmallGatlingGunWarfare2</SubtypeName>
-              <EntityId>121058777829062760</EntityId>
+              <EntityId>78799802110949104</EntityId>
               <Min x="-2" y="-1" z="1" />
               <BlockOrientation Forward="Forward" Up="Right" />
               <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
@@ -1042,25 +974,13 @@
                       <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
                     </Component>
                   </ComponentData>
-                  <ComponentData>
-                    <TypeId>MyModStorageComponentBase</TypeId>
-                    <Component xsi:type="MyObjectBuilder_ModStorageComponent">
-                      <Storage>
-                        <dictionary>
-                          <item>
-                            <Key>75bbb4f5-4fb9-4230-beef-bb79c9811501</Key>
-                            <Value>+ny9AQoJCAAQdB0AAAAAEq8BCAASNi0AgLtEMi8IARAAGAAgACgAMABQAIABAJABAKABALABAMABAMgBANABeNgBAOgBAPABAPgBABpCEgcNAAAAABAAGAAgl4CAgICAgIACMAA4AEAASAJSIxobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAIAAoADAAIh8IABAAGg8NAAAAACUAAAAAPQAAAAAgACoGIPL///8HKg4IABABGAEgASgAMAA4AAgh</Value>
-                          </item>
-                        </dictionary>
-                      </Storage>
-                    </Component>
-                  </ComponentData>
                 </Components>
               </ComponentContainer>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>4</NumberInGrid>
               <Enabled>true</Enabled>
               <IsShooting>false</IsShooting>
               <IsShootingFromTerminal>false</IsShootingFromTerminal>
@@ -1068,8 +988,8 @@
               <MinFov>0.1</MinFov>
               <MaxFov>1.04719758</MaxFov>
               <GunBase>
-                <RemainingAmmo>1</RemainingAmmo>
-                <CurrentAmmoMagazineName>Energy</CurrentAmmoMagazineName>
+                <RemainingAmmo>140</RemainingAmmo>
+                <CurrentAmmoMagazineName>NATO_25x184mm</CurrentAmmoMagazineName>
                 <RemainingAmmosList>
                   <RemainingAmmoIns SubtypeName="NATO_25x184mm" Amount="79" />
                 </RemainingAmmosList>
@@ -1078,7 +998,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallModularThruster</SubtypeName>
-              <EntityId>91671773931965450</EntityId>
+              <EntityId>95945771019357681</EntityId>
               <Min x="-3" y="-1" z="3" />
               <BlockOrientation Forward="Forward" Up="Right" />
               <ColorMaskHSV x="0" y="-0.8" z="0.4" />
@@ -1105,11 +1025,12 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>4</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallModularThruster</SubtypeName>
-              <EntityId>77477451050779344</EntityId>
+              <EntityId>134950417249136942</EntityId>
               <Min x="1" y="1" z="6" />
               <BlockOrientation Forward="Up" Up="Left" />
               <ColorMaskHSV x="0.575" y="0" z="0" />
@@ -1136,11 +1057,12 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>5</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallModularThruster</SubtypeName>
-              <EntityId>105556229512405781</EntityId>
+              <EntityId>84927144141659950</EntityId>
               <Min x="-1" y="1" z="6" />
               <BlockOrientation Forward="Up" Up="Left" />
               <ColorMaskHSV x="0.575" y="0" z="0" />
@@ -1167,11 +1089,12 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>6</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallModularThruster</SubtypeName>
-              <EntityId>112180292620629247</EntityId>
+              <EntityId>129204976277795124</EntityId>
               <Min x="2" y="-1" z="7" />
               <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0" y="-0.8" z="0.4" />
@@ -1198,11 +1121,12 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>7</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallModularThruster</SubtypeName>
-              <EntityId>103230188166090393</EntityId>
+              <EntityId>96363834149346960</EntityId>
               <Min x="-2" y="-1" z="7" />
               <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0" y="-0.8" z="0.4" />
@@ -1229,11 +1153,12 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>8</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CargoContainer">
               <SubtypeName>SmallBlockSmallContainer</SubtypeName>
-              <EntityId>95072356674479049</EntityId>
+              <EntityId>75653649514804222</EntityId>
               <Min x="2" y="1" z="6" />
               <BlockOrientation Forward="Up" Up="Backward" />
               <ColorMaskHSV x="0.575" y="0" z="0" />
@@ -1260,10 +1185,11 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CargoContainer">
               <SubtypeName>SmallBlockSmallContainer</SubtypeName>
-              <EntityId>91430077011904420</EntityId>
+              <EntityId>122851294090528215</EntityId>
               <Min x="-2" y="1" z="6" />
               <BlockOrientation Forward="Up" Up="Backward" />
               <ColorMaskHSV x="0.575" y="0" z="0" />
@@ -1290,10 +1216,11 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CargoContainer">
               <SubtypeName>SmallBlockSmallContainer</SubtypeName>
-              <EntityId>133287452212354453</EntityId>
+              <EntityId>93320628390292256</EntityId>
               <Min x="0" y="0" z="6" />
               <BlockOrientation Forward="Right" Up="Forward" />
               <ShareMode>Faction</ShareMode>
@@ -1318,10 +1245,11 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>3</NumberInGrid>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallModularThruster</SubtypeName>
-              <EntityId>97649301730187380</EntityId>
+              <EntityId>91858450135479846</EntityId>
               <Min x="0" y="-2" z="6" />
               <BlockOrientation Forward="Down" Up="Left" />
               <ColorMaskHSV x="0.575" y="0" z="0" />
@@ -1348,6 +1276,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>9</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
@@ -1358,7 +1287,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallModularThruster</SubtypeName>
-              <EntityId>142276221341864500</EntityId>
+              <EntityId>93524931884905161</EntityId>
               <Min x="-3" y="1" z="5" />
               <BlockOrientation Forward="Left" Up="Down" />
               <ColorMaskHSV x="0.575" y="0" z="0" />
@@ -1385,11 +1314,12 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>10</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallModularThruster</SubtypeName>
-              <EntityId>106081391222410595</EntityId>
+              <EntityId>97929724200993060</EntityId>
               <Min x="-3" y="-1" z="5" />
               <BlockOrientation Forward="Left" Up="Down" />
               <ColorMaskHSV x="0" y="-0.8" z="0.4" />
@@ -1416,11 +1346,12 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>11</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallModularThruster</SubtypeName>
-              <EntityId>116007946891212105</EntityId>
+              <EntityId>92708552617456106</EntityId>
               <Min x="2" y="1" z="5" />
               <BlockOrientation Forward="Right" Up="Up" />
               <ColorMaskHSV x="0.575" y="0" z="0" />
@@ -1447,11 +1378,12 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>12</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallModularThruster</SubtypeName>
-              <EntityId>117527422635296201</EntityId>
+              <EntityId>124406253735780967</EntityId>
               <Min x="2" y="-1" z="5" />
               <BlockOrientation Forward="Right" Up="Up" />
               <ColorMaskHSV x="0" y="-0.8" z="0.4" />
@@ -1478,11 +1410,12 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>13</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>BarredWindow</SubtypeName>
-              <EntityId>112330235767864941</EntityId>
+              <EntityId>129090156162949694</EntityId>
               <Min x="1" y="3" z="8" />
               <BlockOrientation Forward="Forward" Up="Right" />
               <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
@@ -1573,7 +1506,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallModularThruster</SubtypeName>
-              <EntityId>130112293029013347</EntityId>
+              <EntityId>114442220510510366</EntityId>
               <Min x="2" y="1" z="7" />
               <BlockOrientation Forward="Right" Up="Up" />
               <ColorMaskHSV x="0.575" y="0" z="0" />
@@ -1600,6 +1533,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>14</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
@@ -1612,7 +1546,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_HeatVentBlock">
               <SubtypeName>SmallHeatVentBlock</SubtypeName>
-              <EntityId>124245199671880672</EntityId>
+              <EntityId>136318483815716378</EntityId>
               <Min x="2" y="1" z="10" />
               <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0.575" y="0" z="0" />
@@ -1621,17 +1555,18 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
               <PowerDependency>0.6</PowerDependency>
               <ColorMinimalPower R="255" G="0" B="0" A="255" />
               <ColorMaximalPower R="255" G="197" B="20" A="255" />
               <RequiredPowerInput>0.6</RequiredPowerInput>
               <SubpartRotations>
-                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="180" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="135" />
               </SubpartRotations>
               <Falloff>1.3</Falloff>
               <Intensity>0.5</Intensity>
@@ -1659,7 +1594,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallModularThruster</SubtypeName>
-              <EntityId>119773015094906997</EntityId>
+              <EntityId>115171099811917864</EntityId>
               <Min x="1" y="1" z="9" />
               <BlockOrientation Forward="Up" Up="Right" />
               <ColorMaskHSV x="0.575" y="0" z="0" />
@@ -1686,11 +1621,12 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>15</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallModularThruster</SubtypeName>
-              <EntityId>73288388709211820</EntityId>
+              <EntityId>92944827158131719</EntityId>
               <Min x="-1" y="1" z="9" />
               <BlockOrientation Forward="Up" Up="Right" />
               <ColorMaskHSV x="0.575" y="0" z="0" />
@@ -1717,6 +1653,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>16</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
@@ -1802,7 +1739,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_HeatVentBlock">
               <SubtypeName>SmallHeatVentBlock</SubtypeName>
-              <EntityId>130514489984316453</EntityId>
+              <EntityId>134102523854949287</EntityId>
               <Min x="-2" y="1" z="10" />
               <BlockOrientation Forward="Down" Up="Left" />
               <ColorMaskHSV x="0.575" y="0" z="0" />
@@ -1811,17 +1748,18 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
               <Enabled>true</Enabled>
               <PowerDependency>0.6</PowerDependency>
               <ColorMinimalPower R="255" G="0" B="0" A="255" />
               <ColorMaximalPower R="255" G="197" B="20" A="255" />
               <RequiredPowerInput>0.6</RequiredPowerInput>
               <SubpartRotations>
-                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="180" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="135" />
               </SubpartRotations>
               <Falloff>1.3</Falloff>
               <Intensity>0.5</Intensity>
@@ -1848,7 +1786,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallModularThruster</SubtypeName>
-              <EntityId>99027571220739959</EntityId>
+              <EntityId>112139001905186700</EntityId>
               <Min x="-3" y="1" z="7" />
               <BlockOrientation Forward="Left" Up="Up" />
               <ColorMaskHSV x="0.575" y="0" z="0" />
@@ -1875,11 +1813,12 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>17</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_HeatVentBlock">
               <SubtypeName>SmallHeatVentBlock</SubtypeName>
-              <EntityId>85951761443154437</EntityId>
+              <EntityId>97529909605149630</EntityId>
               <Min x="-2" y="0" z="9" />
               <BlockOrientation Forward="Up" Up="Left" />
               <ColorMaskHSV x="0.575" y="0" z="0" />
@@ -1888,17 +1827,18 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>3</NumberInGrid>
               <Enabled>true</Enabled>
               <PowerDependency>0.6</PowerDependency>
               <ColorMinimalPower R="255" G="0" B="0" A="255" />
               <ColorMaximalPower R="255" G="197" B="20" A="255" />
               <RequiredPowerInput>0.6</RequiredPowerInput>
               <SubpartRotations>
-                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="180" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="135" />
               </SubpartRotations>
               <Falloff>1.3</Falloff>
               <Intensity>0.5</Intensity>
@@ -1920,7 +1860,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_HeatVentBlock">
               <SubtypeName>SmallHeatVentBlock</SubtypeName>
-              <EntityId>84748239156416317</EntityId>
+              <EntityId>101515826134559588</EntityId>
               <Min x="-2" y="0" z="10" />
               <BlockOrientation Forward="Up" Up="Left" />
               <ColorMaskHSV x="0.575" y="0" z="0" />
@@ -1929,17 +1869,18 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>4</NumberInGrid>
               <Enabled>true</Enabled>
               <PowerDependency>0.6</PowerDependency>
               <ColorMinimalPower R="255" G="0" B="0" A="255" />
               <ColorMaximalPower R="255" G="197" B="20" A="255" />
               <RequiredPowerInput>0.6</RequiredPowerInput>
               <SubpartRotations>
-                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="180" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="135" />
               </SubpartRotations>
               <Falloff>1.3</Falloff>
               <Intensity>0.5</Intensity>
@@ -1968,7 +1909,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_HeatVentBlock">
               <SubtypeName>SmallHeatVentBlock</SubtypeName>
-              <EntityId>131453048519739239</EntityId>
+              <EntityId>136220077802183563</EntityId>
               <Min x="2" y="0" z="10" />
               <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0.575" y="0" z="0" />
@@ -1977,17 +1918,18 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>5</NumberInGrid>
               <Enabled>true</Enabled>
               <PowerDependency>0.6</PowerDependency>
               <ColorMinimalPower R="255" G="0" B="0" A="255" />
               <ColorMaximalPower R="255" G="197" B="20" A="255" />
               <RequiredPowerInput>0.6</RequiredPowerInput>
               <SubpartRotations>
-                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="180" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="135" />
               </SubpartRotations>
               <Falloff>1.3</Falloff>
               <Intensity>0.5</Intensity>
@@ -1996,7 +1938,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_HeatVentBlock">
               <SubtypeName>SmallHeatVentBlock</SubtypeName>
-              <EntityId>129060605959855616</EntityId>
+              <EntityId>96435025146272340</EntityId>
               <Min x="2" y="0" z="9" />
               <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0.575" y="0" z="0" />
@@ -2005,17 +1947,18 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>6</NumberInGrid>
               <Enabled>true</Enabled>
               <PowerDependency>0.6</PowerDependency>
               <ColorMinimalPower R="255" G="0" B="0" A="255" />
               <ColorMaximalPower R="255" G="197" B="20" A="255" />
               <RequiredPowerInput>0.6</RequiredPowerInput>
               <SubpartRotations>
-                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="180" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="135" />
               </SubpartRotations>
               <Falloff>1.3</Falloff>
               <Intensity>0.5</Intensity>
@@ -2038,7 +1981,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>BarredWindowSlope</SubtypeName>
-              <EntityId>110922838943279103</EntityId>
+              <EntityId>98139341946128101</EntityId>
               <Min x="3" y="1" z="6" />
               <BlockOrientation Forward="Left" Up="Down" />
               <ColorMaskHSV x="0" y="-0.8" z="0.2" />
@@ -2060,7 +2003,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>BarredWindowSlope</SubtypeName>
-              <EntityId>105198438630010690</EntityId>
+              <EntityId>124051956427515953</EntityId>
               <Min x="-3" y="1" z="6" />
               <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0" y="-0.8" z="0.2" />
@@ -2300,7 +2243,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>BarredWindow</SubtypeName>
-              <EntityId>84294229781517258</EntityId>
+              <EntityId>108414839947403550</EntityId>
               <Min x="-1" y="3" z="7" />
               <BlockOrientation Forward="Forward" Up="Right" />
               <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
@@ -2422,7 +2365,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>BarredWindow</SubtypeName>
-              <EntityId>139397878609075350</EntityId>
+              <EntityId>130147808757695175</EntityId>
               <Min x="-1" y="3" z="8" />
               <BlockOrientation Forward="Forward" Up="Right" />
               <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
@@ -2430,14 +2373,48 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RemoteControl">
               <SubtypeName>SmallBlockRemoteControl</SubtypeName>
-              <EntityId>127562473977112388</EntityId>
+              <EntityId>121105122334683732</EntityId>
               <Min x="0" y="-2" z="5" />
               <BlockOrientation Forward="Forward" Up="Down" />
               <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyAutopilotComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_AutopilotComponent">
+                      <AutoPilotEnabled>false</AutoPilotEnabled>
+                      <FlightMode>0</FlightMode>
+                      <CurrentWaypointIndex>-1</CurrentWaypointIndex>
+                      <Waypoints />
+                      <DockingModeEnabled>false</DockingModeEnabled>
+                      <CollisionAvoidance>false</CollisionAvoidance>
+                      <Direction>0</Direction>
+                      <AutopilotSpeedLimit>100</AutopilotSpeedLimit>
+                      <WaitForFreeWay>false</WaitForFreeWay>
+                      <WaypointThresholdDistance>0</WaypointThresholdDistance>
+                      <Coords />
+                      <Names />
+                      <LookAtPosition xsi:nil="true" />
+                      <FacingDirection>Forward</FacingDirection>
+                      <AlignToGravity>true</AlignToGravity>
+                      <MinHeightAboveTerrain>25</MinHeightAboveTerrain>
+                      <IsWorkAreaReturningToStart>false</IsWorkAreaReturningToStart>
+                      <WorkAreaStartForward>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                      </WorkAreaStartForward>
+                      <PitchAngle>0</PitchAngle>
+                      <RollAngle>0</RollAngle>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
               <UseSingleWeaponMode>false</UseSingleWeaponMode>
               <Toolbar>
                 <ToolbarType>Character</ToolbarType>
@@ -2473,6 +2450,7 @@
               <WaypointThresholdDistance>0</WaypointThresholdDistance>
               <IsMainRemoteControl>false</IsMainRemoteControl>
               <WaitForFreeWay>false</WaitForFreeWay>
+              <IsUpdatedSave>true</IsUpdatedSave>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
@@ -2798,7 +2776,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Decoy">
               <SubtypeName>SmallDecoy</SubtypeName>
-              <EntityId>97573462882902204</EntityId>
+              <EntityId>81916251352564607</EntityId>
               <Min x="0" y="-1" z="-3" />
               <BlockOrientation Forward="Left" Up="Forward" />
               <ShareMode>Faction</ShareMode>
@@ -2806,6 +2784,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
@@ -2890,7 +2869,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Decoy">
               <SubtypeName>SmallDecoy</SubtypeName>
-              <EntityId>122446862717966953</EntityId>
+              <EntityId>138026268839631649</EntityId>
               <Min x="0" y="-1" z="-4" />
               <BlockOrientation Forward="Down" Up="Forward" />
               <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
@@ -2900,6 +2879,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
@@ -2932,7 +2912,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>BarredWindow</SubtypeName>
-              <EntityId>83243079899132155</EntityId>
+              <EntityId>102252785891828996</EntityId>
               <Min x="1" y="3" z="7" />
               <BlockOrientation Forward="Forward" Up="Right" />
               <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
@@ -2940,7 +2920,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorPanelLight</SubtypeName>
-              <EntityId>143139551977192896</EntityId>
+              <EntityId>102495904414090266</EntityId>
               <Min x="0" y="3" z="7" />
               <BlockOrientation Forward="Forward" Up="Right" />
               <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
@@ -2948,7 +2928,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
               <SubtypeName>SmallBlockGyro</SubtypeName>
-              <EntityId>104992186122725709</EntityId>
+              <EntityId>100761402540068978</EntityId>
               <Min x="0" y="1" z="6" />
               <ColorMaskHSV x="0.575" y="0" z="0" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
@@ -2957,11 +2937,12 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
               <SubtypeName>SmallBlockBatteryBlock</SubtypeName>
-              <EntityId>140757362366721153</EntityId>
+              <EntityId>117034791722004767</EntityId>
               <Min x="-1" y="0" z="7" />
               <BlockOrientation Forward="Down" Up="Backward" />
               <ColorMaskHSV x="0.575" y="0" z="0" />
@@ -2971,6 +2952,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
               <CurrentStoredPower>1</CurrentStoredPower>
               <ProducerEnabled>true</ProducerEnabled>
@@ -2981,7 +2963,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorPanelLight</SubtypeName>
-              <EntityId>86103630485228980</EntityId>
+              <EntityId>109417762510635592</EntityId>
               <Min x="0" y="-1" z="-5" />
               <BlockOrientation Forward="Left" Up="Down" />
               <ColorMaskHSV x="0.575" y="0" z="0" />
@@ -2989,7 +2971,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorPanelLight</SubtypeName>
-              <EntityId>115217539174866617</EntityId>
+              <EntityId>81273144864498455</EntityId>
               <Min x="0" y="3" z="8" />
               <BlockOrientation Forward="Forward" Up="Right" />
               <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
@@ -2997,7 +2979,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
               <SubtypeName>SmallBlockRadioAntenna</SubtypeName>
-              <EntityId>121435537512763741</EntityId>
+              <EntityId>127425591985110383</EntityId>
               <Min x="0" y="2" z="6" />
               <BlockOrientation Forward="Up" Up="Backward" />
               <ColorMaskHSV x="0.575" y="0" z="0" />
@@ -3007,6 +2989,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
               <BroadcastRadius>14999.998</BroadcastRadius>
               <ShowShipName>true</ShowShipName>
@@ -3018,7 +3001,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorPanelLight</SubtypeName>
-              <EntityId>140138643051083066</EntityId>
+              <EntityId>93036635277860608</EntityId>
               <Min x="4" y="-1" z="4" />
               <BlockOrientation Forward="Down" Up="Backward" />
               <ColorMaskHSV x="0" y="-0.8" z="0.4" />
@@ -3026,7 +3009,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorPanelLight</SubtypeName>
-              <EntityId>129839778115921865</EntityId>
+              <EntityId>143369250925285668</EntityId>
               <Min x="-4" y="-1" z="4" />
               <BlockOrientation Forward="Down" Up="Forward" />
               <ColorMaskHSV x="0" y="-0.8" z="0.4" />
@@ -3034,7 +3017,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_InteriorLight">
               <SubtypeName>OffsetLight</SubtypeName>
-              <EntityId>86314511275723575</EntityId>
+              <EntityId>90568476055126027</EntityId>
               <Min x="-3" y="2" z="6" />
               <BlockOrientation Forward="Down" Up="Left" />
               <ColorMaskHSV x="0" y="-0.8" z="0.4" />
@@ -3043,6 +3026,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
               <Radius>3.6</Radius>
               <ReflectorRadius>120</ReflectorRadius>
@@ -3057,7 +3041,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_InteriorLight">
               <SubtypeName>OffsetLight</SubtypeName>
-              <EntityId>91928537307185939</EntityId>
+              <EntityId>76568042132468881</EntityId>
               <Min x="3" y="2" z="6" />
               <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0" y="-0.8" z="0.4" />
@@ -3066,6 +3050,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
               <Enabled>true</Enabled>
               <Radius>3.6</Radius>
               <ReflectorRadius>120</ReflectorRadius>
@@ -3080,7 +3065,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
               <SubtypeName>SmallBlockGyro</SubtypeName>
-              <EntityId>118424584947627742</EntityId>
+              <EntityId>136472363583833533</EntityId>
               <Min x="-1" y="0" z="9" />
               <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
@@ -3089,6 +3074,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
@@ -3106,7 +3092,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallModularThruster</SubtypeName>
-              <EntityId>92460149335505837</EntityId>
+              <EntityId>102217884855180568</EntityId>
               <Min x="1" y="0" z="10" />
               <BlockOrientation Forward="Backward" Up="Down" />
               <ColorMaskHSV x="0" y="-0.8" z="0.4" />
@@ -3133,11 +3119,12 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>18</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallModularThruster</SubtypeName>
-              <EntityId>99775040645768899</EntityId>
+              <EntityId>107296493514119167</EntityId>
               <Min x="-1" y="0" z="10" />
               <BlockOrientation Forward="Backward" Up="Down" />
               <ColorMaskHSV x="0" y="-0.8" z="0.4" />
@@ -3164,11 +3151,12 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>19</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallModularThruster</SubtypeName>
-              <EntityId>83721169737560387</EntityId>
+              <EntityId>78181965577810781</EntityId>
               <Min x="-1" y="1" z="10" />
               <BlockOrientation Forward="Backward" Up="Down" />
               <ColorMaskHSV x="0" y="-0.8" z="0.4" />
@@ -3195,11 +3183,12 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>20</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallModularThruster</SubtypeName>
-              <EntityId>134676768219793505</EntityId>
+              <EntityId>131937302434515585</EntityId>
               <Min x="1" y="1" z="10" />
               <BlockOrientation Forward="Backward" Up="Down" />
               <ColorMaskHSV x="0" y="-0.8" z="0.4" />
@@ -3226,11 +3215,12 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>21</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
               <SubtypeName>SmallBlockGyro</SubtypeName>
-              <EntityId>83066595333223270</EntityId>
+              <EntityId>126756401014541915</EntityId>
               <Min x="1" y="0" z="9" />
               <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
@@ -3239,6 +3229,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>3</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
@@ -3249,7 +3240,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallModularThruster</SubtypeName>
-              <EntityId>101708619598189626</EntityId>
+              <EntityId>143106357745704329</EntityId>
               <Min x="0" y="0" z="10" />
               <BlockOrientation Forward="Backward" Up="Down" />
               <ColorMaskHSV x="0" y="-0.8" z="0.4" />
@@ -3276,11 +3267,12 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>22</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallModularThruster</SubtypeName>
-              <EntityId>136459659439694995</EntityId>
+              <EntityId>106264210142647560</EntityId>
               <Min x="0" y="1" z="10" />
               <BlockOrientation Forward="Backward" Up="Down" />
               <ColorMaskHSV x="0" y="-0.8" z="0.4" />
@@ -3307,6 +3299,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>23</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
           </CubeBlocks>

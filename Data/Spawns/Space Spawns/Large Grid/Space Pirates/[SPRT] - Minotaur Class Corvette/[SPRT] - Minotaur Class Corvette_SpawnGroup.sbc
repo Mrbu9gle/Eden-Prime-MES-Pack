@@ -18,8 +18,9 @@
 			[RivalAiSpawn:false]  
 			
 			[AssignContainerTypesToAllCargo:MES-ContainerTypes-EventShipDrop-1,MES-ContainerTypes-Explosives-3,MES-ContainerTypes-MixedAmmo-3,MES-ContainerTypes-Consumables-1,MES-ContainerTypes-Credits-5,MES-ContainerTypes-RifleWeapons-4] 
-			[ManipulationGroups:Manipulation-Group-Loot]
-			[ReplenishSystems:true]
+			[ManipulationGroups:Manipulation-Group-Loot] 
+			[ManipulationProfiles:MES-Manipulation-MaxTurretRange]
+			[ReplenishSystems:true] 
 			
 			[FactionOwner:SPRT] 
 			 

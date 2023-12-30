@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(P)Armory Depot Atmo</SubtypeId>
+				<SubtypeId>(P)ArmoryDepotAtmo</SubtypeId>
 			</Id>
 			<Description>
 
@@ -19,7 +19,8 @@
 			[ForceStaticGrid:true]   
 			  
 			[AssignContainerTypesToAllCargo:MES-ContainerTypes-MixedAmmo-3,MES-ContainerTypes-EventShipDrop-1]
-			[ManipulationGroups:Manipulation-Group-Loot]
+			[ManipulationGroups:Manipulation-Group-Loot] 
+			[ManipulationProfiles:MES-Manipulation-MaxTurretRange]
  
 			[InitializeStoreBlocks:true] 
 			[ContainerTypesForStoreOrders:MES-ContainerTypes-MESStoreBuyComponents-1,MES-ContainerTypes-MESStoreBuyOre-1,MES-ContainerTypes-MESStoreBuyIngots-1]
@@ -30,7 +31,7 @@
 			 
 			[IgnoreCombatPhase:true]  
 			  
-			[ReplenishSystems:true] 
+			[ReplenishSystems:true]
 				
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
@@ -54,7 +55,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(P)Armory Depot NAtmo</SubtypeId>
+				<SubtypeId>(P)ArmoryDepotNAtmo</SubtypeId>
 			</Id>
 			<Description>
 
@@ -69,6 +70,7 @@
 			  
 			[AssignContainerTypesToAllCargo:MES-ContainerTypes-MixedAmmo-3]
 			[ManipulationGroups:Manipulation-Group-Loot] 
+			[ManipulationProfiles:MES-Manipulation-MaxTurretRange]
 			 
 			[InitializeStoreBlocks:true] 
 			[ContainerTypesForStoreOrders:MES-ContainerTypes-MESStoreBuyComponents-1,MES-ContainerTypes-MESStoreBuyOre-1,MES-ContainerTypes-MESStoreBuyIngots-1]
@@ -79,7 +81,7 @@
 			 
 			[IgnoreCombatPhase:true]  
 			  
-			[ReplenishSystems:true] 
+			[ReplenishSystems:true]
 				
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
@@ -103,7 +105,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(P)Armory Depot Mars</SubtypeId>
+				<SubtypeId>(P)ArmoryDepotMars</SubtypeId>
 			</Id>
 			<Description>
 
@@ -117,7 +119,8 @@
 			[ForceStaticGrid:true]   
 			  
 			[AssignContainerTypesToAllCargo:MES-ContainerTypes-MixedAmmo-3]
-			[ManipulationGroups:Manipulation-Group-Loot]
+			[ManipulationGroups:Manipulation-Group-Loot] 
+			[ManipulationProfiles:MES-Manipulation-MaxTurretRange]
 			 
 			[InitializeStoreBlocks:true] 
 			[ContainerTypesForStoreOrders:MES-ContainerTypes-MESStoreBuyComponents-1,MES-ContainerTypes-MESStoreBuyOre-1,MES-ContainerTypes-MESStoreBuyIngots-1]
@@ -128,7 +131,7 @@
 			 
 			[IgnoreCombatPhase:true]  
 			  
-			[ReplenishSystems:true] 
+			[ReplenishSystems:true]
 				
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]

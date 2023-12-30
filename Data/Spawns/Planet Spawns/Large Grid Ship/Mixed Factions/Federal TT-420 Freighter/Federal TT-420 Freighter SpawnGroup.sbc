@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(P)Federal TT-420 Freighter</SubtypeId>
+				<SubtypeId>(P)FederalTT-420Freighter</SubtypeId>
 			</Id>
 			<Description>
 
@@ -22,8 +22,9 @@
 			[IgnoreCombatPhase:true]
 			 
 			[AssignContainerTypesToAllCargo:MES-ContainerTypes-EventShipDrop-1,MES-ContainerTypes-Credits-2,MES-ContainerTypes-MixedComponents-1,MES-ContainerTypes-Consumables-1,MES-ContainerTypes-BasicIngots-1] 
-			[ManipulationGroups:Manipulation-Group-Loot]
-			[ReplenishSystems:true]
+			[ManipulationGroups:Manipulation-Group-Loot] 
+			[ManipulationProfiles:MES-Manipulation-MaxTurretRange]
+			[ReplenishSystems:true] 
 				
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]

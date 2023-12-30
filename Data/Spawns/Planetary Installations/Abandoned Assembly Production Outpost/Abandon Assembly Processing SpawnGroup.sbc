@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(P)Assembly Production Outpost Atmo</SubtypeId>
+				<SubtypeId>(P)AssemblyProductionOutpostAtmo</SubtypeId>
 			</Id>
 			<Description>
 
@@ -20,6 +20,7 @@
 			  
 			[AssignContainerTypesToAllCargo:MES-ContainerTypes-MixedComponents-2,MES-ContainerTypes-MixedIngots-1,MES-ContainerTypes-EventShipDrop-1]
 			[ManipulationGroups:Manipulation-Group-Loot] 
+			[ManipulationProfiles:MES-Manipulation-MaxTurretRange]
  
 			[InitializeStoreBlocks:true] 
 			[ContainerTypesForStoreOrders:MES-ContainerTypes-MESStoreBuyComponents-1,MES-ContainerTypes-MESStoreBuyOre-1,MES-ContainerTypes-MESStoreBuyIngots-1]
@@ -54,7 +55,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(P)Assembly Production Outpost NAtmo</SubtypeId>
+				<SubtypeId>(P)AssemblyProductionOutpostNAtmo</SubtypeId>
 			</Id>
 			<Description>
 
@@ -69,6 +70,7 @@
 			  
 			[AssignContainerTypesToAllCargo:MES-ContainerTypes-MixedComponents-2,MES-ContainerTypes-MixedIngots-1]
 			[ManipulationGroups:Manipulation-Group-Loot] 
+			[ManipulationProfiles:MES-Manipulation-MaxTurretRange]
  
 			[InitializeStoreBlocks:true] 
 			[ContainerTypesForStoreOrders:MES-ContainerTypes-MESStoreBuyComponents-1,MES-ContainerTypes-MESStoreBuyOre-1,MES-ContainerTypes-MESStoreBuyIngots-1]
@@ -103,7 +105,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(P)Assembly Production Outpost Mars</SubtypeId>
+				<SubtypeId>(P)AssemblyProductionOutpostMars</SubtypeId>
 			</Id>
 			<Description>
 
@@ -118,6 +120,7 @@
 			  
 			[AssignContainerTypesToAllCargo:MES-ContainerTypes-MixedComponents-2,MES-ContainerTypes-MixedIngots-1]
 			[ManipulationGroups:Manipulation-Group-Loot] 
+			[ManipulationProfiles:MES-Manipulation-MaxTurretRange]
  
 			[InitializeStoreBlocks:true] 
 			[ContainerTypesForStoreOrders:MES-ContainerTypes-MESStoreBuyComponents-1,MES-ContainerTypes-MESStoreBuyOre-1,MES-ContainerTypes-MESStoreBuyIngots-1]
@@ -128,7 +131,7 @@
 			 
 			[IgnoreCombatPhase:true]  
 			  
-			[ReplenishSystems:true] 
+			[ReplenishSystems:true]
 				
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]

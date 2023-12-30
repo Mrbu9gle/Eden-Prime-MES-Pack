@@ -6,54 +6,33 @@
       <CubeGrids>
         <CubeGrid>
           <SubtypeName />
-          <EntityId>99059646970821179</EntityId>
+          <EntityId>108810146435948750</EntityId>
           <PersistentFlags>CastShadows InScene</PersistentFlags>
-          <Name>99059646970821179</Name>
+          <Name>108810146435948750</Name>
           <PositionAndOrientation>
             <Position x="0" y="0" z="0" />
-            <Forward x="-0.8684099" y="0.459974527" z="-0.1851698" />
-            <Up x="-0.434358925" y="-0.8858054" z="-0.1633438" />
+            <Forward x="-0.755918145" y="0.5751903" z="0.312639862" />
+            <Up x="-0.304757" y="-0.7318285" z="0.609549046" />
             <Orientation>
-              <X>0.604457855</X>
-              <Y>-0.205050737</Y>
-              <Z>0.7599562</Z>
-              <W>0.122684613</W>
+              <X>0.8099188</X>
+              <Y>0.0187466461</Y>
+              <Z>0.4581984</Z>
+              <W>0.365696967</W>
             </Orientation>
           </PositionAndOrientation>
           <LocalPositionAndOrientation xsi:nil="true" />
-          <ComponentContainer>
-            <Components>
-              <ComponentData>
-                <TypeId>MyModStorageComponent</TypeId>
-                <Component xsi:type="MyObjectBuilder_ModStorageComponent">
-                  <Storage>
-                    <dictionary>
-                      <item>
-                        <Key>75bbb4f5-4fb9-4230-beef-bb79c9811502</Key>
-                        <Value>GAA=</Value>
-                      </item>
-                      <item>
-                        <Key>75bbb4f5-4fb9-4230-beef-bb79c9811503</Key>
-                        <Value>Eg0IABAAIAAtAAAAADAA</Value>
-                      </item>
-                    </dictionary>
-                  </Storage>
-                </Component>
-              </ComponentData>
-            </Components>
-          </ComponentContainer>
           <GridSizeEnum>Small</GridSizeEnum>
           <CubeBlocks>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyorConverter</SubtypeName>
-              <EntityId>128880339859016398</EntityId>
+              <EntityId>105798469044041149</EntityId>
               <Min x="-1" y="-1" z="-5" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
               <SkinSubtypeId>Dust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OxygenGenerator">
               <SubtypeName>OxygenGeneratorSmall</SubtypeName>
-              <EntityId>110277934996192982</EntityId>
+              <EntityId>109761989549314818</EntityId>
               <Min x="-1" y="-1" z="-2" />
               <BlockOrientation Forward="Backward" Up="Up" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -108,7 +87,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OxygenTank">
               <SubtypeName>SmallHydrogenTankSmall</SubtypeName>
-              <EntityId>125185968632788119</EntityId>
+              <EntityId>113200475577984974</EntityId>
               <Min x="2" y="-1" z="-4" />
               <BlockOrientation Forward="Left" Up="Down" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -144,7 +123,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OxygenTank">
               <SubtypeName>SmallHydrogenTankSmall</SubtypeName>
-              <EntityId>122326642300004114</EntityId>
+              <EntityId>88624102954147529</EntityId>
               <Min x="2" y="-1" z="-2" />
               <BlockOrientation Forward="Left" Up="Down" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -180,7 +159,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyorConverter</SubtypeName>
-              <EntityId>112201096651053800</EntityId>
+              <EntityId>73210099212709192</EntityId>
               <Min x="-1" y="-1" z="0" />
               <BlockOrientation Forward="Backward" Up="Up" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -188,7 +167,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OxygenGenerator">
               <SubtypeName>OxygenGeneratorSmall</SubtypeName>
-              <EntityId>93432954169921962</EntityId>
+              <EntityId>139482691970802475</EntityId>
               <Min x="-1" y="-1" z="-4" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
               <SkinSubtypeId>Dust_Armor</SkinSubtypeId>
@@ -242,7 +221,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OxygenTank">
               <SubtypeName>SmallHydrogenTankSmall</SubtypeName>
-              <EntityId>74231009704788211</EntityId>
+              <EntityId>140714768408282714</EntityId>
               <Min x="-2" y="-1" z="-2" />
               <BlockOrientation Forward="Right" Up="Down" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -278,7 +257,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OxygenTank">
               <SubtypeName>SmallHydrogenTankSmall</SubtypeName>
-              <EntityId>96523941080276814</EntityId>
+              <EntityId>128501850346060002</EntityId>
               <Min x="-2" y="-1" z="-4" />
               <BlockOrientation Forward="Right" Up="Down" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -314,7 +293,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OxygenTank">
               <SubtypeName>SmallHydrogenTankSmall</SubtypeName>
-              <EntityId>87813035568038219</EntityId>
+              <EntityId>111464539675204121</EntityId>
               <Min x="3" y="-1" z="-2" />
               <BlockOrientation Forward="Right" Up="Down" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -350,7 +329,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OxygenTank">
               <SubtypeName>SmallHydrogenTankSmall</SubtypeName>
-              <EntityId>139014699277422822</EntityId>
+              <EntityId>137817112850486050</EntityId>
               <Min x="3" y="-1" z="-4" />
               <BlockOrientation Forward="Right" Up="Down" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -386,7 +365,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OxygenTank">
               <SubtypeName>SmallHydrogenTankSmall</SubtypeName>
-              <EntityId>129178123683588443</EntityId>
+              <EntityId>143024728638309551</EntityId>
               <Min x="-3" y="-1" z="-4" />
               <BlockOrientation Forward="Left" Up="Down" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -422,7 +401,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OxygenTank">
               <SubtypeName>SmallHydrogenTankSmall</SubtypeName>
-              <EntityId>82253593771457683</EntityId>
+              <EntityId>83455392384022905</EntityId>
               <Min x="-3" y="-1" z="-2" />
               <BlockOrientation Forward="Left" Up="Down" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -458,7 +437,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>140654210106547899</EntityId>
+              <EntityId>104262449231369307</EntityId>
               <Min x="-2" y="0" z="-5" />
               <BlockOrientation Forward="Left" Up="Forward" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -466,7 +445,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>139082425490656392</EntityId>
+              <EntityId>117898974055623418</EntityId>
               <Min x="-3" y="0" z="-5" />
               <BlockOrientation Forward="Down" Up="Forward" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -474,7 +453,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>102923099921008433</EntityId>
+              <EntityId>138249235489856655</EntityId>
               <Min x="-2" y="0" z="0" />
               <BlockOrientation Forward="Forward" Up="Left" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -482,7 +461,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>127237380737564343</EntityId>
+              <EntityId>106065885668247454</EntityId>
               <Min x="-3" y="0" z="0" />
               <BlockOrientation Forward="Forward" Up="Left" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -490,7 +469,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>135011578652999915</EntityId>
+              <EntityId>79305329249929258</EntityId>
               <Min x="2" y="0" z="0" />
               <BlockOrientation Forward="Down" Up="Backward" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -498,7 +477,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>105029817537523318</EntityId>
+              <EntityId>134817895198046929</EntityId>
               <Min x="3" y="0" z="0" />
               <BlockOrientation Forward="Down" Up="Backward" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -506,7 +485,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>124283575716336206</EntityId>
+              <EntityId>122068496567328855</EntityId>
               <Min x="2" y="0" z="-5" />
               <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -514,7 +493,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>90268464829051889</EntityId>
+              <EntityId>143274465919950889</EntityId>
               <Min x="3" y="0" z="-5" />
               <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -522,14 +501,14 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>79987209531961608</EntityId>
+              <EntityId>107179434453783410</EntityId>
               <Min x="2" y="1" z="-1" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
               <SkinSubtypeId>Dust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>93563500649206376</EntityId>
+              <EntityId>130493904241398146</EntityId>
               <Min x="2" y="1" z="-4" />
               <BlockOrientation Forward="Forward" Up="Right" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -537,14 +516,14 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>102692246737030920</EntityId>
+              <EntityId>143227508464512297</EntityId>
               <Min x="-2" y="1" z="-4" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
               <SkinSubtypeId>Dust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>141329137763621510</EntityId>
+              <EntityId>137073043291867159</EntityId>
               <Min x="-2" y="1" z="-1" />
               <BlockOrientation Forward="Left" Up="Up" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -552,7 +531,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrustIndustrial</SubtypeName>
-              <EntityId>108925777453295278</EntityId>
+              <EntityId>107286083340762173</EntityId>
               <Min x="-2" y="2" z="-1" />
               <BlockOrientation Forward="Up" Up="Backward" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -584,7 +563,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrustIndustrial</SubtypeName>
-              <EntityId>112771856469423029</EntityId>
+              <EntityId>121872076790127076</EntityId>
               <Min x="-2" y="2" z="-4" />
               <BlockOrientation Forward="Up" Up="Left" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -616,7 +595,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrustIndustrial</SubtypeName>
-              <EntityId>103961844334197735</EntityId>
+              <EntityId>107807028951770129</EntityId>
               <Min x="2" y="2" z="-1" />
               <BlockOrientation Forward="Up" Up="Left" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -648,7 +627,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrustIndustrial</SubtypeName>
-              <EntityId>103300607111289540</EntityId>
+              <EntityId>115851234910296662</EntityId>
               <Min x="2" y="2" z="-4" />
               <BlockOrientation Forward="Up" Up="Left" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -680,7 +659,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrustIndustrial</SubtypeName>
-              <EntityId>83155423844458331</EntityId>
+              <EntityId>110048727363410859</EntityId>
               <Min x="-4" y="0" z="-5" />
               <BlockOrientation Forward="Left" Up="Down" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -712,7 +691,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrustIndustrial</SubtypeName>
-              <EntityId>142003376701427468</EntityId>
+              <EntityId>106933803550214128</EntityId>
               <Min x="-4" y="0" z="0" />
               <BlockOrientation Forward="Left" Up="Down" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -744,7 +723,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_HeatVentBlock">
               <SubtypeName>SmallHeatVentBlock</SubtypeName>
-              <EntityId>73418094155220873</EntityId>
+              <EntityId>135940346232447960</EntityId>
               <Min x="2" y="-2" z="-4" />
               <BlockOrientation Forward="Left" Up="Down" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -760,11 +739,11 @@
               <ColorMaximalPower R="255" G="197" B="20" A="255" />
               <RequiredPowerInput>0.6</RequiredPowerInput>
               <SubpartRotations>
-                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="180" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="135" />
               </SubpartRotations>
               <Falloff>1.3</Falloff>
               <Intensity>2</Intensity>
@@ -780,7 +759,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>128540640498338612</EntityId>
+              <EntityId>106649921083426045</EntityId>
               <Min x="2" y="0" z="-6" />
               <BlockOrientation Forward="Down" Up="Forward" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -788,7 +767,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>80700026142144261</EntityId>
+              <EntityId>131073327269254846</EntityId>
               <Min x="-2" y="0" z="-6" />
               <BlockOrientation Forward="Down" Up="Forward" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -796,7 +775,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>135345650552647636</EntityId>
+              <EntityId>134880292807701598</EntityId>
               <Min x="1" y="0" z="1" />
               <BlockOrientation Forward="Down" Up="Backward" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -804,7 +783,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>139136367820935521</EntityId>
+              <EntityId>108451166685135327</EntityId>
               <Min x="-1" y="0" z="1" />
               <BlockOrientation Forward="Down" Up="Backward" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -812,12 +791,45 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RemoteControl">
               <SubtypeName>SmallBlockRemoteControl</SubtypeName>
-              <EntityId>72927662601342811</EntityId>
+              <EntityId>105765839403761400</EntityId>
               <Min x="0" y="0" z="-6" />
               <BlockOrientation Forward="Backward" Up="Down" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
               <SkinSubtypeId>Dust_Armor</SkinSubtypeId>
               <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyAutopilotComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_AutopilotComponent">
+                      <AutoPilotEnabled>false</AutoPilotEnabled>
+                      <FlightMode>0</FlightMode>
+                      <CurrentWaypointIndex>-1</CurrentWaypointIndex>
+                      <Waypoints />
+                      <DockingModeEnabled>false</DockingModeEnabled>
+                      <CollisionAvoidance>false</CollisionAvoidance>
+                      <Direction>0</Direction>
+                      <AutopilotSpeedLimit>100</AutopilotSpeedLimit>
+                      <WaitForFreeWay>false</WaitForFreeWay>
+                      <WaypointThresholdDistance>0</WaypointThresholdDistance>
+                      <Coords />
+                      <Names />
+                      <LookAtPosition xsi:nil="true" />
+                      <FacingDirection>Forward</FacingDirection>
+                      <AlignToGravity>true</AlignToGravity>
+                      <MinHeightAboveTerrain>25</MinHeightAboveTerrain>
+                      <IsWorkAreaReturningToStart>false</IsWorkAreaReturningToStart>
+                      <WorkAreaStartForward>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                      </WorkAreaStartForward>
+                      <PitchAngle>0</PitchAngle>
+                      <RollAngle>0</RollAngle>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
               <CustomName>Remote Control</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
@@ -859,10 +871,11 @@
               <WaypointThresholdDistance>0</WaypointThresholdDistance>
               <IsMainRemoteControl>true</IsMainRemoteControl>
               <WaitForFreeWay>false</WaitForFreeWay>
+              <IsUpdatedSave>true</IsUpdatedSave>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Reactor">
               <SubtypeName>SmallBlockSmallGeneratorWarfare2</SubtypeName>
-              <EntityId>117921441392065543</EntityId>
+              <EntityId>116342066120870156</EntityId>
               <Min x="1" y="0" z="-6" />
               <BlockOrientation Forward="Left" Up="Backward" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -897,7 +910,7 @@
                       <Repeat>true</Repeat>
                       <TimeToEvent>0</TimeToEvent>
                       <SetTimeMinutes>0</SetTimeMinutes>
-                      <TimerEnabled>true</TimerEnabled>
+                      <TimerEnabled>false</TimerEnabled>
                       <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
                       <TimerType>Frame100</TimerType>
                       <FramesFromLastTrigger>200</FramesFromLastTrigger>
@@ -918,7 +931,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Reactor">
               <SubtypeName>SmallBlockSmallGeneratorWarfare2</SubtypeName>
-              <EntityId>85309731455547944</EntityId>
+              <EntityId>95278133178055506</EntityId>
               <Min x="-1" y="0" z="-6" />
               <BlockOrientation Forward="Left" Up="Backward" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -953,7 +966,7 @@
                       <Repeat>true</Repeat>
                       <TimeToEvent>0</TimeToEvent>
                       <SetTimeMinutes>0</SetTimeMinutes>
-                      <TimerEnabled>true</TimerEnabled>
+                      <TimerEnabled>false</TimerEnabled>
                       <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
                       <TimerType>Frame100</TimerType>
                       <FramesFromLastTrigger>600</FramesFromLastTrigger>
@@ -974,7 +987,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrustIndustrial</SubtypeName>
-              <EntityId>138403624445203946</EntityId>
+              <EntityId>111333412251701860</EntityId>
               <Min x="4" y="0" z="-5" />
               <BlockOrientation Forward="Right" Up="Forward" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -1006,7 +1019,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrustIndustrial</SubtypeName>
-              <EntityId>83455188205833033</EntityId>
+              <EntityId>116910664453108501</EntityId>
               <Min x="4" y="0" z="0" />
               <BlockOrientation Forward="Right" Up="Forward" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -1038,7 +1051,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallGatlingGun">
               <SubtypeName>SmallBlockAutocannon</SubtypeName>
-              <EntityId>96765019045803179</EntityId>
+              <EntityId>139537505083454844</EntityId>
               <Min x="2" y="0" z="1" />
               <BlockOrientation Forward="Backward" Up="Up" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -1059,19 +1072,6 @@
                       <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
                     </Component>
                   </ComponentData>
-                  <ComponentData>
-                    <TypeId>MyModStorageComponentBase</TypeId>
-                    <Component xsi:type="MyObjectBuilder_ModStorageComponent">
-                      <Storage>
-                        <dictionary>
-                          <item>
-                            <Key>75bbb4f5-4fb9-4230-beef-bb79c9811501</Key>
-                            <Value>+nyzAQoJCAAQAB0AAAAAEqUBCAASNC0AAEhEMi0IABAAGAAgACgAMACAAQCQAQCgAQCwAQDAAQDIAQDQAXjYAQDoAQDwAQD4AQAaOBIHDQAAAAAQABgAMAA4AEAASABSIxobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAIAAoADAAIh8IABAAGg8NAAAAACUAAAAAPQAAAAAgACoGIOP///8HKhAIABAAGAAgASgAMAA4AEAACCE=</Value>
-                          </item>
-                        </dictionary>
-                      </Storage>
-                    </Component>
-                  </ComponentData>
                 </Components>
               </ComponentContainer>
               <ShowOnHUD>false</ShowOnHUD>
@@ -1086,14 +1086,15 @@
               <MinFov>0.1</MinFov>
               <MaxFov>1.04719758</MaxFov>
               <GunBase>
-                <CurrentAmmoMagazineName>Energy</CurrentAmmoMagazineName>
+                <RemainingAmmo>16</RemainingAmmo>
+                <CurrentAmmoMagazineName>AutocannonClip</CurrentAmmoMagazineName>
                 <RemainingAmmosList />
                 <LastShootTime>0</LastShootTime>
               </GunBase>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallGatlingGun">
               <SubtypeName>SmallBlockAutocannon</SubtypeName>
-              <EntityId>128139301587941743</EntityId>
+              <EntityId>126223226310201571</EntityId>
               <Min x="-2" y="0" z="1" />
               <BlockOrientation Forward="Backward" Up="Up" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -1114,19 +1115,6 @@
                       <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
                     </Component>
                   </ComponentData>
-                  <ComponentData>
-                    <TypeId>MyModStorageComponentBase</TypeId>
-                    <Component xsi:type="MyObjectBuilder_ModStorageComponent">
-                      <Storage>
-                        <dictionary>
-                          <item>
-                            <Key>75bbb4f5-4fb9-4230-beef-bb79c9811501</Key>
-                            <Value>+nyzAQoJCAAQAB0AAAAAEqUBCAASNC0AAEhEMi0IABAAGAAgACgAMACAAQCQAQCgAQCwAQDAAQDIAQDQAXjYAQDoAQDwAQD4AQAaOBIHDQAAAAAQABgAMAA4AEAASABSIxobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAIAAoADAAIh8IABAAGg8NAAAAACUAAAAAPQAAAAAgACoGIOL///8HKhAIABAAGAAgASgAMAA4AEAACCE=</Value>
-                          </item>
-                        </dictionary>
-                      </Storage>
-                    </Component>
-                  </ComponentData>
                 </Components>
               </ComponentContainer>
               <ShowOnHUD>false</ShowOnHUD>
@@ -1141,14 +1129,15 @@
               <MinFov>0.1</MinFov>
               <MaxFov>1.04719758</MaxFov>
               <GunBase>
-                <CurrentAmmoMagazineName>Energy</CurrentAmmoMagazineName>
+                <RemainingAmmo>16</RemainingAmmo>
+                <CurrentAmmoMagazineName>AutocannonClip</CurrentAmmoMagazineName>
                 <RemainingAmmosList />
                 <LastShootTime>0</LastShootTime>
               </GunBase>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallGatlingGun">
               <SubtypeName>SmallGatlingGunWarfare2</SubtypeName>
-              <EntityId>73198240676531168</EntityId>
+              <EntityId>136074302340676587</EntityId>
               <Min x="0" y="0" z="1" />
               <BlockOrientation Forward="Backward" Up="Up" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -1169,19 +1158,6 @@
                       <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
                     </Component>
                   </ComponentData>
-                  <ComponentData>
-                    <TypeId>MyModStorageComponent</TypeId>
-                    <Component xsi:type="MyObjectBuilder_ModStorageComponent">
-                      <Storage>
-                        <dictionary>
-                          <item>
-                            <Key>75bbb4f5-4fb9-4230-beef-bb79c9811501</Key>
-                            <Value>+nyzAQoJCAAQAB0AAAAAEqUBCAASNC0AAEhEMi0IABAAGAAgACgAMACAAQCQAQCgAQCwAQDAAQDIAQDQAXjYAQDoAQDwAQD4AQAaOBIHDQAAAAAQABgAMAA4AEAASABSIxobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAIAAoADAAIh8IABAAGg8NAAAAACUAAAAAPQAAAAAgACoGIOT///8HKhAIABAAGAAgASgAMAA4AEAACCE=</Value>
-                          </item>
-                        </dictionary>
-                      </Storage>
-                    </Component>
-                  </ComponentData>
                 </Components>
               </ComponentContainer>
               <ShowOnHUD>false</ShowOnHUD>
@@ -1196,14 +1172,15 @@
               <MinFov>0.1</MinFov>
               <MaxFov>1.04719758</MaxFov>
               <GunBase>
-                <CurrentAmmoMagazineName>Energy</CurrentAmmoMagazineName>
+                <RemainingAmmo>140</RemainingAmmo>
+                <CurrentAmmoMagazineName>NATO_25x184mm</CurrentAmmoMagazineName>
                 <RemainingAmmosList />
                 <LastShootTime>0</LastShootTime>
               </GunBase>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrustIndustrial</SubtypeName>
-              <EntityId>128197854103592081</EntityId>
+              <EntityId>111564308639260222</EntityId>
               <Min x="0" y="-2" z="0" />
               <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -1235,7 +1212,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrustIndustrial</SubtypeName>
-              <EntityId>78395368223772306</EntityId>
+              <EntityId>85060586044740379</EntityId>
               <Min x="0" y="-2" z="-5" />
               <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -1279,7 +1256,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>BarredWindow</SubtypeName>
-              <EntityId>122400704827964541</EntityId>
+              <EntityId>78677657283484194</EntityId>
               <Min x="3" y="0" z="2" />
               <BlockOrientation Forward="Down" Up="Backward" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -1287,7 +1264,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrustIndustrial</SubtypeName>
-              <EntityId>95326325636490307</EntityId>
+              <EntityId>126726714047181811</EntityId>
               <Min x="3" y="0" z="1" />
               <BlockOrientation Forward="Backward" Up="Right" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -1319,14 +1296,14 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>BarredWindow</SubtypeName>
-              <EntityId>84853673470563760</EntityId>
+              <EntityId>100527998102524945</EntityId>
               <Min x="-3" y="0" z="2" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
               <SkinSubtypeId>Dust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrustIndustrial</SubtypeName>
-              <EntityId>79863282474500273</EntityId>
+              <EntityId>95913530454877956</EntityId>
               <Min x="-3" y="0" z="1" />
               <BlockOrientation Forward="Backward" Up="Right" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -1439,7 +1416,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>BarredWindow</SubtypeName>
-              <EntityId>110373947228262965</EntityId>
+              <EntityId>115208247849544205</EntityId>
               <Min x="-3" y="0" z="3" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
               <SkinSubtypeId>Dust_Armor</SkinSubtypeId>
@@ -1460,7 +1437,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CameraBlock">
               <SubtypeName>SmallCameraBlock</SubtypeName>
-              <EntityId>135113644749800490</EntityId>
+              <EntityId>121920469742348039</EntityId>
               <Min x="0" y="-1" z="2" />
               <BlockOrientation Forward="Backward" Up="Down" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -1564,7 +1541,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Searchlight">
               <SubtypeName>SmallSearchlight</SubtypeName>
-              <EntityId>84350596120536379</EntityId>
+              <EntityId>142616898715944849</EntityId>
               <Min x="0" y="1" z="2" />
               <BlockOrientation Forward="Up" Up="Backward" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -1607,8 +1584,8 @@
               <Offset>0.5</Offset>
               <PreviousControlledEntityId xsi:nil="true" />
               <RotationSpeed>0.08</RotationSpeed>
-              <Rotation>-0.7959024</Rotation>
-              <Elevation>0.08833872</Elevation>
+              <Rotation>-0.107454143</Rotation>
+              <Elevation>0.505846262</Elevation>
               <TargetCharacters>true</TargetCharacters>
               <Flags>
                 <TargetMeteors>false</TargetMeteors>
@@ -1621,8 +1598,8 @@
               </Flags>
               <Range>800</Range>
               <TargetingGroup />
-              <Target>0</Target>
-              <IsPotentialTarget>true</IsPotentialTarget>
+              <Target>124168712738897777</Target>
+              <IsPotentialTarget>false</IsPotentialTarget>
               <EnableIdleRotation>true</EnableIdleRotation>
               <PreviousIdleRotationState>true</PreviousIdleRotationState>
             </MyObjectBuilder_CubeBlock>
@@ -1752,7 +1729,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_HeatVentBlock">
               <SubtypeName>SmallHeatVentBlock</SubtypeName>
-              <EntityId>130388187136822287</EntityId>
+              <EntityId>129495644503121141</EntityId>
               <Min x="2" y="-2" z="-2" />
               <BlockOrientation Forward="Left" Up="Down" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -1768,11 +1745,11 @@
               <ColorMaximalPower R="255" G="197" B="20" A="255" />
               <RequiredPowerInput>0.6</RequiredPowerInput>
               <SubpartRotations>
-                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="180" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="135" />
               </SubpartRotations>
               <Falloff>1.3</Falloff>
               <Intensity>2</Intensity>
@@ -1781,7 +1758,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_HeatVentBlock">
               <SubtypeName>SmallHeatVentBlock</SubtypeName>
-              <EntityId>79135885757313609</EntityId>
+              <EntityId>127017734404349023</EntityId>
               <Min x="-2" y="-2" z="-2" />
               <BlockOrientation Forward="Left" Up="Down" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -1797,11 +1774,11 @@
               <ColorMaximalPower R="255" G="197" B="20" A="255" />
               <RequiredPowerInput>0.6</RequiredPowerInput>
               <SubpartRotations>
-                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="180" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="135" />
               </SubpartRotations>
               <Falloff>1.3</Falloff>
               <Intensity>2</Intensity>
@@ -1816,7 +1793,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_HeatVentBlock">
               <SubtypeName>SmallHeatVentBlock</SubtypeName>
-              <EntityId>132378825710264845</EntityId>
+              <EntityId>108635383548880954</EntityId>
               <Min x="-2" y="-2" z="-4" />
               <BlockOrientation Forward="Left" Up="Down" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -1832,11 +1809,11 @@
               <ColorMaximalPower R="255" G="197" B="20" A="255" />
               <RequiredPowerInput>0.6</RequiredPowerInput>
               <SubpartRotations>
-                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="180" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="135" />
               </SubpartRotations>
               <Falloff>1.3</Falloff>
               <Intensity>2</Intensity>
@@ -2027,7 +2004,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
               <SubtypeName>SmallBlockGyro</SubtypeName>
-              <EntityId>139757139877664095</EntityId>
+              <EntityId>101334093948913909</EntityId>
               <Min x="0" y="-1" z="-6" />
               <BlockOrientation Forward="Forward" Up="Down" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -2042,7 +2019,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CargoContainer">
               <SubtypeName>SmallBlockSmallContainer</SubtypeName>
-              <EntityId>97107694323628134</EntityId>
+              <EntityId>80878682386417776</EntityId>
               <Min x="2" y="-1" z="-5" />
               <BlockOrientation Forward="Down" Up="Forward" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -2073,7 +2050,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CargoContainer">
               <SubtypeName>SmallBlockSmallContainer</SubtypeName>
-              <EntityId>89132430628558581</EntityId>
+              <EntityId>139002241726194843</EntityId>
               <Min x="-2" y="-1" z="-5" />
               <BlockOrientation Forward="Down" Up="Forward" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -2104,7 +2081,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_HeatVentBlock">
               <SubtypeName>SmallHeatVentBlock</SubtypeName>
-              <EntityId>85841540098411340</EntityId>
+              <EntityId>121232380367678148</EntityId>
               <Min x="-4" y="0" z="-1" />
               <BlockOrientation Forward="Up" Up="Left" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -2120,11 +2097,11 @@
               <ColorMaximalPower R="255" G="197" B="20" A="255" />
               <RequiredPowerInput>0.6</RequiredPowerInput>
               <SubpartRotations>
-                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="180" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="135" />
               </SubpartRotations>
               <Falloff>1.3</Falloff>
               <Intensity>2</Intensity>
@@ -2133,7 +2110,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_HeatVentBlock">
               <SubtypeName>SmallHeatVentBlock</SubtypeName>
-              <EntityId>83309999377974965</EntityId>
+              <EntityId>99213987493557274</EntityId>
               <Min x="-4" y="0" z="-4" />
               <BlockOrientation Forward="Up" Up="Left" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -2149,11 +2126,11 @@
               <ColorMaximalPower R="255" G="197" B="20" A="255" />
               <RequiredPowerInput>0.6</RequiredPowerInput>
               <SubpartRotations>
-                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="180" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="135" />
               </SubpartRotations>
               <Falloff>1.3</Falloff>
               <Intensity>2</Intensity>
@@ -2162,7 +2139,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_HeatVentBlock">
               <SubtypeName>SmallHeatVentBlock</SubtypeName>
-              <EntityId>117127712531809282</EntityId>
+              <EntityId>74052892707518771</EntityId>
               <Min x="4" y="0" z="-1" />
               <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -2178,11 +2155,11 @@
               <ColorMaximalPower R="255" G="197" B="20" A="255" />
               <RequiredPowerInput>0.6</RequiredPowerInput>
               <SubpartRotations>
-                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="180" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="135" />
               </SubpartRotations>
               <Falloff>1.3</Falloff>
               <Intensity>2</Intensity>
@@ -2191,7 +2168,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_HeatVentBlock">
               <SubtypeName>SmallHeatVentBlock</SubtypeName>
-              <EntityId>86312456296419338</EntityId>
+              <EntityId>76588546863628297</EntityId>
               <Min x="4" y="0" z="-4" />
               <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -2207,11 +2184,11 @@
               <ColorMaximalPower R="255" G="197" B="20" A="255" />
               <RequiredPowerInput>0.6</RequiredPowerInput>
               <SubpartRotations>
-                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="180" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="135" />
               </SubpartRotations>
               <Falloff>1.3</Falloff>
               <Intensity>2</Intensity>
@@ -2342,14 +2319,14 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>79631011147228761</EntityId>
+              <EntityId>83952019148973595</EntityId>
               <Min x="2" y="1" z="0" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
               <SkinSubtypeId>Dust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>139208979963403208</EntityId>
+              <EntityId>98952786746706329</EntityId>
               <Min x="-2" y="1" z="0" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
               <SkinSubtypeId>Dust_Armor</SkinSubtypeId>
@@ -2476,7 +2453,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_HeatVentBlock">
               <SubtypeName>SmallHeatVentBlock</SubtypeName>
-              <EntityId>75586860808654830</EntityId>
+              <EntityId>115194093045724483</EntityId>
               <Min x="-2" y="2" z="-2" />
               <BlockOrientation Forward="Right" Up="Up" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -2492,11 +2469,11 @@
               <ColorMaximalPower R="255" G="197" B="20" A="255" />
               <RequiredPowerInput>0.6</RequiredPowerInput>
               <SubpartRotations>
-                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="180" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="135" />
               </SubpartRotations>
               <Falloff>1.3</Falloff>
               <Intensity>2</Intensity>
@@ -2505,7 +2482,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_HeatVentBlock">
               <SubtypeName>SmallHeatVentBlock</SubtypeName>
-              <EntityId>74431143792769579</EntityId>
+              <EntityId>81350703714284322</EntityId>
               <Min x="2" y="2" z="-2" />
               <BlockOrientation Forward="Right" Up="Up" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -2521,11 +2498,11 @@
               <ColorMaximalPower R="255" G="197" B="20" A="255" />
               <RequiredPowerInput>0.6</RequiredPowerInput>
               <SubpartRotations>
-                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="180" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="135" />
               </SubpartRotations>
               <Falloff>1.3</Falloff>
               <Intensity>2</Intensity>
@@ -2534,7 +2511,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_HeatVentBlock">
               <SubtypeName>SmallHeatVentBlock</SubtypeName>
-              <EntityId>129077652243772243</EntityId>
+              <EntityId>104349071333272740</EntityId>
               <Min x="-2" y="2" z="-3" />
               <BlockOrientation Forward="Right" Up="Up" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -2550,11 +2527,11 @@
               <ColorMaximalPower R="255" G="197" B="20" A="255" />
               <RequiredPowerInput>0.6</RequiredPowerInput>
               <SubpartRotations>
-                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="180" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="135" />
               </SubpartRotations>
               <Falloff>1.3</Falloff>
               <Intensity>2</Intensity>
@@ -2563,7 +2540,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_HeatVentBlock">
               <SubtypeName>SmallHeatVentBlock</SubtypeName>
-              <EntityId>88445658837181161</EntityId>
+              <EntityId>133419706652798670</EntityId>
               <Min x="2" y="2" z="-3" />
               <BlockOrientation Forward="Right" Up="Up" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -2579,11 +2556,11 @@
               <ColorMaximalPower R="255" G="197" B="20" A="255" />
               <RequiredPowerInput>0.6</RequiredPowerInput>
               <SubpartRotations>
-                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315" MaximalPositionAdjustDegrees="0" />
-                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="180" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="-45" MaximalPositionAdjustDegrees="45" />
+                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="135" />
               </SubpartRotations>
               <Falloff>1.3</Falloff>
               <Intensity>2</Intensity>
@@ -2851,7 +2828,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
               <SubtypeName>SmallBlockRadioAntenna</SubtypeName>
-              <EntityId>134471878005899873</EntityId>
+              <EntityId>123070403104377376</EntityId>
               <Min x="0" y="1" z="-7" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
               <SkinSubtypeId>Dust_Armor</SkinSubtypeId>
@@ -2930,7 +2907,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>122438219704392729</EntityId>
+              <EntityId>122570406837411725</EntityId>
               <Min x="2" y="1" z="-5" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
               <SkinSubtypeId>Dust_Armor</SkinSubtypeId>
@@ -2943,7 +2920,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>110923282992345938</EntityId>
+              <EntityId>86392029611003751</EntityId>
               <Min x="-2" y="1" z="-5" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
               <SkinSubtypeId>Dust_Armor</SkinSubtypeId>
@@ -3202,7 +3179,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>94681830179607557</EntityId>
+              <EntityId>83717011750077506</EntityId>
               <Min x="2" y="0" z="-7" />
               <BlockOrientation Forward="Down" Up="Forward" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -3210,7 +3187,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>115440592585786687</EntityId>
+              <EntityId>81334854369977177</EntityId>
               <Min x="-2" y="0" z="-7" />
               <BlockOrientation Forward="Down" Up="Left" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
@@ -3218,7 +3195,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrustIndustrial</SubtypeName>
-              <EntityId>85930308687404694</EntityId>
+              <EntityId>130528742167845751</EntityId>
               <Min x="-2" y="0" z="-8" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
               <SkinSubtypeId>Dust_Armor</SkinSubtypeId>
@@ -3249,7 +3226,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrustIndustrial</SubtypeName>
-              <EntityId>96222818036453808</EntityId>
+              <EntityId>100202471590559227</EntityId>
               <Min x="2" y="0" z="-8" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />
               <SkinSubtypeId>Dust_Armor</SkinSubtypeId>
@@ -3539,7 +3516,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>BarredWindow</SubtypeName>
-              <EntityId>85680759496734647</EntityId>
+              <EntityId>121027877493332568</EntityId>
               <Min x="3" y="0" z="3" />
               <BlockOrientation Forward="Down" Up="Backward" />
               <ColorMaskHSV x="0.575" y="0.2" z="-0.45" />

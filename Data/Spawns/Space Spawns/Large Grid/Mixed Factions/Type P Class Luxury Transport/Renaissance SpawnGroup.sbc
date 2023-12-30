@@ -22,8 +22,9 @@
 			[IgnoreCombatPhase:true]
 			 
 			[AssignContainerTypesToAllCargo:MES-ContainerTypes-EventShipDrop-1,MES-ContainerTypes-Credits-4,MES-ContainerTypes-Consumables-2,MES-ContainerTypes-MixedComponents-1] 
-			[ManipulationGroups:Manipulation-Group-Loot]
-			[ReplenishSystems:true]
+			[ManipulationGroups:Manipulation-Group-Loot] 
+			[ManipulationProfiles:MES-Manipulation-MaxTurretRange]
+			[ReplenishSystems:true] 
 				
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]

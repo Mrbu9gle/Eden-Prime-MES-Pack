@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(S)Federal B-60 Bulk Freighter</SubtypeId>
+				<SubtypeId>(S)FederalB-60BulkFreighter</SubtypeId>
 			</Id>
 			<Description>
 
@@ -22,7 +22,8 @@
 			[IgnoreCombatPhase:true]
 			 
 			[AssignContainerTypesToAllCargo:MES-ContainerTypes-MixedComponents-2,MES-ContainerTypes-Credits-2,MES-ContainerTypes-EventShipDrop-1,MES-ContainerTypes-MixedIngots-2] 
-			[ManipulationGroups:Manipulation-Group-Loot]
+			[ManipulationGroups:Manipulation-Group-Loot] 
+			[ManipulationProfiles:MES-Manipulation-MaxTurretRange]
 			[ReplenishSystems:true]
 				
 			[UseRivalAi:true]

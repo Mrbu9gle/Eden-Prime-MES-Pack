@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(P)Ship Hangar Depot Atmo</SubtypeId>
+				<SubtypeId>(P)ShipHangarDepotAtmo</SubtypeId>
 			</Id>
 			<Description>
 
@@ -19,7 +19,8 @@
 			[ForceStaticGrid:true]   
 			  
 			[AssignContainerTypesToAllCargo:MES-ContainerTypes-MixedComponents-2,MES-ContainerTypes-MixedIngots-1,MES-ContainerTypes-EventShipDrop-1]
-			[ManipulationGroups:Manipulation-Group-Loot]
+			[ManipulationGroups:Manipulation-Group-Loot] 
+			[ManipulationProfiles:MES-Manipulation-MaxTurretRange]
  
 			[InitializeStoreBlocks:true] 
 			[ContainerTypesForStoreOrders:MES-ContainerTypes-MESStoreBuyComponents-1,MES-ContainerTypes-MESStoreBuyOre-1,MES-ContainerTypes-MESStoreBuyIngots-1]

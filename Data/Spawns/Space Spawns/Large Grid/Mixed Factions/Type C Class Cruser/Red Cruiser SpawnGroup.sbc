@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(S)Red Cruiser</SubtypeId>
+				<SubtypeId>(S)RedCruiser</SubtypeId>
 			</Id>
 			<Description>
 
@@ -22,8 +22,9 @@
 			[UseCombatPhase:true]
 			 
 			[AssignContainerTypesToAllCargo:MES-ContainerTypes-MixedAmmo-2,MES-ContainerTypes-Credits-3,MES-ContainerTypes-EventShipDrop-1,MES-ContainerTypes-AdvancedComponents-1]
-			[ManipulationGroups:Manipulation-Group-Loot]
-			[ReplenishSystems:true]
+			[ManipulationGroups:Manipulation-Group-Loot] 
+			[ManipulationProfiles:MES-Manipulation-MaxTurretRange]
+			[ReplenishSystems:true] 
 				
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]

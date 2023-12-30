@@ -24,7 +24,7 @@
  
         [ReplenishSystems:true] 
 		
-        [ManipulationGroups:Manipulation-StationGroup] 
+        [ManipulationGroups:Manipulation-StationGroupNoShipyard] 
 		
 		[IgnoreCleanupRules:true] 		
 		 
@@ -37,6 +37,8 @@
         [UseRemoteControlCodeRestrictions:true]
         [RemoteControlCode:ARUM-Station]
         [RemoteControlCodeMinDistance:100000] 
+ 
+		[ZoneConditions:MES-ZoneConditionProfile-GammaPVPCluster]
 		
       </Description>
       <IsPirate>true</IsPirate>
@@ -49,7 +51,7 @@
             <Z>0.0</Z>
           </Position>
           <Speed>25</Speed>
-          <Behaviour>Behavior-CapturePoints</Behaviour>
+          <Behaviour>Behavior-StationSpawn</Behaviour>
         </Prefab> 
       </Prefabs>
     </SpawnGroup>

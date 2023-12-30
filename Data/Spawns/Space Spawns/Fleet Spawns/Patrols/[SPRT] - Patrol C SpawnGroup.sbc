@@ -22,8 +22,9 @@
 			[UseCombatPhase:true]
 			 
 			[SpawnRandomCargo:true] 
-			[ManipulationGroups:Manipulation-Group-Fighter]
-			[ReplenishSystems:true]   
+			[ManipulationGroups:Manipulation-Group-Fighter] 
+			[ManipulationProfiles:MES-Manipulation-MaxTurretRange]
+			[ReplenishSystems:true] 
 				
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]

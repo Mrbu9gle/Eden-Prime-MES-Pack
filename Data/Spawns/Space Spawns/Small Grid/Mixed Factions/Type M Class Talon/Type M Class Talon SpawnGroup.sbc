@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(S)Type M Class Talon</SubtypeId>
+				<SubtypeId>(S)TypeMClassTalon</SubtypeId>
 			</Id>
 			<Description>
 
@@ -22,8 +22,9 @@
 			[UseCombatPhase:true]
 			 
 			[SpawnRandomCargo:true] 
-			[ManipulationGroups:Manipulation-Group-Fighter]
-			[ReplenishSystems:true]
+			[ManipulationGroups:Manipulation-Group-Fighter] 
+			[ManipulationProfiles:MES-Manipulation-MaxTurretRange]
+			[ReplenishSystems:true] 
 				
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
